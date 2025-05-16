@@ -1,5 +1,12 @@
 # wordle-solver
 
+1. Problem Statement (5/16)
+2. Implement The Grader (5/16 ~ 5/19)
+3. Related Works (5/16 ~ 5/19)
+4. Devise Algorhtms + Write Docs: "Theorical Approach" (5/19 ~ 5/25)
+5. Implement + Write Docs: "Implemenatation Details" (5/26 ~ 6/1)
+6. PPT Prepare + Final Docs Writing (6/2 ~ 6/4)
+
 ## Problem Statement
 [워들](https://www.nytimes.com/games/wordle/index.html)을 최대한 적은 질의로 해결하는 프로그램을 작성하라.
 
@@ -49,3 +56,21 @@ wordle_solve(["apple", "offer", "fifth"])
 - Line 1: OK, $M$ queries
 
 **샘플 그레이더는 실제 채점에서 사용하는 그레이더와 다를 수 있음에 유의하라.**
+
+## Implement The Grader
+recommended deadline: 5/19
+
+## Related Works
+recommended deadline: 5/19
+- Greenberg, Ronald I. "Effective Wordle Heuristics." arXiv preprint arXiv:2408.11730 (2024).
+- Mishra, Neelesh. "Using Information Theory to Play Wordle as Optimally as Possible." (2024).
+- Bertsimas, Dimitris, and Alex Paskov. "An exact and interpretable solution to wordle." (2022).
+
+## Devise Algorhtms + Write Docs: "Theorical Approach"
+recommended deadline: 5/25
+
+## Implement + Write Docs: "Implemenatation Details"
+recommended deadline: 5/26
+
+## PPT Prepare + Final Docs Writing
+recommended deadline: 6/4
