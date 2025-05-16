@@ -58,19 +58,19 @@ wordle_solve(["apple", "offer", "fifth"])
 **샘플 그레이더는 실제 채점에서 사용하는 그레이더와 다를 수 있음에 유의하라.**
 
 ## Implement The Grader
-recommended deadline: 5/19
+_recommended deadline: 5/19_
 
 ## Related Works
-recommended deadline: 5/19
+_recommended deadline: 5/19_
 - Greenberg, Ronald I. "Effective Wordle Heuristics." arXiv preprint arXiv:2408.11730 (2024).
 - Mishra, Neelesh. "Using Information Theory to Play Wordle as Optimally as Possible." (2024).
 - Bertsimas, Dimitris, and Alex Paskov. "An exact and interpretable solution to wordle." (2022).
 
 ## Devise Algorhtms + Write Docs: "Theorical Approach"
-recommended deadline: 5/25
+_recommended deadline: 5/25_
 
 ## Implement + Write Docs: "Implemenatation Details"
-recommended deadline: 5/26
+_recommended deadline: 5/26_
 
 ## PPT Prepare + Final Docs Writing
-recommended deadline: 6/4
+_recommended deadline: 6/4_
