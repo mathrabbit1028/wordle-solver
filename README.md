@@ -1,7 +1,7 @@
 # wordle-solver
 
 ## Problem Statement
-워들(https://www.nytimes.com/games/wordle/index.html)을 최대한 적은 질의로 해결하는 프로그램을 작성하라.
+[워들](https://www.nytimes.com/games/wordle/index.html)을 최대한 적은 질의로 해결하는 프로그램을 작성하라.
 
 ### 함수 목록 및 정의
 ```
