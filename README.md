@@ -1,6 +1,6 @@
 # wordle-solver
 
-_last update: 5/17 19:24_
+_last update: 5/17 19:25_
 
 1. Problem Statement (5/16)
 2. Implement The Grader (5/16 ~ 5/19)
@@ -95,7 +95,7 @@ python src/py/grader.py
 
 ### 구현 유의사항
 `solver.py`에도 적혀 있는 내용입니다. 다음 코드는 작성하지 말아야 합니다:
-- `grader.py` 또는 `query.py`에서 `query` 함수를 제외한 변수 혹은 함수를 호출하는 코드
+- `grader.py` 또는 `query.py`의 `query` 함수를 제외한 변수 혹은 함수를 호출하는 코드
 - `wordle_solve` 함수의 값 반환
 - `input`, `print` 함수 등의 입출력 함수
   
