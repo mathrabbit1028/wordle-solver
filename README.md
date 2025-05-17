@@ -1,6 +1,6 @@
 # wordle-solver
 
-_last update: 5/17_
+_last update: 5/17 19:24_
 
 1. Problem Statement (5/16)
 2. Implement The Grader (5/16 ~ 5/19)
@@ -103,7 +103,7 @@ python src/py/grader.py
 정답을 맞추기 직전 호출까지 `"answer: {} / query: {} / result: {}"`의 꼴로 호출의 결과가 `log.txt`에 기록됩니다. 디버깅 용도입니다.
 
 ### 예제
-
+`src/exmaples`에 있는 파일들이 예제입니다. `1_in.txt`에는 statement의 예제가, `2_in.txt`에는 statement의 노트와 관련된 입력이 들어있습니다.
 
 ## Related Works
 _recommended deadline: 5/19_
