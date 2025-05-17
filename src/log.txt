@@ -1,0 +1,2 @@
+answer: fifth / query: apple / result: [0, 0, 0, 0, 0]
+answer: fifth / query: offer / result: [0, 1, 2, 0, 0]
