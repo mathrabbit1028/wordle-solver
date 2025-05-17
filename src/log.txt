@@ -1,2 +1,2 @@
-answer: fifth / query: apple / result: [0, 0, 0, 0, 0]
-answer: fifth / query: offer / result: [0, 1, 2, 0, 0]
+answer: ocean / query: floor / result: [0, 0, 1, 0, 0]
+answer: ocean / query: coach / result: [1, 1, 1, 0, 0]
