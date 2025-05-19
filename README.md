@@ -1,6 +1,6 @@
 # wordle-solver
 
-_last update: 5/17 19:25_
+_last update: 5/19 14:22_
 
 1. Problem Statement (5/16)
 2. Implement The Grader (5/16 ~ 5/19)
@@ -110,6 +110,8 @@ _recommended deadline: 5/19_
 - Greenberg, Ronald I. "Effective Wordle Heuristics." arXiv preprint arXiv:2408.11730 (2024). (구윤우)
 - Mishra, Neelesh. "Using Information Theory to Play Wordle as Optimally as Possible." (2024). (김성훈)
 - Bertsimas, Dimitris, and Alex Paskov. "An exact and interpretable solution to wordle." (2022). (정민건)
+
+`related_works` 폴더 안에서 확인할 수 있습니다.
 
 ## Devise Algorhtms + Write Docs: "Theorical Approach"
 _recommended deadline: 5/25_
