@@ -1,6 +1,6 @@
 # wordle-solver
 
-_last update: 5/19 14:22_
+_last update: 6/12 13:24_
 
 1. Problem Statement (5/16)
 2. Implement The Grader (5/16 ~ 5/19)
@@ -32,7 +32,7 @@ query(word: str) -> list[int]?
 - `word`: 길이 5의 문자열
 - `word`는 `words`에 속하는 문자열이어야 한다.
   - 그렇지 않은 경우 `[-1, -1, -1, -1, -1]`을 반환한다.
-- 이 함수는 숨겨진 정답 문자열 `ans`와 비교하여 길이 5의 리스트 $[a_0, a_1, a_2, a_3, a_4]를 반환한다.
+- 이 함수는 숨겨진 정답 문자열 `ans`와 비교하여 길이 5의 리스트 $[a_0, a_1, a_2, a_3, a_4]$를 반환한다.
 - 리스트의 각 원소 $a_i ~ (0 \leq < 5)$는 0, 1, 2 중 하나이다.
   - `word[i]`와 `ans[i]`가 같은 문자면 $a_i = 2$이다.
   - `word[i]`와 `ans[i]`가 다른 문자이면
@@ -107,17 +107,38 @@ python src/py/grader.py
 
 ## Related Works
 _recommended deadline: 5/19_
-- Greenberg, Ronald I. "Effective Wordle Heuristics." arXiv preprint arXiv:2408.11730 (2024). (구윤우)
+- ~~Greenberg, Ronald I. "Effective Wordle Heuristics." arXiv preprint arXiv:2408.11730 (2024). (구윤우)~~
 - Mishra, Neelesh. "Using Information Theory to Play Wordle as Optimally as Possible." (2024). (김성훈)
 - Bertsimas, Dimitris, and Alex Paskov. "An exact and interpretable solution to wordle." (2022). (정민건)
 
 `related_works` 폴더 안에서 확인할 수 있습니다.
 
-## Devise Algorhtms + Write Docs: "Theorical Approach"
-_recommended deadline: 5/25_
+## Communication & LLM Processing
+_recommended deadline: 6/14_
 
-## Implement + Write Docs: "Implemenatation Details"
-_recommended deadline: 6/1_
+`/code`에 제공받은 스켈레톤 코드가 포함되어 있습니다. 또한, `dccp-project-spec`에서 프로젝트에 관한 세부 사항들을 확인할 수 있습니다. 앞으로는 `/code` 안의 파일을 수정하기 바랍니다.
 
-## PPT Prepare + Final Docs Writing
-_recommended deadline: 6/4_
+[ Brief Summary ]
+- 사용 가능한 데이터셋과 함께 `{base_url}/start_problem`의 요청을 **POST**로 받습니다.
+  - 문항 Id와 사용 가능한 단어 집합 `words`을 저장해야 합니다.
+- 각 `guess` 요청에서 다음이 같이 제공됩니다.
+  - 문항 Id, 직전 요청에 대한 답, 현재 `guess`가 몇 번째인지.
+  - 첫 번째 질의에서 직전 요청에 대한 답은 `None`입니다.
+  - 두 번째 또는 그 이후의 `guess`에 대한 요청의 답은 자연어로 제공되며, _자연어는 고정된 형식의 영어 문장이 아닐 수 있습니다_.
+
+[ Time Limit ]
+- `{base_url}/start_problem` 이후 **10초 이내**에 첫 번째 `{base_url}/guess` 요청에 대한 답을 제공해야 합니다.
+- `{base_url}/start_problem` 이후 **60초 이내**에 단어를 맞추지 못할 경우 틀린 것으로 처리합니다.
+
+이에 주어진 자연어 피드백을 `list[int]`로 바꾸는 함수를 구현해야 합니다.
+```
+translation(feedback: str) -> list[int]
+```
+- `feedback`: grader(or sample grader)가 제공하는 자연어 피드백으로 `str` 자료형의 파라미터
+- 이 함수는 "Problem Statement"에 제시된 규칙에 맞추어 **길이 5**의 $0, 1, 2$만으로 이루어진 리스트를 반환해야 한다.
+
+## PPT Prepare
+_recommended deadline: 6/16_
+
+## Final Optimization
+_recommended deadline: 6/18_
