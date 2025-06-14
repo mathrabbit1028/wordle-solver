@@ -1,22 +1,14 @@
 import requests
 from concurrent.futures import ThreadPoolExecutor
 import time
-import numpy as np
 
 STUDENTS = {
-    "team02": "http://localhost:8000",
+    "team00": "http://localhost:8000",
 }
-
-word_list = open('./words.txt').read().strip().split('\n')[1::10]
 
 PROBLEMS = {
     "1": {"secret_word": "flame", "candidate_words": ["crane", "flame", "slate"]},
     "2": {"secret_word": "altar", "candidate_words": ["apple", "altar", "adapt"]},
-    "3": {"secret_word": word_list[np.random.randint(0,len(word_list)-1)], "candidate_words": word_list},
-    "4": {"secret_word": word_list[np.random.randint(0,len(word_list)-1)], "candidate_words": word_list},
-    "5": {"secret_word": word_list[np.random.randint(0,len(word_list)-1)], "candidate_words": word_list},
-    "6": {"secret_word": word_list[np.random.randint(0,len(word_list)-1)], "candidate_words": word_list},
-    "7": {"secret_word": word_list[np.random.randint(0,len(word_list)-1)], "candidate_words": word_list},
 }
 
 
@@ -87,7 +79,7 @@ def run_for_team(team_name, base_url):
                     "verbal_feedback": feedback,
                     "turn": guess_count + 1,
                 }
-                r = requests.post(f"{base_url}/guess", json=payload, timeout=9.9)
+                r = requests.post(f"{base_url}/guess", json=payload, timeout=10)
                 r.raise_for_status()
                 guess = r.json()["guess"]
             except Exception as e:
