@@ -3,7 +3,7 @@ from concurrent.futures import ThreadPoolExecutor
 import time
 
 STUDENTS = {
-    "team00": "http://localhost:8000",
+    "team02": "http://localhost:8000",
 }
 
 PROBLEMS = {
