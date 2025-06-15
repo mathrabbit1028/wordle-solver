@@ -1,13 +1,13 @@
 # wordle-solver
 
-_last update: 6/12 13:24_
+_last update: 6/15 17:52_
 
 1. Problem Statement (5/16)
 2. Implement The Grader (5/16 ~ 5/19)
 3. Related Works (5/16 ~ 5/19)
-4. Devise Algorhtms + Write Docs: "Theorical Approach" (5/19 ~ 5/25)
-5. Implement + Write Docs: "Implemenatation Details" (5/26 ~ 6/1)
-6. PPT Prepare + Final Docs Writing (6/2 ~ 6/4)
+4. Communication & LLM Processing (6/11 ~ 6/17)
+5. PPT Prepare (6/11 ~ 6/18)
+6. Final Optimization (6/18)
 
 ## Problem Statement
 [워들](https://www.nytimes.com/games/wordle/index.html)을 최대한 적은 질의로 해결하는 프로그램을 작성하라.
@@ -114,7 +114,7 @@ _recommended deadline: 5/19_
 `related_works` 폴더 안에서 확인할 수 있습니다.
 
 ## Communication & LLM Processing
-_recommended deadline: 6/14_
+_recommended deadline: 6/17_
 
 `/code`에 제공받은 스켈레톤 코드가 포함되어 있습니다. 또한, `dccp-project-spec`에서 프로젝트에 관한 세부 사항들을 확인할 수 있습니다. 앞으로는 `/code` 안의 파일을 수정하기 바랍니다.
 
@@ -138,7 +138,7 @@ translation(feedback: str) -> list[int]
 - 이 함수는 "Problem Statement"에 제시된 규칙에 맞추어 **길이 5**의 $0, 1, 2$만으로 이루어진 리스트를 반환해야 한다.
 
 ## PPT Prepare
-_recommended deadline: 6/16_
+_recommended deadline: 6/18_
 
 ## Final Optimization
 _recommended deadline: 6/18_
