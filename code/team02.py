@@ -181,7 +181,7 @@ class Solver:
                     s = get_s(word, ans, i)
                     res[i] = int(t >= s)
             return res
-            
+
         def calc_entropy(word):
             li = [tuple(query_res(word=word,ans=j)) for j in plausibles]
             _, counts = np.unique(li, return_counts=True, axis=0)
@@ -200,8 +200,8 @@ class Solver:
         if len(plausibles)==0:
             guess = candidates[np.random.randint(0,len(candidates)-1)]
             self.problems[problem_id]["guess_history"].append(guess)
-            self._log(f"Turn {turn}: Received feedback: {history[-1] if history else "None"}")
-            self._log(f"Translated: {translated_history[-1] if history else "None"}")
+            self._log(f"Turn {turn}: Received feedback: {history[-1] if history else 'None'}")
+            self._log(f"Translated: {translated_history[-1] if history else 'None'}")
             self._log(f"Turn {turn}: We are damned")
             self._log(f"Turn {turn}: Guess: {guess}")
             return guess
@@ -210,50 +210,11 @@ class Solver:
         guess = max(ent, key=ent.get)
         self.problems[problem_id]["guess_history"].append(guess)
 
-        self._log(f"Turn {turn}: Received feedback: {history[-1] if history else "None"}")
-        self._log(f"Translated: {translated_history[-1] if history else "None"}")
+        self._log(f"Turn {turn}: Received feedback: {history[-1] if history else 'None'}")
+        self._log(f"Translated: {translated_history[-1] if history else 'None'}")
         self._log(f"Turn {turn}: Guess: {guess}")
     
         print(f"{time.time()-start_time}")
-        return guess
-
-        #below is legacy code
-        if not history:
-            # todo: first guess
-
-            self._log(f"Turn {turn}: Received feedback: None (first turn)")
-            self._log(f"Turn {turn}: Guess: {guess}")
-            return guess
-
-        # todo: second guess
-        '''
-        prompt_history = "\n".join([f"Feedback: {fb}" for fb in history])
-
-        prompt = (
-            "You're playing Wordle. Based on the following feedback, choose your next guess from the candidate list.\n"
-            f"Feedback so far:\n{prompt_history}\n\n"
-            f"Candidate words: {', '.join(candidates)}\n"
-            "Return only your next guess."
-        )
-
-        response = (
-            complete(
-                model=self.model,
-                prompt=[{"role": "user", "content": prompt}],
-                options={"max_tokens": 10, "temperature": 0.0},
-                session=self.session,
-            )
-            .strip()
-            .lower()
-        )
-
-        self.snowflake_calls += 1
-
-        guess = response if response in candidates else candidates[0]
-        '''
-        last_feedback = history[-1] if history else "None"
-        self._log(f"Turn {turn}: Received feedback: {last_feedback}")
-        self._log(f"Turn {turn}: Guess: {guess}")
         return guess
 
     def _log(self, msg):
@@ -261,17 +222,13 @@ class Solver:
         self.log_file.write(f"[{ts}] {msg}\n")
         self.log_file.flush()
 
-
 solver = Solver()
-
 
 class StudentHandler(BaseHTTPRequestHandler):
     def do_POST(self):
         length = int(self.headers.get("Content-Length"))
-        start_time = time.time()
         data = json.loads(self.rfile.read(length))
         
-
         if self.path == "/start_problem":
             problem_id = data["problem_id"]
             candidate_words = data["candidate_words"]
@@ -297,13 +254,11 @@ class StudentHandler(BaseHTTPRequestHandler):
         self.send_response(404)
         self.end_headers()
 
-
 def run():
     port = int(os.environ.get("PORT", 8000))
     server = HTTPServer(("0.0.0.0", port), StudentHandler)
     print(f"Student server running on port {port}...")
     server.serve_forever()
-
 
 if __name__ == "__main__":
     run()
