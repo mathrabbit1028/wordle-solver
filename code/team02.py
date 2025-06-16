@@ -10,6 +10,7 @@ from snowflake.snowpark import Session
 from snowflake.cortex import complete
 
 import numpy as np
+from scipy.stats import mode
 
 load_dotenv()
 
@@ -64,42 +65,30 @@ class Solver:
 
     def translate(self, verbal_feedback, guess):
         # todo: translate
-        prompt = f'''You are a precise logic translator for Wordle feedback.
+        num_votes = 1
+
+        prompt = []
+
+        prompt.append(f'''
+        You are a precise logic translator for Wordle feedback.
 
         Task:
         You are given two inputs:
         - A guess word (5 letters)
-        - A verbal feedback about how correct the guess was
+        - A verbal feedback about the guess
 
         Your job is to:
         1. Carefully analyze the verbal feedback.
         2. Convert the interpretation into a 5-digit numeric code:
-        - 2 = correct letter in correct position (🟩)
-        - 1 = correct letter in wrong position (🟨)
-        - 0 = incorrect letter (⬛)
+        - 2 = correct letter in correct position
+        - 1 = correct letter in wrong position
+        - 0 = incorrect letter
 
         Wordle feedback is computed using the following rules:
-
-        1. Feedback is a 5-digit string, one digit per letter of the guess.
-
-        2. The feedback is generated in **two passes**:
-
-        Pass 1 — Green (2):
-        - For each letter in the guess, if it matches the letter in the same position in the target word, mark it as `2`.
-        - This letter is now “used up” and will not be reused in yellow marking.
-
-        Pass 2 — Yellow (1):
-        - For each unmatched letter in the guess, if that letter exists elsewhere in the target word and hasn’t already been fully matched (either as green or previous yellow), mark it as `1`.
-        - Each letter in the target can be matched only once — either as green or yellow.
-
-        3. Letters that do not match under either rule are marked as `0`.
-
-        This means that if the target word contains only one instance of a letter and the guess contains multiple, only one of them can be marked as `2` or `1`, and the others will be `0`.
 
         Rules:
         - Output only the 5-digit code (e.g. `21001`)
         - No explanation. No extra text.
-        - If feedback is ambiguous, infer the most likely interpretation.
 
         Examples:
 
@@ -114,44 +103,63 @@ class Solver:
         Output: 21002
 
         Input:  
-        Guess: GHOST  
-        Feedback: All letters are correct but in the wrong positions.  
-        Output: 11111
-
-        Input:  
-        Guess: FLAME  
-        Feedback: The first letter is correct and in the right place. The last letter is also correct but in the wrong place.  
-        Output: 20001
-
-        Input:  
-        Guess: DRAFT  
-        Feedback: The third is correct and in the correct position, and 'F' is correct and in the correct position.  
-        Output: 00220
-
-        Input:  
-        Guess: YAMMY  
-        Feedback: The first letter is in the word but in the wrong position. The third letter is also present but not in the correct place. The rest are incorrect.  
+        Guess: ejido
+        Feedback: 'e' is in the word but in the wrong position. 'j' is not in the word. 'i' is in the word but in the wrong position. 'd' is not in the word. 'o' is not in the word.
         Output: 10100
+
+        Input:  
+        Guess: acidy
+        Feedback: 'a' is in the correct position. 'c' is not in the word. 'i' is in the correct position. 'd' is in the correct position. 'y' is not in the word.
+        Output: 20220
 
         Now process the following input:
 
         Guess: {guess}  
         Feedback: {verbal_feedback}
-        '''
+        ''')
         
-        response = (
-            complete(
-                model=self.model,
-                prompt=[{"role": "user", "content": prompt}],
-                options={"max_tokens": 1024, "temperature": 0.0},
-                session=self.session,
+        prompt.append(f'''
+        You're playing Wordle. 
+        Convert the following input into strings of 0,1,2 where
+        0 represents that the letter is not in the word,
+        1 represents that the letter is in wrong position,
+        2 represents that the letter in right position.
+
+        Guess: {guess}  
+        Feedback: {verbal_feedback}
+
+        Return only the 5-letter string like this: 
+        ''')
+
+        prompt.append(prompt[0])
+        
+        prompt.append(prompt[0])
+
+        prompt.append(prompt[0])
+
+        responses = np.zeros((num_votes,5))
+        models = ["claude-3-5-sonnet", "claude-3-5-sonnet", "claude-3-5-sonnet", "claude-3-5-sonnet", "claude-3-5-sonnet"]
+        for i in range(num_votes):
+            start_time = time.time()
+            response = (
+                complete(
+                    model=models[i],
+                    prompt=[{"role": "user", "content": prompt[i]}],
+                    options={"max_tokens": 20, "temperature": 0.0},
+                    session=self.session,
+                )
+                .strip()
+                .lower()
             )
-            .strip()
-            .lower()
-        )
-        self.snowflake_calls += 1
-        # self._log(response)
-        return list(map(int,response))
+            for j, num in enumerate(list(map(int, response))):
+                responses[i][j] = num
+            self.snowflake_calls += 1
+            self._log(f'response: {response}, time took for LLM: {time.time() - start_time}')
+            
+        responses = np.round(responses).astype(int)
+        final_response = mode(responses, axis=0, keepdims=False).mode
+        
+        return list(map(int,final_response))
 
     def choose_next_guess(self, problem_id, turn):
         start_time = time.time()
@@ -233,8 +241,7 @@ class Solver:
         self._log(f"Turn {turn}: Received feedback: {history[-1] if history else 'None'}")
         self._log(f"Translated: {translated_history[-1] if history else 'None'}")
         self._log(f"Turn {turn}: Guess: {guess}")
-    
-        print(f"{time.time()-start_time}")
+        self._log(f"time spent for guess: {time.time()-start_time}")
         return guess
 
     def _log(self, msg):

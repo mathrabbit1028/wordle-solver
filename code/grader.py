@@ -11,12 +11,12 @@ word_list = open('./words.txt').read().strip().split('\n')[1::10]
 
 PROBLEMS = {
     "1": {"secret_word": "flame", "candidate_words": ["crane", "flame", "slate"]},
-    "2": {"secret_word": "altar", "candidate_words": ["apple", "altar", "adapt"]},
+    "2": {"secret_word": "altar", "candidate_words": ["prank", "altar", "adapt"]},
     "3": {"secret_word": word_list[np.random.randint(0,len(word_list)-1)], "candidate_words": word_list},
     "4": {"secret_word": word_list[np.random.randint(0,len(word_list)-1)], "candidate_words": word_list},
     "5": {"secret_word": word_list[np.random.randint(0,len(word_list)-1)], "candidate_words": word_list},
     "6": {"secret_word": word_list[np.random.randint(0,len(word_list)-1)], "candidate_words": word_list},
-    "7": {"secret_word": word_list[np.random.randint(0,len(word_list)-1)], "candidate_words": word_list},
+    #"7": {"secret_word": word_list[np.random.randint(0,len(word_list)-1)], "candidate_words": word_list},
 }
 
 
@@ -96,6 +96,10 @@ def run_for_team(team_name, base_url):
 
             guess_count += 1
 
+            # added to avoid infinite loop
+            if guess_count > 10:
+                print(f"[{team_name}] Guess number exceeded 10")
+                break
             if guess == secret:
                 print(f"[{team_name}] Solved {problem_id} in {guess_count} guesses.")
                 break
