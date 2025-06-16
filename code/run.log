@@ -136,3 +136,407 @@
 [2025-06-16T10:19:16.062056] Turn 1: Received feedback: None
 [2025-06-16T10:19:16.062056] Translated: None
 [2025-06-16T10:19:16.062056] Turn 1: Guess: reals
+[2025-06-16T11:09:30.370642] 
+=== Starting Problem 1 ===
+[2025-06-16T11:09:30.370642] Candidate words: crane, flame, slate
+[2025-06-16T11:09:32.425255] Turn 1: Received feedback: None
+[2025-06-16T11:09:32.425255] Translated: None
+[2025-06-16T11:09:32.425255] Turn 1: Guess: flame
+[2025-06-16T11:09:34.454368] 
+=== Starting Problem 2 ===
+[2025-06-16T11:09:34.454368] Candidate words: apple, altar, adapt
+[2025-06-16T11:09:36.485978] Turn 1: Received feedback: None
+[2025-06-16T11:09:36.485978] Translated: None
+[2025-06-16T11:09:36.486509] Turn 1: Guess: apple
+[2025-06-16T11:09:41.345358] Turn 2: Received feedback: 'a' is in the correct position. 'p' is not in the word. 'p' is not in the word. 'l' is in the word but in the wrong position. 'e' is not in the word.
+[2025-06-16T11:09:41.346229] Translated: [2, 0, 0, 1, 0]
+[2025-06-16T11:09:41.346229] Turn 2: Guess: altar
+[2025-06-16T11:09:43.384755] 
+=== Starting Problem 3 ===
+[2025-06-16T11:09:43.384755] Candidate words: aalii, aband, abbot, abled, aboon
+[2025-06-16T11:09:51.161368] Turn 1: Received feedback: None
+[2025-06-16T11:09:51.161368] Translated: None
+[2025-06-16T11:09:51.161368] Turn 1: Guess: reals
+[2025-06-16T11:09:55.299520] Turn 2: Received feedback: 'r' is in the word but in the wrong position. 'e' is in the word but in the wrong position. 'a' is not in the word. 'l' is not in the word. 's' is not in the word.
+[2025-06-16T11:09:55.299520] Translated: [1, 1, 0, 0, 0]
+[2025-06-16T11:09:55.299520] Turn 2: Guess: treed
+[2025-06-16T11:09:58.948523] Turn 3: Received feedback: 't' is not in the word. 'r' is in the word but in the wrong position. 'e' is in the correct position. 'e' is in the correct position. 'd' is not in the word.
+[2025-06-16T11:09:58.948523] Translated: [0, 1, 2, 2, 0]
+[2025-06-16T11:09:58.948523] Turn 3: Guess: pheer
+[2025-06-16T11:10:01.014598] 
+=== Starting Problem 4 ===
+[2025-06-16T11:10:01.014598] Candidate words: aalii, aband, abbot, abled, aboon
+[2025-06-16T11:10:08.625300] Turn 1: Received feedback: None
+[2025-06-16T11:10:08.625300] Translated: None
+[2025-06-16T11:10:08.625300] Turn 1: Guess: reals
+[2025-06-16T11:10:12.445811] Turn 2: Received feedback: 'r' is not in the word. 'e' is not in the word. 'a' is in the word but in the wrong position. 'l' is not in the word. 's' is in the correct position.
+[2025-06-16T11:10:12.445811] Translated: [0, 0, 1, 0, 2]
+[2025-06-16T11:10:12.445811] Turn 2: Guess: kamis
+[2025-06-16T11:10:16.752083] Turn 3: Received feedback: 'k' is in the correct position. 'a' is in the correct position. 'm' is not in the word. 'i' is in the correct position. 's' is in the correct position.
+[2025-06-16T11:10:16.752083] Translated: [2, 2, 2, 0, 2]
+[2025-06-16T11:10:16.752083] Turn 3: We are damned
+[2025-06-16T11:10:16.752083] Turn 3: Guess: chirt
+[2025-06-16T11:10:20.719715] Turn 4: Received feedback: 'c' is not in the word. 'h' is not in the word. 'i' is in the word but in the wrong position. 'r' is not in the word. 't' is not in the word.
+[2025-06-16T11:10:20.719715] Translated: [0, 0, 1, 0, 0]
+[2025-06-16T11:10:20.719715] Turn 4: We are damned
+[2025-06-16T11:10:20.719715] Turn 4: Guess: bocci
+[2025-06-16T11:10:24.284848] Turn 5: Received feedback: 'b' is not in the word. 'o' is not in the word. 'c' is not in the word. 'c' is not in the word. 'i' is in the word but in the wrong position.
+[2025-06-16T11:10:24.284848] Translated: [0, 0, 0, 0, 1]
+[2025-06-16T11:10:24.284848] Turn 5: We are damned
+[2025-06-16T11:10:24.284848] Turn 5: Guess: rumps
+[2025-06-16T11:10:28.500764] Turn 6: Received feedback: 'r' is not in the word. 'u' is not in the word. 'm' is not in the word. 'p' is not in the word. 's' is in the correct position.
+[2025-06-16T11:10:28.500764] Translated: [0, 0, 0, 0, 2]
+[2025-06-16T11:10:28.500764] Turn 6: We are damned
+[2025-06-16T11:10:28.500764] Turn 6: Guess: unrip
+[2025-06-16T11:10:32.223344] Turn 7: Received feedback: 'u' is not in the word. 'n' is not in the word. 'r' is not in the word. 'i' is in the correct position. 'p' is not in the word.
+[2025-06-16T11:10:32.223344] Translated: [0, 0, 0, 2, 0]
+[2025-06-16T11:10:32.223344] Turn 7: We are damned
+[2025-06-16T11:10:32.223344] Turn 7: Guess: youse
+[2025-06-16T11:10:36.127112] Turn 8: Received feedback: 'y' is not in the word. 'o' is not in the word. 'u' is not in the word. 's' is in the word but in the wrong position. 'e' is not in the word.
+[2025-06-16T11:10:36.127112] Translated: [0, 0, 0, 1, 0]
+[2025-06-16T11:10:36.127112] Turn 8: We are damned
+[2025-06-16T11:10:36.127112] Turn 8: Guess: kokum
+[2025-06-16T11:10:39.620031] Turn 9: Received feedback: 'k' is in the correct position. 'o' is not in the word. 'k' is not in the word. 'u' is not in the word. 'm' is not in the word.
+[2025-06-16T11:10:39.620031] Translated: [2, 0, 0, 0, 0]
+[2025-06-16T11:10:39.620031] Turn 9: We are damned
+[2025-06-16T11:10:39.620031] Turn 9: Guess: soops
+[2025-06-16T11:10:43.544717] Turn 10: Received feedback: 's' is not in the word. 'o' is not in the word. 'o' is not in the word. 'p' is not in the word. 's' is in the correct position.
+[2025-06-16T11:10:43.544717] Translated: [0, 0, 0, 0, 2]
+[2025-06-16T11:10:43.544717] Turn 10: We are damned
+[2025-06-16T11:10:43.544717] Turn 10: Guess: cater
+[2025-06-16T11:10:47.257906] Turn 11: Received feedback: 'c' is not in the word. 'a' is in the correct position. 't' is not in the word. 'e' is not in the word. 'r' is not in the word.
+[2025-06-16T11:10:47.260577] Translated: [0, 2, 0, 0, 0]
+[2025-06-16T11:10:47.260577] Turn 11: We are damned
+[2025-06-16T11:10:47.260577] Turn 11: Guess: chard
+[2025-06-16T11:10:50.852176] Turn 12: Received feedback: 'c' is not in the word. 'h' is not in the word. 'a' is in the word but in the wrong position. 'r' is not in the word. 'd' is not in the word.
+[2025-06-16T11:10:50.852176] Translated: [0, 0, 1, 0, 0]
+[2025-06-16T11:10:50.852176] Turn 12: We are damned
+[2025-06-16T11:10:50.852176] Turn 12: Guess: ureic
+[2025-06-16T11:10:54.827259] Turn 13: Received feedback: 'u' is not in the word. 'r' is not in the word. 'e' is not in the word. 'i' is in the correct position. 'c' is not in the word.
+[2025-06-16T11:10:54.827259] Translated: [0, 0, 0, 2, 0]
+[2025-06-16T11:10:54.827259] Turn 13: We are damned
+[2025-06-16T11:10:54.827259] Turn 13: Guess: cowry
+[2025-06-16T11:10:58.241470] Turn 14: Received feedback: 'c' is not in the word. 'o' is not in the word. 'w' is not in the word. 'r' is not in the word. 'y' is not in the word.
+[2025-06-16T11:10:58.241470] Translated: [0, 0, 0, 0, 0]
+[2025-06-16T11:10:58.241470] Turn 14: We are damned
+[2025-06-16T11:10:58.241470] Turn 14: Guess: scoot
+[2025-06-16T11:11:02.032586] Turn 15: Received feedback: 's' is in the word but in the wrong position. 'c' is not in the word. 'o' is not in the word. 'o' is not in the word. 't' is not in the word.
+[2025-06-16T11:11:02.032586] Translated: [1, 0, 0, 0, 0]
+[2025-06-16T11:11:02.032586] Turn 15: We are damned
+[2025-06-16T11:11:02.032586] Turn 15: Guess: kembo
+[2025-06-16T11:11:10.120288] Turn 16: Received feedback: 'k' is in the correct position. 'e' is not in the word. 'm' is not in the word. 'b' is not in the word. 'o' is not in the word.
+[2025-06-16T11:11:10.120288] Translated: [2, 0, 0, 0, 0]
+[2025-06-16T11:11:10.120288] Turn 16: We are damned
+[2025-06-16T11:11:10.120288] Turn 16: Guess: forel
+[2025-06-16T11:11:14.027833] Turn 17: Received feedback: 'f' is not in the word. 'o' is not in the word. 'r' is not in the word. 'e' is not in the word. 'l' is not in the word.
+[2025-06-16T11:11:14.027833] Translated: [0, 0, 0, 0, 0]
+[2025-06-16T11:11:14.027833] Turn 17: We are damned
+[2025-06-16T11:11:14.027833] Turn 17: Guess: roble
+[2025-06-16T11:11:17.923139] Turn 18: Received feedback: 'r' is not in the word. 'o' is not in the word. 'b' is not in the word. 'l' is not in the word. 'e' is not in the word.
+[2025-06-16T11:11:17.923139] Translated: [0, 0, 0, 0, 0]
+[2025-06-16T11:11:17.923139] Turn 18: We are damned
+[2025-06-16T11:11:17.923139] Turn 18: Guess: jouks
+[2025-06-16T11:11:22.026687] Turn 19: Received feedback: 'j' is not in the word. 'o' is not in the word. 'u' is not in the word. 'k' is in the word but in the wrong position. 's' is in the correct position.
+[2025-06-16T11:11:22.026687] Translated: [0, 0, 0, 1, 2]
+[2025-06-16T11:11:22.026687] Turn 19: We are damned
+[2025-06-16T11:11:22.026687] Turn 19: Guess: neath
+[2025-06-16T11:11:25.494868] Turn 20: Received feedback: 'n' is not in the word. 'e' is not in the word. 'a' is in the word but in the wrong position. 't' is not in the word. 'h' is not in the word.
+[2025-06-16T11:11:25.494868] Translated: [0, 0, 1, 0, 0]
+[2025-06-16T11:11:25.494868] Turn 20: We are damned
+[2025-06-16T11:11:25.494868] Turn 20: Guess: lords
+[2025-06-16T11:11:29.311993] Turn 21: Received feedback: 'l' is not in the word. 'o' is not in the word. 'r' is not in the word. 'd' is not in the word. 's' is in the correct position.
+[2025-06-16T11:11:29.311993] Translated: [0, 0, 0, 0, 2]
+[2025-06-16T11:11:29.311993] Turn 21: We are damned
+[2025-06-16T11:11:29.311993] Turn 21: Guess: divis
+[2025-06-16T11:11:32.705210] Turn 22: Received feedback: 'd' is not in the word. 'i' is not in the word. 'v' is not in the word. 'i' is in the correct position. 's' is in the correct position.
+[2025-06-16T11:11:32.705210] Translated: [0, 0, 0, 2, 2]
+[2025-06-16T11:11:32.705210] Turn 22: We are damned
+[2025-06-16T11:11:32.705210] Turn 22: Guess: waked
+[2025-06-16T11:11:36.279638] Turn 23: Received feedback: 'w' is not in the word. 'a' is in the correct position. 'k' is in the word but in the wrong position. 'e' is not in the word. 'd' is not in the word.
+[2025-06-16T11:11:36.279638] Translated: [0, 2, 1, 0, 0]
+[2025-06-16T11:11:36.279638] Turn 23: We are damned
+[2025-06-16T11:11:36.279638] Turn 23: Guess: jaded
+[2025-06-16T11:11:40.407765] Turn 24: Received feedback: 'j' is not in the word. 'a' is in the correct position. 'd' is not in the word. 'e' is not in the word. 'd' is not in the word.
+[2025-06-16T11:11:40.407765] Translated: [0, 2, 0, 0, 0]
+[2025-06-16T11:11:40.407765] Turn 24: We are damned
+[2025-06-16T11:11:40.407765] Turn 24: Guess: intra
+[2025-06-16T11:11:44.808184] Turn 25: Received feedback: 'i' is in the word but in the wrong position. 'n' is not in the word. 't' is not in the word. 'r' is not in the word. 'a' is in the word but in the wrong position.
+[2025-06-16T11:11:44.808184] Translated: [1, 0, 0, 0, 1]
+[2025-06-16T11:11:44.808184] Turn 25: We are damned
+[2025-06-16T11:11:44.808184] Turn 25: Guess: hygge
+[2025-06-16T11:11:49.405234] Turn 26: Received feedback: 'h' is not in the word. 'y' is not in the word. 'g' is not in the word. 'g' is not in the word. 'e' is not in the word.
+[2025-06-16T11:11:49.405234] Translated: [0, 0, 0, 0, 0]
+[2025-06-16T11:11:49.405234] Turn 26: We are damned
+[2025-06-16T11:11:49.405234] Turn 26: Guess: terse
+[2025-06-16T11:11:53.922111] Turn 27: Received feedback: 't' is not in the word. 'e' is not in the word. 'r' is not in the word. 's' is in the word but in the wrong position. 'e' is not in the word.
+[2025-06-16T11:11:53.922111] Translated: [0, 0, 0, 1, 0]
+[2025-06-16T11:11:53.922111] Turn 27: We are damned
+[2025-06-16T11:11:53.922111] Turn 27: Guess: sudds
+[2025-06-16T11:11:57.52833028] Turn 28: Received feedback: 's' is not in the word. 'u' is not in the word. 'd' is not in the word. 'd' is not in the word. 's' is in the correct position.
+[2025-06-16T11:11:57.528330] Translated: [0, 0, 0, 0, 2]
+[2025-06-16T11:11:57.528330] Turn 28: We are damned
+[2025-06-16T11:11:57.528330] Turn : Guess: kited
+[2025-06-16T11:12:01.769261] Turn 29: Received feedback: 'k' is in the correct position. 'i' is in the word but in the wrong position. 't' is not in the word. 'e' is not in the word. 'd' is not in the word.
+[2025-06-16T11:12:01.769261] Translated: [2, 1, 0, 0, 0]
+[2025-06-16T11:12:01.769261] Turn 29: We are damned
+[2025-06-16T11:12:01.769261] Turn 29: Guess: calid
+[2025-06-16T11:13:28.286439] Turn 51: Received feedback: 'l' is not in the word. 'o' is not in the word. 'a' is in the word but in the wrong position. 'v' is not in the word. 'e' is not in the word.
+[2025-06-16T11:13:28.286439] Translated: [0, 0, 1, 0, 0]
+[2025-06-16T11:13:28.286439] Turn 51: We are damned
+[2025-06-16T11:13:28.286439] Turn 51: Guess: proin
+[2025-06-16T11:13:32.872250] Turn 52: Received feedback: 'p' is not in the word. 'r' is not in the word. 'o' is not in the word. 'i' is in the correct position. 'n' is not in the word.
+[2025-06-16T11:13:32.872250] Translated: [0, 0, 0, 2, 0]
+[2025-06-16T11:13:32.872250] Turn 52: We are damned
+[2025-06-16T11:13:32.872250] Turn 52: Guess: yince
+[2025-06-16T11:13:36.463701] Turn 53: Received feedback: 'y' is not in the word. 'i' is in the word but in the wrong position. 'n' is not in the word. 'c' is not in the word. 'e' is not in the word.
+[2025-06-16T11:13:36.463701] Translated: [0, 1, 0, 0, 0]
+[2025-06-16T11:13:36.463701] Turn 53: We are damned
+[2025-06-16T11:13:36.463701] Turn 53: Guess: crons
+[2025-06-16T11:13:40.064265] Turn 54: Received feedback: 'c' is not in the word. 'r' is not in the word. 'o' is not in the word. 'n' is not in the word. 's' is in the correct position.
+[2025-06-16T11:13:40.065276] Translated: [0, 0, 0, 0, 2]
+[2025-06-16T11:13:40.065276] Turn 54: We are damned
+[2025-06-16T11:13:40.065276] Turn 54: Guess: waifs
+[2025-06-16T11:13:43.795053] Turn 55: Received feedback: 'w' is not in the word. 'a' is in the correct position. 'i' is in the word but in the wrong position. 'f' is not in the word. 's' is in the correct position.
+[2025-06-16T11:13:43.795053] Translated: [0, 2, 1, 0, 2]
+[2025-06-16T11:13:43.795053] Turn 55: We are damned
+[2025-06-16T11:13:43.795053] Turn 55: Guess: afoul
+[2025-06-16T11:13:47.911789] Turn 56: Received feedback: 'a' is in the word but in the wrong position. 'f' is not in the word. 'o' is not in the word. 'u' is not in the word. 'l' is not in the word.
+[2025-06-16T11:13:47.911789] Translated: [1, 0, 0, 0, 0]
+[2025-06-16T11:13:47.911789] Turn 56: We are damned
+[2025-06-16T11:13:47.911789] Turn 56: Guess: nests
+[2025-06-16T11:13:52.075450] Turn 57: Received feedback: 'n' is not in the word. 'e' is not in the word. 's' is not in the word. 't' is not in the word. 's' is in the correct position.
+[2025-06-16T11:13:52.075450] Translated: [0, 0, 0, 0, 2]
+[2025-06-16T11:13:52.075450] Turn 57: We are damned
+[2025-06-16T11:13:52.075450] Turn 57: Guess: guars
+[2025-06-16T11:13:56.199974] Turn 58: Received feedback: 'g' is not in the word. 'u' is not in the word. 'a' is in the word but in the wrong position. 'r' is not in the word. 's' is in the correct position.
+[2025-06-16T11:13:56.199974] Translated: [0, 0, 1, 0, 2]
+[2025-06-16T11:13:56.199974] Turn 58: We are damned
+[2025-06-16T11:13:56.199974] Turn 58: Guess: fuddy
+[2025-06-16T11:13:59.567149] Turn 59: Received feedback: 'f' is not in the word. 'u' is not in the word. 'd' is not in the word. 'd' is not in the word. 'y' is not in the word.
+[2025-06-16T11:13:59.567149] Translated: [0, 0, 0, 0, 0]
+[2025-06-16T11:13:59.567149] Turn 59: We are damned
+[2025-06-16T11:13:59.567149] Turn 59: Guess: navvy
+[2025-06-16T11:14:03.317006] Turn 60: Received feedback: 'n' is not in the word. 'a' is in the correct position. 'v' is not in the word. 'v' is not in the word. 'y' is not in the word.
+[2025-06-16T11:14:03.317006] Translated: [0, 2, 0, 0, 0]
+[2025-06-16T11:14:03.317006] Turn 60: We are damned
+[2025-06-16T11:14:03.317006] Turn 60: Guess: kents
+[2025-06-16T11:14:07.309327] Turn 61: Received feedback: 'k' is in the correct position. 'e' is not in the word. 'n' is not in the word. 't' is not in the word. 's' is in the correct position.
+[2025-06-16T11:14:07.309327] Translated: [2, 0, 0, 0, 2]
+[2025-06-16T11:14:07.309327] Turn 61: We are damned
+[2025-06-16T11:14:07.309327] Turn 61: Guess: lefts
+[2025-06-16T11:14:11.074016] Turn 62: Received feedback: 'l' is not in the word. 'e' is not in the word. 'f' is not in the word. 't' is not in the word. 's' is in the correct position.
+[2025-06-16T11:14:11.074016] Translated: [0, 0, 0, 0, 2]
+[2025-06-16T11:14:11.074016] Turn 62: We are damned
+[2025-06-16T11:14:11.074016] Turn 62: Guess: valor
+[2025-06-16T11:14:14.551276] Turn 63: Received feedback: 'v' is not in the word. 'a' is in the correct position. 'l' is not in the word. 'o' is not in the word. 'r' is not in the word.
+[2025-06-16T11:14:14.551276] Translated: [0, 2, 0, 0, 0]
+[2025-06-16T11:14:14.551276] Turn 63: We are damned
+[2025-06-16T11:14:14.551276] Turn 63: Guess: egmas
+[2025-06-16T11:14:17.911237] Turn 64: Received feedback: 'e' is not in the word. 'g' is not in the word. 'm' is not in the word. 'a' is in the word but in the wrong position. 's' is in the correct position.
+[2025-06-16T11:14:17.911237] Translated: [0, 0, 0, 1, 2]
+[2025-06-16T11:14:17.911237] Turn 64: We are damned
+[2025-06-16T11:14:17.911237] Turn 64: Guess: jaded
+[2025-06-16T11:14:21.369249] Turn 65: Received feedback: 'j' is not in the word. 'a' is in the correct position. 'd' is not in the word. 'e' is not in the word. 'd' is not in the word.
+[2025-06-16T11:14:21.369249] Translated: [0, 2, 0, 0, 0]
+[2025-06-16T11:14:21.377670] Turn 65: We are damned
+[2025-06-16T11:14:21.377670] Turn 65: Guess: logon
+[2025-06-16T11:14:25.075239] Turn 66: Received feedback: 'l' is not in the word. 'o' is not in the word. 'g' is not in the word. 'o' is not in the word. 'n' is not in the word.
+[2025-06-16T11:14:25.075239] Translated: [0, 0, 0, 0, 0]
+[2025-06-16T11:14:25.075239] Turn 66: We are damned
+[2025-06-16T11:14:25.075239] Turn 66: Guess: suses
+[2025-06-16T11:14:29.896168] Turn 67: Received feedback: 's' is not in the word. 'u' is not in the word. 's' is not in the word. 'e' is not in the word. 's' is in the correct position.
+[2025-06-16T11:14:29.896168] Translated: [0, 0, 0, 0, 2]
+[2025-06-16T11:14:29.896168] Turn 67: We are damned
+[2025-06-16T11:14:29.896168] Turn 67: Guess: taser
+[2025-06-16T11:14:34.048075] Turn 68: Received feedback: 't' is not in the word. 'a' is in the correct position. 's' is in the word but in the wrong position. 'e' is not in the word. 'r' is not in the word.
+[2025-06-16T11:14:34.048075] Translated: [0, 2, 1, 0, 0]
+[2025-06-16T11:14:34.051788] Turn 68: We are damned
+[2025-06-16T11:14:34.051788] Turn 68: Guess: roads
+[2025-06-16T11:14:38.000537] Turn 69: Received feedback: 'r' is not in the word. 'o' is not in the word. 'a' is in the word but in the wrong position. 'd' is not in the word. 's' is in the correct position.
+[2025-06-16T11:14:38.002549] Translated: [0, 0, 1, 0, 2]
+[2025-06-16T11:14:38.002549] Turn 69: We are damned
+[2025-06-16T11:14:38.002549] Turn 69: Guess: retie
+[2025-06-16T11:14:41.590220] Turn 70: Received feedback: 'r' is not in the word. 'e' is not in the word. 't' is not in the word. 'i' is in the correct position. 'e' is not in the word.
+[2025-06-16T11:14:41.590220] Translated: [0, 0, 0, 2, 0]
+[2025-06-16T11:14:41.590220] Turn 70: We are damned
+[2025-06-16T11:14:41.590220] Turn 70: Guess: kaiak
+[2025-06-16T11:14:45.045325] Turn 71: Received feedback: 'k' is in the correct position. 'a' is in the correct position. 'i' is in the word but in the wrong position. 'a' is not in the word. 'k' is not in the word.
+[2025-06-16T11:14:45.045325] Translated: [2, 2, 1, 0, 0]
+[2025-06-16T11:14:45.045325] Turn 71: We are damned
+[2025-06-16T11:14:45.045325] Turn 71: Guess: gerle
+[2025-06-16T11:14:48.372582] Turn 72: Received feedback: 'g' is not in the word. 'e' is not in the word. 'r' is not in the word. 'l' is not in the word. 'e' is not in the word.
+[2025-06-16T11:14:48.372582] Translated: [0, 0, 0, 0, 0]
+[2025-06-16T11:14:48.372582] Turn 72: We are damned
+[2025-06-16T11:14:48.372582] Turn 72: Guess: skein
+[2025-06-16T11:14:52.278569] Turn 73: Received feedback: 's' is in the word but in the wrong position. 'k' is in the word but in the wrong position. 'e' is not in the word. 'i' is in the correct position. 'n' is not in the word.
+[2025-06-16T11:14:52.278569] Translated: [1, 1, 0, 2, 0]
+[2025-06-16T11:14:52.278569] Turn 73: We are damned
+[2025-06-16T11:14:52.278569] Turn 73: Guess: weald
+[2025-06-16T11:14:55.810484] Turn 74: Received feedback: 'w' is not in the word. 'e' is not in the word. 'a' is in the word but in the wrong position. 'l' is not in the word. 'd' is not in the word.
+[2025-06-16T11:14:55.810484] Translated: [0, 0, 1, 0, 0]
+[2025-06-16T11:14:55.810484] Turn 74: We are damned
+[2025-06-16T11:14:55.810484] Turn 74: Guess: until
+[2025-06-16T11:15:00.223743] Turn 75: Received feedback: 'u' is not in the word. 'n' is not in the word. 't' is not in the word. 'i' is in the correct position. 'l' is not in the word.
+[2025-06-16T11:15:00.226543] Translated: [0, 0, 0, 2, 0]
+[2025-06-16T11:15:00.226543] Turn 75: We are damned
+[2025-06-16T11:15:00.226543] Turn 75: Guess: tabor
+[2025-06-16T11:15:03.853883] Turn 76: Received feedback: 't' is not in the word. 'a' is in the correct position. 'b' is not in the word. 'o' is not in the word. 'r' is not in the word.
+[2025-06-16T11:15:03.853883] Translated: [0, 2, 0, 0, 0]
+[2025-06-16T11:15:03.853883] Turn 76: We are damned
+[2025-06-16T11:15:03.853883] Turn 76: Guess: gurus
+[2025-06-16T11:15:07.415574] Turn 77: Received feedback: 'g' is not in the word. 'u' is not in the word. 'r' is not in the word. 'u' is not in the word. 's' is in the correct position.
+[2025-06-16T11:15:07.415574] Translated: [0, 0, 0, 0, 2]
+[2025-06-16T11:15:07.415574] Turn 77: We are damned
+[2025-06-16T11:15:07.415574] Turn 77: Guess: obang
+[2025-06-16T11:15:11.633753] Turn 78: Received feedback: 'o' is not in the word. 'b' is not in the word. 'a' is in the word but in the wrong position. 'n' is not in the word. 'g' is not in the word.
+[2025-06-16T11:15:11.633753] Translated: [0, 0, 1, 0, 0]
+[2025-06-16T11:15:11.633753] Turn 78: We are damned
+[2025-06-16T11:15:11.633753] Turn 78: Guess: yappy
+[2025-06-16T11:15:15.217965] Turn 79: Received feedback: 'y' is not in the word. 'a' is in the correct position. 'p' is not in the word. 'p' is not in the word. 'y' is not in the word.
+[2025-06-16T11:15:15.217965] Translated: [0, 2, 0, 0, 0]
+[2025-06-16T11:15:15.217965] Turn 79: We are damned
+[2025-06-16T11:15:15.217965] Turn 79: Guess: ashen
+[2025-06-16T11:15:18.831311] Turn 80: Received feedback: 'a' is in the word but in the wrong position. 's' is in the word but in the wrong position. 'h' is not in the word. 'e' is not in the word. 'n' is not in the word.
+[2025-06-16T11:15:18.831311] Translated: [1, 1, 0, 0, 0]
+[2025-06-16T11:15:18.831311] Turn 80: We are damned
+[2025-06-16T11:15:18.831311] Turn 80: Guess: meris
+[2025-06-16T11:15:22.702298] Turn 81: Received feedback: 'm' is not in the word. 'e' is not in the word. 'r' is not in the word. 'i' is in the correct position. 's' is in the correct position.
+[2025-06-16T11:15:22.702298] Translated: [0, 0, 0, 2, 2]
+[2025-06-16T11:15:22.702298] Turn 81: We are damned
+[2025-06-16T11:15:22.702298] Turn 81: Guess: lande
+[2025-06-16T11:15:27.062312] Turn 82: Received feedback: 'l' is not in the word. 'a' is in the correct position. 'n' is not in the word. 'd' is not in the word. 'e' is not in the word.
+[2025-06-16T11:15:27.062312] Translated: [0, 2, 0, 0, 0]
+[2025-06-16T11:15:27.062312] Turn 82: We are damned
+[2025-06-16T11:15:27.062312] Turn 82: Guess: jiver
+[2025-06-16T11:15:30.872725] Turn 83: Received feedback: 'j' is not in the word. 'i' is in the word but in the wrong position. 'v' is not in the word. 'e' is not in the word. 'r' is not in the word.
+[2025-06-16T11:15:30.872725] Translated: [0, 1, 0, 0, 0]
+[2025-06-16T11:15:30.872725] Turn 83: We are damned
+[2025-06-16T11:15:30.872725] Turn 83: Guess: ouija
+[2025-06-16T11:15:34.758632] Turn 84: Received feedback: 'o' is not in the word. 'u' is not in the word. 'i' is in the word but in the wrong position. 'j' is not in the word. 'a' is in the word but in the wrong position.
+[2025-06-16T11:15:34.758632] Translated: [0, 0, 1, 0, 1]
+[2025-06-16T11:15:34.758632] Turn 84: We are damned
+[2025-06-16T11:15:34.758632] Turn 84: Guess: arars
+[2025-06-16T11:15:38.163251] Turn 85: Received feedback: 'a' is in the word but in the wrong position. 'r' is not in the word. 'a' is not in the word. 'r' is not in the word. 's' is in the correct position.
+[2025-06-16T11:15:38.163251] Translated: [1, 0, 0, 0, 2]
+[2025-06-16T11:15:38.163251] Turn 85: We are damned
+[2025-06-16T11:15:38.163251] Turn 85: Guess: tenge
+[2025-06-16T11:15:41.621434] Turn 86: Received feedback: 't' is not in the word. 'e' is not in the word. 'n' is not in the word. 'g' is not in the word. 'e' is not in the word.
+[2025-06-16T11:15:41.621434] Translated: [0, 0, 0, 0, 0]
+[2025-06-16T11:15:41.621434] Turn 86: We are damned
+[2025-06-16T11:15:41.621434] Turn 86: Guess: treed
+[2025-06-16T11:15:45.628193] Turn 87: Received feedback: 't' is not in the word. 'r' is not in the word. 'e' is not in the word. 'e' is not in the word. 'd' is not in the word.
+[2025-06-16T11:15:45.628193] Translated: [0, 0, 0, 0, 0]
+[2025-06-16T11:15:45.628193] Turn 87: We are damned
+[2025-06-16T11:15:45.628193] Turn 87: Guess: ditsy
+[2025-06-16T11:15:49.436264] Turn 88: Received feedback: 'd' is not in the word. 'i' is in the word but in the wrong position. 't' is not in the word. 's' is in the word but in the wrong position. 'y' is not in the word.
+[2025-06-16T11:15:49.436264] Translated: [0, 1, 0, 1, 0]
+[2025-06-16T11:15:49.436264] Turn 88: We are damned
+[2025-06-16T11:15:49.436264] Turn 88: Guess: fixit
+[2025-06-16T11:15:52.817322] Turn 89: Received feedback: 'f' is not in the word. 'i' is not in the word. 'x' is not in the word. 'i' is in the correct position. 't' is not in the word.
+[2025-06-16T11:15:52.817322] Translated: [0, 0, 0, 2, 0]
+[2025-06-16T11:15:52.817322] Turn 89: We are damned
+[2025-06-16T11:15:52.817322] Turn 89: Guess: simis
+[2025-06-16T11:15:57.114395] Turn 90: Received feedback: 's' is not in the word. 'i' is not in the word. 'm' is not in the word. 'i' is in the correct position. 's' is in the correct position.
+[2025-06-16T11:15:57.114395] Translated: [0, 0, 0, 2, 2]
+[2025-06-16T11:15:57.114395] Turn 90: We are damned
+[2025-06-16T11:15:57.114395] Turn 90: Guess: derns
+[2025-06-16T11:16:01.667912] Turn 91: Received feedback: 'd' is not in the word. 'e' is not in the word. 'r' is not in the word. 'n' is not in the word. 's' is in the correct position.
+[2025-06-16T11:16:01.667912] Translated: [0, 0, 0, 0, 2]
+[2025-06-16T11:16:01.669927] Turn 91: We are damned
+[2025-06-16T11:16:01.669927] Turn 91: Guess: splay
+[2025-06-16T11:16:08.720140] Turn 92: Received feedback: 's' is in the word but in the wrong position. 'p' is not in the word. 'l' is not in the word. 'a' is in the word but in the wrong position. 'y' is not in the word.
+[2025-06-16T11:16:08.720140] Translated: [1, 0, 0, 1, 0]
+[2025-06-16T11:16:08.720140] Turn 92: We are damned
+[2025-06-16T11:16:08.720140] Turn 92: Guess: grana
+[2025-06-16T11:16:12.525549] Turn 93: Received feedback: 'g' is not in the word. 'r' is not in the word. 'a' is in the word but in the wrong position. 'n' is not in the word. 'a' is not in the word.
+[2025-06-16T11:16:12.525549] Translated: [0, 0, 1, 0, 0]
+[2025-06-16T11:16:12.525549] Turn 93: We are damned
+[2025-06-16T11:16:12.525549] Turn 93: Guess: unrip
+[2025-06-16T11:16:17.532560] Turn 94: Received feedback: 'u' is not in the word. 'n' is not in the word. 'r' is not in the word. 'i' is in the correct position. 'p' is not in the word.
+[2025-06-16T11:16:17.532560] Translated: [0, 0, 0, 2, 0]
+[2025-06-16T11:16:17.532560] Turn 94: We are damned
+[2025-06-16T11:16:17.532560] Turn 94: Guess: senza
+[2025-06-16T11:16:21.799667] Turn 95: Received feedback: 's' is in the word but in the wrong position. 'e' is not in the word. 'n' is not in the word. 'z' is in the word but in the wrong position. 'a' is in the word but in the wrong position.
+[2025-06-16T11:16:21.799667] Translated: [1, 0, 0, 1, 1]
+[2025-06-16T11:16:21.799667] Turn 95: We are damned
+[2025-06-16T11:16:21.799667] Turn 95: Guess: psyop
+[2025-06-16T11:16:25.166273] Turn 96: Received feedback: 'p' is not in the word. 's' is in the word but in the wrong position. 'y' is not in the word. 'o' is not in the word. 'p' is not in the word.
+[2025-06-16T11:16:25.167568] Translated: [0, 1, 0, 0, 0]
+[2025-06-16T11:16:25.167568] Turn 96: We are damned
+[2025-06-16T11:16:25.167568] Turn 96: Guess: aidas
+[2025-06-16T11:16:28.645063] Turn 97: Received feedback: 'a' is in the word but in the wrong position. 'i' is in the word but in the wrong position. 'd' is not in the word. 'a' is not in the word. 's' is in the correct position.
+[2025-06-16T11:16:28.645063] Translated: [1, 0, 1, 0, 2]
+[2025-06-16T11:16:28.645063] Turn 97: We are damned
+[2025-06-16T11:16:28.645063] Turn 97: Guess: toing
+[2025-06-16T11:16:32.719408] Turn 98: Received feedback: 't' is not in the word. 'o' is not in the word. 'i' is in the word but in the wrong position. 'n' is not in the word. 'g' is not in the word.
+[2025-06-16T11:16:32.719408] Translated: [0, 0, 1, 0, 0]
+[2025-06-16T11:16:32.719408] Turn 98: We are damned
+[2025-06-16T11:16:32.719408] Turn 98: Guess: limey
+[2025-06-16T11:16:36.230577] Turn 99: Received feedback: 'l' is not in the word. 'i' is in the word but in the wrong position. 'm' is not in the word. 'e' is not in the word. 'y' is not in the word.
+[2025-06-16T11:16:36.230577] Translated: [0, 1, 0, 0, 0]
+[2025-06-16T11:16:36.230577] Turn 99: We are damned
+[2025-06-16T11:16:36.230577] Turn 99: Guess: sylis
+[2025-06-16T11:16:39.902380] Turn 100: Received feedback: 's' is not in the word. 'y' is not in the word. 'l' is not in the word. 'i' is in the correct position. 's' is in the correct position.
+[2025-06-16T11:16:39.902380] Translated: [0, 0, 0, 2, 2]
+[2025-06-16T11:16:39.902380] Turn 100: We are damned
+[2025-06-16T11:16:39.902380] Turn 100: Guess: phono
+[2025-06-16T11:16:43.530941] Turn 101: Received feedback: 'p' is not in the word. 'h' is not in the word. 'o' is not in the word. 'n' is not in the word. 'o' is not in the word.
+[2025-06-16T11:16:43.530941] Translated: [0, 0, 0, 0, 0]
+[2025-06-16T11:16:43.530941] Turn 101: We are damned
+[2025-06-16T11:16:43.530941] Turn 101: Guess: greek
+[2025-06-16T11:16:47.445385] Turn 102: Received feedback: 'g' is not in the word. 'r' is not in the word. 'e' is not in the word. 'e' is not in the word. 'k' is in the word but in the wrong position.
+[2025-06-16T11:16:47.445385] Translated: [0, 0, 0, 0, 1]
+[2025-06-16T11:16:47.445385] Turn 102: We are damned
+[2025-06-16T11:16:47.445385] Turn 102: Guess: gyves
+[2025-06-16T11:16:51.287536] Turn 103: Received feedback: 'g' is not in the word. 'y' is not in the word. 'v' is not in the word. 'e' is not in the word. 's' is in the correct position.
+[2025-06-16T11:16:51.289569] Translated: [0, 0, 0, 0, 2]
+[2025-06-16T11:16:51.289569] Turn 103: We are damned
+[2025-06-16T11:16:51.289569] Turn 103: Guess: folly
+[2025-06-16T11:16:54.613075] Turn 104: Received feedback: 'f' is not in the word. 'o' is not in the word. 'l' is not in the word. 'l' is not in the word. 'y' is not in the word.
+[2025-06-16T11:16:54.613075] Translated: [0, 0, 0, 0, 0]
+[2025-06-16T11:16:54.613075] Turn 104: We are damned
+[2025-06-16T11:16:54.613075] Turn 104: Guess: rudas
+[2025-06-16T11:16:58.499738] Turn 105: Received feedback: 'r' is not in the word. 'u' is not in the word. 'd' is not in the word. 'a' is in the word but in the wrong position. 's' is in the correct position.
+[2025-06-16T11:16:58.499738] Translated: [0, 0, 0, 1, 2]
+[2025-06-16T11:16:58.499738] Turn 105: We are damned
+[2025-06-16T11:16:58.499738] Turn 105: Guess: crape
+[2025-06-16T11:17:02.182547] Turn 106: Received feedback: 'c' is not in the word. 'r' is not in the word. 'a' is in the word but in the wrong position. 'p' is not in the word. 'e' is not in the word.
+[2025-06-16T11:17:02.182547] Translated: [0, 0, 1, 0, 0]
+[2025-06-16T11:17:02.182547] Turn 106: We are damned
+[2025-06-16T11:17:02.182547] Turn 106: Guess: toses
+[2025-06-16T11:17:05.788693] Turn 107: Received feedback: 't' is not in the word. 'o' is not in the word. 's' is not in the word. 'e' is not in the word. 's' is in the correct position.
+[2025-06-16T11:17:05.788693] Translated: [0, 0, 0, 0, 2]
+[2025-06-16T11:17:05.788693] Turn 107: We are damned
+[2025-06-16T11:17:05.788693] Turn 107: Guess: ogmic
+[2025-06-16T11:17:09.637935] Turn 108: Received feedback: 'o' is not in the word. 'g' is not in the word. 'm' is not in the word. 'i' is in the correct position. 'c' is not in the word.
+[2025-06-16T11:17:09.637935] Translated: [0, 0, 0, 2, 0]
+[2025-06-16T11:17:09.637935] Turn 108: We are damned
+[2025-06-16T11:17:09.637935] Turn 108: Guess: jauks
+[2025-06-16T11:17:13.372962] Turn 109: Received feedback: 'j' is not in the word. 'a' is in the correct position. 'u' is not in the word. 'k' is in the word but in the wrong position. 's' is in the correct position.
+[2025-06-16T11:17:13.372962] Translated: [0, 2, 0, 1, 2]
+[2025-06-16T11:17:13.372962] Turn 109: We are damned
+[2025-06-16T11:17:13.372962] Turn 109: Guess: treed
+[2025-06-16T11:17:16.740482] Turn 110: Received feedback: 't' is not in the word. 'r' is not in the word. 'e' is not in the word. 'e' is not in the word. 'd' is not in the word.
+[2025-06-16T11:17:16.740482] Translated: [0, 0, 0, 0, 0]
+[2025-06-16T11:17:16.740482] Turn 110: We are damned
+[2025-06-16T11:17:16.740482] Turn 110: Guess: roble
+[2025-06-16T11:17:20.674955] Turn 111: Received feedback: 'r' is not in the word. 'o' is not in the word. 'b' is not in the word. 'l' is not in the word. 'e' is not in the word.
+[2025-06-16T11:17:20.674955] Translated: [0, 0, 0, 0, 0]
+[2025-06-16T11:17:20.674955] Turn 111: We are damned
+[2025-06-16T11:17:20.674955] Turn 111: Guess: carbs
+[2025-06-16T11:17:24.522774] Turn 112: Received feedback: 'c' is not in the word. 'a' is in the correct position. 'r' is not in the word. 'b' is not in the word. 's' is in the correct position.
+[2025-06-16T11:17:24.522774] Translated: [0, 2, 0, 0, 2]
+[2025-06-16T11:17:24.522774] Turn 112: We are damned
+[2025-06-16T11:17:24.522774] Turn 112: Guess: ratoo
+[2025-06-16T11:17:29.177296] Turn 113: Received feedback: 'r' is not in the word. 'a' is in the correct position. 't' is not in the word. 'o' is not in the word. 'o' is not in the word.
+[2025-06-16T11:17:29.179313] Translated: [0, 2, 0, 0, 0]
+[2025-06-16T11:17:29.179313] Turn 113: We are damned
+[2025-06-16T11:17:29.179313] Turn 113: Guess: citer
+[2025-06-16T11:17:34.720683] Turn 114: Received feedback: 'c' is not in the word. 'i' is in the word but in the wrong position. 't' is not in the word. 'e' is not in the word. 'r' is not in the word.
+[2025-06-16T11:17:34.720683] Translated: [0, 1, 0, 0, 0]
+[2025-06-16T11:17:34.720683] Turn 114: We are damned
+[2025-06-16T11:17:34.720683] Turn 114: Guess: hulks
+[2025-06-16T11:17:38.371930] Turn 115: Received feedback: 'h' is not in the word. 'u' is not in the word. 'l' is not in the word. 'k' is in the word but in the wrong position. 's' is in the correct position.
+[2025-06-16T11:17:38.371930] Translated: [0, 0, 0, 1, 2]
+[2025-06-16T11:17:38.373600] Turn 115: We are damned
+[2025-06-16T11:17:38.373600] Turn 115: Guess: sinhs

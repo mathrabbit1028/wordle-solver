@@ -138,6 +138,7 @@ class Solver:
         Guess: {guess}  
         Feedback: {verbal_feedback}
         '''
+        
         response = (
             complete(
                 model=self.model,
@@ -162,6 +163,25 @@ class Solver:
         guess_history = self.problems[problem_id]["guess_history"]
 
         def query_res(word, ans):
+            dict = {}
+            for c in ans:
+                if c in dict:
+                    dict[c] += 1
+                else:
+                    dict[c] = 1
+
+            res = []
+            for cw, ca in zip(word, ans):
+                if cw == ca:
+                    res.append(2)
+                    dict[cw] -= 1
+                elif (cw not in dict) or dict[cw] == 0:
+                    res.append(0)
+                else:
+                    res.append(1)
+                    dict[cw]-=1
+            return res
+            # below is legacy code
             def get_t(word: str, ans: str, i: int) -> int:
                 cnt: int = 0
                 for j in range(5):
