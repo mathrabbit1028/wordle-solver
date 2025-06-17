@@ -145,3 +145,368 @@ response: [1, 1, 0, 0, 2], raw_feedback: [1, 1, 0, 0, 2], time computed: 2.45725
 response: [0, 1, 1, 1, 0], raw_feedback: [0, 1, 1, 1, 0], time computed: 3.0803520679473877
 response: [1, 1, 0, 1, 0], raw_feedback: [1, 1, 0, 1, 0], time computed: 2.4547688961029053
 response: [0, 0, 2, 2, 1], raw_feedback: [0, 0, 2, 2, 1], time computed: 2.94870924949646
+testing 0th prompt
+testing 0th prompt
+response: [0, 0, 0, 0, 0], raw_feedback: [1, 1, 1, 0, 0], time computed: 1.6685118675231934
+the response is wrong.
+verbal feedback: here's the description of the wordle feedback for the guess word "curns":
+the
+
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 1, 1, 1, 0], time computed: 1.9228322505950928
+the response is wrong.
+verbal feedback: here's the description of the wordle feedback for the guess word "chams":
+the
+
+response: [0, 0, 0, 0, 0], raw_feedback: [1, 0, 0, 2, 2], time computed: 1.2724957466125488
+the response is wrong.
+verbal feedback: here's the description of the wordle feedback for the guess word "oaked":
+the
+
+response: [0, 0, 0, 0, 0], raw_feedback: [1, 2, 0, 0, 1], time computed: 1.6541242599487305
+the response is wrong.
+verbal feedback: here's the description of the wordle feedback for the guess word "meows":
+-
+
+response: [0, 0, 0, 0, 0], raw_feedback: [1, 1, 0, 0, 2], time computed: 1.8058195114135742
+the response is wrong.
+verbal feedback: here's the description of the wordle feedback for the guess word "enows":
+the
+
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 1, 1, 1, 0], time computed: 2.012704849243164
+the response is wrong.
+verbal feedback: here's the description of the wordle feedback for the guess word "pudor":
+the
+
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 1, 1, 0, 1], time computed: 1.6376023292541504
+the response is wrong.
+verbal feedback: here's the description of the wordle feedback for the guess word "cries":
+the
+
+testing 0th prompt
+response: [1, 1, 2, 1, 0], raw_feedback: [1, 1, 2, 0, 1], time computed: 1.5749359130859375
+the response is wrong.
+verbal feedback: here's the description of the wordle feedback for the guess word "narky":
+the first letter 'n' appears somewhere else in the target word. the second letter 'a' is also present but in a different position. the third letter 'r' is perfectly placed. the fourth letter 'k' is not in the target word at all. the last letter 'y' exists in the target word but needs to be moved to a different position.
+
+response: [0, 2, 1, 1, 0], raw_feedback: [0, 2, 1, 1, 0], time computed: 1.7340645790100098
+response: [0, 0, 2, 1, 1], raw_feedback: [0, 0, 2, 1, 1], time computed: 2.410832166671753
+response: [1, 2, 1, 0, 0], raw_feedback: [1, 2, 0, 1, 0], time computed: 2.72694993019104
+the response is wrong.
+verbal feedback: here's the description of the wordle feedback for the guess word "sheal":
+- the 's' appears somewhere else in the word
+- the 'h' is in the correct position
+- the 'e' is not in the word at all
+- the 'a' appears somewhere else in the word
+- the 'l' is not in the word at all
+
+response: [0, 0, 1, 2, 1], raw_feedback: [0, 0, 1, 2, 1], time computed: 1.8067739009857178
+response: [0, 1, 0, 1, 0], raw_feedback: [0, 1, 2, 0, 1], time computed: 1.4271767139434814
+the response is wrong.
+verbal feedback: here's the description of the wordle feedback for the guess word "poind":
+- the 'p' is not present in the target word
+- the 'o' appears in the target word but is in a different position
+- the 'i' is correctly placed in the target word
+- the 'n' is not present in the target word
+- the 'd' appears in the target word but is in a different position
+
+response: [1, 1, 0, 0, 2], raw_feedback: [1, 1, 0, 0, 2], time computed: 2.14475154876709
+response: [1, 0, 0, 1, 1], raw_feedback: [1, 0, 0, 1, 1], time computed: 1.9568233489990234
+response: [0, 2, 1, 0, 2], raw_feedback: [0, 2, 1, 0, 2], time computed: 1.700465202331543
+response: [1, 0, 1, 0, 2], raw_feedback: [1, 0, 1, 0, 2], time computed: 2.106412649154663
+testing 1th prompt
+response: [1, 1, 2, 0, 1], raw_feedback: [1, 1, 2, 0, 1], time computed: 1.1566691398620605
+response: [0, 2, 1, 1, 0], raw_feedback: [0, 2, 1, 1, 0], time computed: 2.011726140975952
+response: [0, 0, 2, 1, 1], raw_feedback: [0, 0, 2, 1, 1], time computed: 2.4244296550750732
+response: [1, 2, 0, 1, 0], raw_feedback: [1, 2, 0, 1, 0], time computed: 1.9710259437561035
+response: [0, 0, 1, 2, 1], raw_feedback: [0, 0, 1, 2, 1], time computed: 1.5517868995666504
+response: [0, 1, 2, 0, 1], raw_feedback: [0, 1, 2, 0, 1], time computed: 1.950679063796997
+response: [1, 1, 0, 0, 2], raw_feedback: [1, 1, 0, 0, 2], time computed: 1.736997127532959
+response: [1, 0, 0, 1, 1], raw_feedback: [1, 0, 0, 1, 1], time computed: 1.710578441619873
+response: [0, 2, 1, 0, 2], raw_feedback: [0, 2, 1, 0, 2], time computed: 1.8418006896972656
+response: [1, 0, 1, 0, 2], raw_feedback: [1, 0, 1, 0, 2], time computed: 2.2000467777252197
+testing 0th prompt
+response: [0, 2, 2, 2, 0], raw_feedback: [0, 2, 2, 2, 0], time computed: 1.7452855110168457
+response: [2, 2, 1, 1, 0], raw_feedback: [2, 2, 1, 1, 0], time computed: 2.410649538040161
+response: [2, 2, 0, 2, 0], raw_feedback: [2, 2, 0, 2, 0], time computed: 1.7397055625915527
+response: [1, 2, 0, 0, 2], raw_feedback: [1, 2, 0, 0, 2], time computed: 2.2043185234069824
+response: [0, 2, 1, 0, 2], raw_feedback: [0, 2, 0, 1, 2], time computed: 2.3046839237213135
+the response is wrong.
+verbal feedback: for the guess word "rasps", here's what we know:
+- the first 'r' is not present in the target word
+- the 'a' is in the correct position
+- the 's' in the middle is not in the target word
+- the 'p' appears in the target word but needs to be in a different position
+- the final 's' is exactly where it should be
+
+response: [0, 1, 0, 1, 2], raw_feedback: [0, 1, 0, 1, 2], time computed: 1.6570093631744385
+response: [0, 0, 2, 2, 2], raw_feedback: [0, 0, 2, 2, 2], time computed: 1.61909818649292
+response: [1, 2, 1, 0, 0], raw_feedback: [1, 2, 1, 0, 1], time computed: 1.9474248886108398
+the response is wrong.
+verbal feedback: here's the description of the wordle feedback for the guess word "miaul":
+the letter 'm' appears somewhere else in the word, 'i' is in exactly the right spot, 'a' appears somewhere else in the word, 'u' is not in the word at all, and 'l' appears somewhere else in the word.
+
+response: [0, 1, 1, 0, 2], raw_feedback: [0, 1, 1, 0, 2], time computed: 4.3416748046875
+response: [0, 1, 0, 1, 1], raw_feedback: [0, 1, 0, 1, 1], time computed: 1.928175926208496
+response: [0, 1, 2, 2, 0], raw_feedback: [0, 1, 2, 2, 0], time computed: 2.224036455154419
+response: [0, 1, 2, 1, 0], raw_feedback: [0, 1, 2, 1, 0], time computed: 1.9330182075500488
+response: [1, 1, 0, 0, 2], raw_feedback: [1, 1, 0, 0, 2], time computed: 1.8911006450653076
+response: [1, 2, 0, 2, 2], raw_feedback: [1, 2, 0, 0, 2], time computed: 2.432433843612671
+the response is wrong.
+verbal feedback: here's the description of the wordle feedback for the guess word "seaze":
+the first 's' appears somewhere else in the word, the 'e' is in the correct position, 'a' is not in the word at all, 'z' is not in the word at all, and the last 'e' is in the correct position.
+
+response: [2, 2, 2, 0, 2], raw_feedback: [2, 2, 2, 0, 2], time computed: 1.572664737701416
+response: [0, 0, 2, 2, 2], raw_feedback: [0, 0, 2, 2, 2], time computed: 1.5781443119049072
+response: [1, 0, 0, 2, 1], raw_feedback: [1, 0, 0, 2, 1], time computed: 1.8620407581329346
+response: [1, 1, 1, 1, 0], raw_feedback: [1, 1, 1, 1, 0], time computed: 1.9974706172943115
+response: [1, 1, 1, 0, 1], raw_feedback: [1, 1, 1, 0, 1], time computed: 1.5145556926727295
+response: [1, 1, 1, 0, 2], raw_feedback: [1, 1, 0, 1, 2], time computed: 1.7612135410308838
+the response is wrong.
+verbal feedback: here's the description of the wordle feedback for the guess word "ombre":
+- the 'o' appears in the word but in a different position
+- the 'm' appears in the word but in a different position
+- the 'b' is not in the word at all
+- the 'r' appears in the word but in a different position
+- the 'e' is correctly placed in this position
+
+response: [1, 1, 2, 0, 0], raw_feedback: [1, 1, 2, 0, 0], time computed: 2.761496067047119
+response: [0, 2, 1, 1, 0], raw_feedback: [0, 2, 1, 1, 0], time computed: 2.321509599685669
+response: [1, 0, 0, 1, 1], raw_feedback: [1, 0, 0, 1, 1], time computed: 2.85298490524292
+response: [1, 0, 1, 2, 2], raw_feedback: [1, 0, 1, 2, 2], time computed: 1.4571459293365479
+response: [2, 1, 0, 0, 2], raw_feedback: [2, 1, 0, 0, 2], time computed: 2.953434467315674
+response: [1, 1, 0, 1, 0], raw_feedback: [1, 1, 0, 1, 0], time computed: 2.1705894470214844
+response: [0, 1, 1, 0, 2], raw_feedback: [0, 1, 1, 0, 2], time computed: 2.1316497325897217
+response: [0, 0, 1, 2, 1], raw_feedback: [0, 0, 1, 2, 1], time computed: 1.8536334037780762
+response: [0, 2, 0, 1, 1], raw_feedback: [0, 2, 0, 1, 1], time computed: 1.5609509944915771
+response: [0, 1, 0, 2, 1], raw_feedback: [0, 1, 0, 2, 1], time computed: 1.7618067264556885
+testing 1th prompt
+response: [0, 2, 2, 2, 0], raw_feedback: [0, 2, 2, 2, 0], time computed: 1.87394118309021
+response: [2, 2, 1, 1, 0], raw_feedback: [2, 2, 1, 1, 0], time computed: 3.7269418239593506
+response: [2, 2, 0, 2, 0], raw_feedback: [2, 2, 0, 2, 0], time computed: 2.014989137649536
+response: [1, 2, 0, 0, 2], raw_feedback: [1, 2, 0, 0, 2], time computed: 2.3652842044830322
+response: [0, 2, 0, 1, 2], raw_feedback: [0, 2, 0, 1, 2], time computed: 1.721118450164795
+response: [0, 1, 0, 1, 2], raw_feedback: [0, 1, 0, 1, 2], time computed: 3.9145138263702393
+response: [0, 0, 2, 2, 2], raw_feedback: [0, 0, 2, 2, 2], time computed: 1.9095771312713623
+response: [1, 2, 1, 0, 1], raw_feedback: [1, 2, 1, 0, 1], time computed: 1.9401321411132812
+response: [0, 1, 1, 0, 2], raw_feedback: [0, 1, 1, 0, 2], time computed: 2.3277220726013184
+response: [0, 1, 0, 1, 1], raw_feedback: [0, 1, 0, 1, 1], time computed: 2.3223586082458496
+response: [0, 1, 2, 2, 0], raw_feedback: [0, 1, 2, 2, 0], time computed: 1.8541035652160645
+response: [0, 1, 2, 1, 0], raw_feedback: [0, 1, 2, 1, 0], time computed: 2.2331087589263916
+response: [1, 1, 0, 0, 2], raw_feedback: [1, 1, 0, 0, 2], time computed: 2.087533950805664
+response: [1, 2, 0, 0, 2], raw_feedback: [1, 2, 0, 0, 2], time computed: 2.444300413131714
+response: [2, 2, 2, 2, 0], raw_feedback: [2, 2, 2, 0, 2], time computed: 5.5127949714660645
+the response is wrong.
+verbal feedback: for the guess word "dunsh", the first letter 'd' is in the correct position, the second letter 'u' is in the correct position, the third letter 'n' is in the correct position, the fourth letter 's' is not in the word at all, and the fifth letter 'h' is in the correct position.
+
+response: [0, 0, 2, 2, 2], raw_feedback: [0, 0, 2, 2, 2], time computed: 4.6390204429626465
+response: [1, 0, 0, 2, 1], raw_feedback: [1, 0, 0, 2, 1], time computed: 1.5408406257629395
+response: [1, 1, 1, 1, 0], raw_feedback: [1, 1, 1, 1, 0], time computed: 1.5115602016448975
+response: [1, 1, 1, 1, 0], raw_feedback: [1, 1, 1, 0, 1], time computed: 3.9576354026794434
+the response is wrong.
+verbal feedback: here's the description of the wordle feedback for the guess word "neist":
+the letter 'n' appears in the word but is in the wrong position.
+the letter 'e' appears in the word but is in the wrong position.
+the letter 'i' appears in the word but is in the wrong position.
+the letter 's' is not in the word at all.
+the letter 't' appears in the word but is in the wrong position.
+
+response: [1, 1, 1, 0, 2], raw_feedback: [1, 1, 0, 1, 2], time computed: 2.0768277645111084
+the response is wrong.
+verbal feedback: here's the description of the wordle feedback for the guess word "ombre":
+- the 'o' appears in the word but in a different position
+- the 'm' appears in the word but in a different position
+- the 'b' is not in the word at all
+- the 'r' appears in the word but in a different position
+- the 'e' is correctly placed in this position
+
+response: [1, 1, 2, 0, 0], raw_feedback: [1, 1, 2, 0, 0], time computed: 1.7950689792633057
+response: [0, 2, 1, 1, 0], raw_feedback: [0, 2, 1, 1, 0], time computed: 1.4212584495544434
+response: [1, 0, 0, 1, 1], raw_feedback: [1, 0, 0, 1, 1], time computed: 2.2016191482543945
+response: [1, 0, 1, 2, 2], raw_feedback: [1, 0, 1, 2, 2], time computed: 2.1284754276275635
+response: [2, 1, 0, 0, 2], raw_feedback: [2, 1, 0, 0, 2], time computed: 2.395369529724121
+response: [1, 1, 0, 1, 0], raw_feedback: [1, 1, 0, 1, 0], time computed: 1.9138569831848145
+response: [0, 1, 1, 0, 2], raw_feedback: [0, 1, 1, 0, 2], time computed: 1.6792089939117432
+response: [0, 0, 1, 2, 1], raw_feedback: [0, 0, 1, 2, 1], time computed: 2.141679525375366
+response: [0, 2, 0, 1, 1], raw_feedback: [0, 2, 0, 1, 1], time computed: 1.3441550731658936
+response: [0, 1, 0, 2, 1], raw_feedback: [0, 1, 0, 2, 1], time computed: 1.6820933818817139
+testing 0th prompt
+response: [2, 1, 0, 0, 0], raw_feedback: [2, 1, 0, 0, 0], time computed: 1.9907491207122803
+response: [0, 0, 0, 0, 2], raw_feedback: [0, 0, 0, 0, 2], time computed: 1.6678240299224854
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 2.0633022785186768
+response: [0, 2, 0, 0, 0], raw_feedback: [0, 2, 0, 0, 0], time computed: 2.0877580642700195
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 2.6297357082366943
+response: [0, 2, 0, 0, 0], raw_feedback: [0, 2, 0, 0, 0], time computed: 3.7109875679016113
+response: [1, 0, 0, 0, 1], raw_feedback: [1, 0, 0, 0, 1], time computed: 1.8457798957824707
+response: [0, 0, 2, 1, 0], raw_feedback: [0, 0, 0, 2, 1], time computed: 2.4352777004241943
+the response is wrong.
+verbal feedback: for the guess word "cohen": the letters 'c', 'o', and 'h' are not present in the target word at all. the letter 'e' is in exactly the right position. the letter 'n' appears in the target word but needs to be in a different position.
+
+response: [1, 1, 0, 0, 2], raw_feedback: [1, 1, 0, 0, 2], time computed: 1.8319604396820068
+response: [0, 1, 0, 0, 2], raw_feedback: [0, 1, 0, 0, 2], time computed: 1.9541261196136475
+testing 0th prompt
+response: [0, 0, 0, 0, 1], raw_feedback: [0, 0, 0, 0, 1], time computed: 3.926241874694824
+response: [1, 0, 0, 1, 1], raw_feedback: [1, 0, 0, 1, 1], time computed: 2.7804319858551025
+response: [1, 0, 0, 0, 0], raw_feedback: [1, 0, 0, 0, 0], time computed: 5.269925594329834
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 1.7144906520843506
+response: [0, 0, 0, 0, 2], raw_feedback: [0, 0, 0, 0, 2], time computed: 2.6459786891937256
+response: [0, 0, 0, 1, 2], raw_feedback: [0, 0, 0, 1, 2], time computed: 1.7900681495666504
+response: [2, 0, 0, 0, 2], raw_feedback: [2, 0, 0, 0, 2], time computed: 1.9503319263458252
+response: [1, 0, 1, 0, 1], raw_feedback: [1, 0, 1, 0, 1], time computed: 2.4417500495910645
+response: [0, 0, 1, 0, 0], raw_feedback: [0, 0, 1, 0, 0], time computed: 2.7868242263793945
+response: [0, 1, 0, 0, 0], raw_feedback: [0, 0, 1, 0, 0], time computed: 3.6519384384155273
+the response is wrong.
+verbal feedback: for the guess word "mesic", the letter 's' appears somewhere else in the target word, while all other letters ('m', 'e', 'i', and 'c') are not present in the target word at all.
+
+testing 1th prompt
+response: [0, 0, 0, 0, 1], raw_feedback: [0, 0, 0, 0, 1], time computed: 2.2828075885772705
+response: [1, 0, 0, 1, 1], raw_feedback: [1, 0, 0, 1, 1], time computed: 1.6524736881256104
+response: [1, 0, 0, 0, 0], raw_feedback: [1, 0, 0, 0, 0], time computed: 1.8897769451141357
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 4.079731225967407
+response: [0, 0, 0, 0, 2], raw_feedback: [0, 0, 0, 0, 2], time computed: 1.9547576904296875
+response: [0, 0, 0, 1, 2], raw_feedback: [0, 0, 0, 1, 2], time computed: 1.856048822402954
+response: [2, 0, 0, 0, 2], raw_feedback: [2, 0, 0, 0, 2], time computed: 2.2518458366394043
+response: [1, 0, 1, 0, 1], raw_feedback: [1, 0, 1, 0, 1], time computed: 3.856104850769043
+response: [0, 0, 1, 0, 0], raw_feedback: [0, 0, 1, 0, 0], time computed: 1.872798204421997
+response: [0, 1, 0, 0, 0], raw_feedback: [0, 0, 1, 0, 0], time computed: 1.6442694664001465
+the response is wrong.
+verbal feedback: for the guess word "mesic", the letter 's' appears somewhere else in the target word, while all other letters ('m', 'e', 'i', and 'c') are not present in the target word at all.
+
+testing 2th prompt
+response: [0, 0, 0, 0, 1], raw_feedback: [0, 0, 0, 0, 1], time computed: 2.3860890865325928
+response: [1, 0, 0, 1, 1], raw_feedback: [1, 0, 0, 1, 1], time computed: 1.8121058940887451
+response: [1, 0, 0, 0, 0], raw_feedback: [1, 0, 0, 0, 0], time computed: 2.0206973552703857
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 1.769390344619751
+response: [0, 0, 0, 0, 2], raw_feedback: [0, 0, 0, 0, 2], time computed: 1.8430993556976318
+response: [0, 0, 0, 1, 2], raw_feedback: [0, 0, 0, 1, 2], time computed: 1.5712640285491943
+response: [2, 0, 0, 0, 2], raw_feedback: [2, 0, 0, 0, 2], time computed: 1.5482189655303955
+response: [1, 0, 1, 0, 1], raw_feedback: [1, 0, 1, 0, 1], time computed: 3.5573055744171143
+response: [0, 0, 1, 0, 0], raw_feedback: [0, 0, 1, 0, 0], time computed: 1.5817492008209229
+response: [0, 1, 0, 0, 0], raw_feedback: [0, 0, 1, 0, 0], time computed: 1.8944673538208008
+the response is wrong.
+verbal feedback: for the guess word "mesic", the letter 's' appears somewhere else in the target word, while all other letters ('m', 'e', 'i', and 'c') are not present in the target word at all.
+
+testing 0th prompt
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 4.734044075012207
+response: [0, 1, 0, 0, 0], raw_feedback: [0, 1, 0, 0, 0], time computed: 2.4515552520751953
+response: [0, 0, 1, 0, 0], raw_feedback: [0, 1, 0, 0, 0], time computed: 3.78426194190979
+the response is wrong.
+verbal feedback: for the guess word "shews", the letter 'h' appears somewhere else in the target word, while all other letters ('s', 'e', 'w', and the last 's') are not present in the target word at all.
+
+response: [0, 0, 0, 0, 1], raw_feedback: [0, 0, 0, 0, 1], time computed: 1.8579676151275635
+response: [1, 0, 0, 0, 0], raw_feedback: [1, 0, 0, 0, 0], time computed: 2.2271881103515625
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 2.2154018878936768
+response: [0, 2, 0, 0, 2], raw_feedback: [0, 2, 0, 0, 2], time computed: 1.7503986358642578
+response: [1, 0, 0, 0, 1], raw_feedback: [1, 0, 0, 0, 1], time computed: 2.6553730964660645
+response: [0, 0, 1, 1, 0], raw_feedback: [0, 0, 1, 0, 1], time computed: 2.0274178981781006
+the response is wrong.
+verbal feedback: for the guess word "schwa": the first letter 's', second letter 'c', and fourth letter 'w' are not present in the target word at all. the third letter 'h' and the last letter 'a' appear somewhere in the target word, but they are currently in the wrong positions.
+
+response: [1, 2, 0, 0, 0], raw_feedback: [1, 2, 0, 0, 0], time computed: 2.184020757675171
+testing 1th prompt
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 2.5230648517608643
+response: [0, 1, 0, 0, 0], raw_feedback: [0, 1, 0, 0, 0], time computed: 1.8604187965393066
+response: [0, 1, 0, 0, 0], raw_feedback: [0, 1, 0, 0, 0], time computed: 2.6508982181549072
+response: [0, 0, 0, 0, 1], raw_feedback: [0, 0, 0, 0, 1], time computed: 1.8665781021118164
+response: [1, 0, 0, 0, 0], raw_feedback: [1, 0, 0, 0, 0], time computed: 2.133920669555664
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 2.0590925216674805
+response: [0, 2, 0, 0, 2], raw_feedback: [0, 2, 0, 0, 2], time computed: 2.0177321434020996
+response: [1, 0, 0, 0, 1], raw_feedback: [1, 0, 0, 0, 1], time computed: 1.7470474243164062
+response: [0, 0, 1, 0, 1], raw_feedback: [0, 0, 1, 0, 1], time computed: 4.2119832038879395
+response: [1, 2, 0, 0, 0], raw_feedback: [1, 2, 0, 0, 0], time computed: 1.9018020629882812
+testing 2th prompt
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 2.418787956237793
+response: [0, 1, 0, 0, 0], raw_feedback: [0, 1, 0, 0, 0], time computed: 2.10573410987854
+response: [0, 1, 0, 0, 0], raw_feedback: [0, 1, 0, 0, 0], time computed: 2.2237536907196045
+response: [0, 0, 0, 0, 1], raw_feedback: [0, 0, 0, 0, 1], time computed: 1.6007990837097168
+response: [1, 0, 0, 0, 0], raw_feedback: [1, 0, 0, 0, 0], time computed: 2.0275614261627197
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 1.5397164821624756
+response: [0, 2, 0, 0, 2], raw_feedback: [0, 2, 0, 0, 2], time computed: 2.7163259983062744
+response: [1, 0, 0, 0, 1], raw_feedback: [1, 0, 0, 0, 1], time computed: 2.250258207321167
+response: [0, 0, 0, 1, 1], raw_feedback: [0, 0, 1, 0, 1], time computed: 3.2665092945098877
+the response is wrong.
+verbal feedback: for the guess word "schwa": the first letter 's', second letter 'c', and fourth letter 'w' are not present in the target word at all. the third letter 'h' and the last letter 'a' appear somewhere in the target word, but they are currently in the wrong positions.
+
+response: [1, 2, 0, 0, 0], raw_feedback: [1, 2, 0, 0, 0], time computed: 2.3872504234313965
+testing 0th prompt
+response: [0, 2, 0, 0, 0], raw_feedback: [0, 2, 0, 0, 0], time computed: 1.8228976726531982
+response: [0, 0, 0, 0, 2], raw_feedback: [0, 0, 0, 0, 2], time computed: 2.3477964401245117
+response: [0, 0, 0, 1, 0], raw_feedback: [0, 0, 0, 1, 0], time computed: 2.085657835006714
+response: [0, 0, 0, 0, 1], raw_feedback: [0, 0, 0, 0, 1], time computed: 1.6257529258728027
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 1.9461116790771484
+response: [0, 0, 1, 0, 0], raw_feedback: [0, 0, 1, 0, 0], time computed: 1.913940191268921
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 1.8653650283813477
+response: [0, 0, 0, 1, 0], raw_feedback: [0, 0, 0, 1, 0], time computed: 1.750037431716919
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 2.9734041690826416
+response: [0, 0, 0, 1, 0], raw_feedback: [0, 0, 0, 1, 0], time computed: 2.527534246444702
+testing 1th prompt
+response: [0, 0, 2, 0, 0], raw_feedback: [0, 2, 0, 0, 0], time computed: 1.6361057758331299
+the response is wrong.
+verbal feedback: for the guess word "labor", the letter 'a' is in the correct position, while the letters 'l', 'b', 'o', and 'r' are not present in the target word at all.
+
+response: [0, 0, 0, 0, 2], raw_feedback: [0, 0, 0, 0, 2], time computed: 1.9624269008636475
+response: [0, 0, 0, 1, 0], raw_feedback: [0, 0, 0, 1, 0], time computed: 1.674574375152588
+response: [0, 0, 0, 0, 1], raw_feedback: [0, 0, 0, 0, 1], time computed: 8.542073249816895
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 2.5485892295837402
+response: [0, 0, 1, 0, 0], raw_feedback: [0, 0, 1, 0, 0], time computed: 3.1852235794067383
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 2.169398784637451
+response: [0, 0, 0, 1, 0], raw_feedback: [0, 0, 0, 1, 0], time computed: 2.9776642322540283
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 2.258744716644287
+response: [0, 0, 0, 1, 0], raw_feedback: [0, 0, 0, 1, 0], time computed: 1.9011199474334717
+testing 2th prompt
+response: [0, 2, 0, 0, 0], raw_feedback: [0, 2, 0, 0, 0], time computed: 1.9647865295410156
+response: [0, 0, 0, 0, 2], raw_feedback: [0, 0, 0, 0, 2], time computed: 2.383871555328369
+response: [0, 0, 0, 1, 0], raw_feedback: [0, 0, 0, 1, 0], time computed: 1.6516921520233154
+response: [0, 0, 0, 0, 1], raw_feedback: [0, 0, 0, 0, 1], time computed: 1.9312758445739746
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 1.6142773628234863
+response: [0, 0, 1, 0, 0], raw_feedback: [0, 0, 1, 0, 0], time computed: 1.8424818515777588
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 1.8200643062591553
+response: [0, 0, 0, 1, 0], raw_feedback: [0, 0, 0, 1, 0], time computed: 2.00937819480896
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 1.9133427143096924
+response: [0, 0, 0, 1, 0], raw_feedback: [0, 0, 0, 1, 0], time computed: 2.746946334838867
+testing 0th prompt
+response: [0, 2, 1, 0, 0], raw_feedback: [0, 2, 1, 0, 0], time computed: 2.353870153427124
+response: [0, 0, 0, 0, 1], raw_feedback: [0, 0, 0, 0, 1], time computed: 2.0736582279205322
+response: [0, 0, 0, 0, 1], raw_feedback: [0, 0, 0, 0, 1], time computed: 3.742886543273926
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 2.4178154468536377
+response: [0, 0, 1, 1, 0], raw_feedback: [0, 0, 1, 0, 1], time computed: 2.0804097652435303
+the response is wrong.
+verbal feedback: looking at the guess word "croze", the first letter "c", second letter "r", and fourth letter "z" are not present in the target word at all. however, the third letter "o" and the last letter "e" do exist in the target word but need to be moved to different positions to be correct.
+
+response: [0, 1, 0, 0, 0], raw_feedback: [0, 1, 0, 0, 0], time computed: 2.4390015602111816
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 3.0560970306396484
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 1.9757542610168457
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 1.903036117553711
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 1.8843469619750977
+testing 1th prompt
+response: [0, 2, 1, 0, 0], raw_feedback: [0, 2, 1, 0, 0], time computed: 2.0807759761810303
+response: [0, 0, 0, 0, 1], raw_feedback: [0, 0, 0, 0, 1], time computed: 1.7654328346252441
+response: [0, 0, 0, 0, 1], raw_feedback: [0, 0, 0, 0, 1], time computed: 2.049553155899048
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 1.8563532829284668
+response: [0, 0, 1, 1, 0], raw_feedback: [0, 0, 1, 0, 1], time computed: 1.8928062915802002
+the response is wrong.
+verbal feedback: looking at the guess word "croze", the first letter "c", second letter "r", and fourth letter "z" are not present in the target word at all. however, the third letter "o" and the last letter "e" do exist in the target word but need to be moved to different positions to be correct.
+
+response: [0, 1, 0, 0, 0], raw_feedback: [0, 1, 0, 0, 0], time computed: 2.0180113315582275
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 1.6460657119750977
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 4.026447057723999
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 2.6250154972076416
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 2.3125667572021484
+testing 2th prompt
+response: [0, 2, 0, 0, 1], raw_feedback: [0, 2, 1, 0, 0], time computed: 3.187828302383423
+the response is wrong.
+verbal feedback: for the guess word "cabal":
+- the first letter 'c' is not present in the target word
+- the second letter 'a' is in exactly the right position
+- the third letter 'b' appears somewhere in the target word, but not in this position
+- the fourth letter 'a' is not present in the target word
+- the last letter 'l' is not present in the target word
+
+response: [0, 0, 0, 0, 1], raw_feedback: [0, 0, 0, 0, 1], time computed: 2.156453847885132
+response: [0, 0, 0, 0, 1], raw_feedback: [0, 0, 0, 0, 1], time computed: 1.856093168258667
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 1.4514737129211426
+response: [0, 0, 1, 0, 1], raw_feedback: [0, 0, 1, 0, 1], time computed: 1.8500852584838867
+response: [0, 1, 0, 0, 0], raw_feedback: [0, 1, 0, 0, 0], time computed: 2.0093913078308105
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 1.4582569599151611
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 2.8845713138580322
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 1.84787917137146
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 2.031240224838257

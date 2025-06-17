@@ -64,89 +64,44 @@ class Solver:
             self.problems[problem_id]["translated_feedback"].append(self.translate(verbal_feedback, last_guess))
 
     def translate(self, verbal_feedback, guess):
-        # new try, not used. if the verbal feedback can be separated by a specific sign, then divide the verbal feedback
-        def splited_by(verbal_feedback, sign):
-            return False
-            return (verbal_feedback.count(sign) == 5)
-        
-        for sign in ['.', ',', '\n']:
-            if splited_by(verbal_feedback, sign):
-                start_time = time.time()
-                combined_response = []
-                splited_feedbacks = verbal_feedback.split(sign)[:5]
-                shared_prompt = f'''
-                    You are a precise wordle solver. 
-                    Return a single digit 0,1,2 based on which case the verbal feedback falls on.
-                    0: the character is not in the word
-                    1: the character is in the word but in the wrong position
-                    2: the character is in the word in the correct position
-                    Return only the single digit. No explanation. No extra text. 
-                '''
-                for splited_feedback in splited_feedbacks:
-                    individual_prompt = f'The feedback is: {splited_feedback}'
-                    response = (
-                        complete(
-                            model=self.model,
-                            prompt=[{"role": "user", "content": shared_prompt + individual_prompt}],
-                            options={"max_tokens": 20, "temperature": 0.0},
-                            session=self.session,
-                        )
-                        .strip()
-                        .lower()
-                    )
-                    combined_response.append(int(response))
-                
-                self._log(f'response using splited_feedback: {combined_response}, time took: {time.time() - start_time}')
-                return combined_response
-            
-        num_votes = 2
+        # new try, not used. if the verbal feedback can be separated by a specific sign, then divide the verbal feedback            
+        num_votes = 3
 
         prompts = []
 
         prompts.append(f'''
         You are a precise logic translator for Wordle feedback.
 
-        Task:
-        You are given two inputs:
-        - A guess word (5 letters)
-        - A verbal feedback about the guess
-
         Your job is to convert the interpretation into a 5-digit numeric code:
         - 2 = correct letter in correct position
         - 1 = correct letter in wrong position
         - 0 = incorrect letter
 
-        Wordle feedback is computed using the following rules:
-
-        Rules:
-        - Output only the 5-digit code (e.g. `21001`)
-        - No explanation. No extra text.
+        Output only the 5-digit code (e.g. `21001`)
 
         Examples:
 
-        Input:  
-        Guess: HELLO  
-        Feedback: All letters are incorrect.  
-        Output: 00000
-
-        Input:  
-        Guess: CRANE  
-        Feedback: The first and last letters are correct and in the right position. The second letter is correct but in the wrong position. The rest are incorrect.  
+        Guess: mesic
+        Feedback: the letter 's' appears somewhere else in the target word, while all other letters ('m', 'e', 'i', and 'c') are not present in the target word at all.
+        Output: 00100
+                                    
+        Guess: schwa  
+        Feedback: for the guess word "schwa": the first letter 's', second letter 'c', and fourth letter 'w' are not present in the target word at all. the third letter 'h' and the last letter 'a' appear somewhere in the target word, but they are currently in the wrong positions.
         Output: 21002
 
-        Input:  
-        Guess: ejido
-        Feedback: 'e' is in the word but in the wrong position. 'j' is not in the word. 'i' is in the word but in the wrong position. 'd' is not in the word. 'o' is not in the word.
-        Output: 10100
-
-        Input:  
-        Guess: acidy
-        Feedback: 'a' is in the correct position. 'c' is not in the word. 'i' is in the correct position. 'd' is in the correct position. 'y' is not in the word.
-        Output: 20220
-
+        Guess: rasps
+        Feedback: 
+        - the first 'r' is not present in the target word
+        - the 'a' is in the correct position
+        - the 's' in the middle is not in the target word
+        - the 'p' appears in the target word but needs to be in a different position
+        - the final 's' is exactly where it should be
+        Output: 02012
+                    
         Now process the following input:
         ''')      
-        prompts.append(f'''
+
+        prompts.append('''
         You're playing Wordle.
         Convert the verbal feedback into a 5-digit code using the following rules:
         - 0: Letter is not in the word 
@@ -160,37 +115,71 @@ class Solver:
         Feedback: 'l' is in the word but in the wrong position. 'i' is in the word but in the wrong position. 't' is not in the word. 'e' is in the word but in the wrong position. 'r' is not in the word.
         Output: 11010
                     
-        Guess: sered
-        Feedback: 's' is not in the word. 'e' is in the word but in the wrong position. 'r' is in the word but in the wrong position. 'e' is in the word but in the wrong position. 'd' is not in the word.
-        Output: 01110
+        Guess: mesic
+        Feedback: for the guess word "mesic", the letter 's' appears somewhere else in the target word, while all other letters ('m', 'e', 'i', and 'c') are not present in the target word at all.
+        Output: 00100
 
         Guess: rutin          
         Feedback: 'r' is not in the word. 'u' is in the correct position. 't' is in the correct position. 'i' is not in the word. 'n' is in the correct position.
         Output: 01101
         ''')     
-        prompts.append(prompts[0])
+
+        prompts.append(f'''
+        Your task is to translate the wordle feedback into five-digits code based on following rules:
+        0: the character is not in the word
+        1: the character is in the word, but in the wrong position.
+        2: the character is in the word and in the correct position.
+
+        Only output the five digits.
+
+        Examples:
+        Guess: fails
+        Feedback:
+        the letter 'f' is not present in the target word at all. the letter 'a' appears in the target word but needs to be in a different position. the letter 'i' is not in the target word. the letter 'l' is perfectly placed in this position. the letter 's' is in the target word but should be moved to a different spot.
+        Output: 01021  
+
+        Guess: ombre
+        Feedback:
+        - the 'o' appears in the word but in a different position
+        - the 'm' appears in the word but in a different position
+        - the 'b' is not in the word at all
+        - the 'r' appears in the word but in a different position
+        - the 'e' is correctly placed in this position
+        Output: 11012
+
+        Guess: seaze
+        Feedback: the first 's' appears somewhere else in the word, the 'e' is in the correct position, 'a' is not in the word at all, 'z' is not in the word at all, and the last 'e' is in the correct position.
+        Output: 12002        
+        ''')
+        
+        added_prompt = f'''
+            Guess: {guess}  
+            Feedback: {verbal_feedback}
+        '''
 
         responses = np.zeros((num_votes,5))
+
         for i in range(num_votes):
             start_time = time.time()
             response = (
                 complete(
                     model=self.model,
-                    prompt=[{"role": "user", "content": prompts[i]}],
+                    prompt=[{"role": "user", "content": prompts[i] + added_prompt}],
                     options={"max_tokens": 20, "temperature": 0.0},
                     session=self.session,
                 )
                 .strip()
                 .lower()
             )
+            print(f'{i}th response: {response}')
             for j, num in enumerate(list(map(int, response))):
                 responses[i][j] = num
 
             self.snowflake_calls += 1
             self._log(f'response: {response}, time took for LLM: {time.time() - start_time}')
 
-            if i == 1 and response[0] == response[1]:
-                return list(map(int, response[0]))
+            if i == 1 and np.array_equal(responses[0], responses[1]):
+                return list(map(int, responses[0]))
             
         responses = np.round(responses).astype(int)
         final_response = mode(responses, axis=0, keepdims=False).mode
@@ -198,6 +187,7 @@ class Solver:
         return list(map(int,final_response))
 
     def choose_next_guess(self, problem_id, turn):
+
         start_time = time.time()
 
         candidates = self.problems[problem_id]["candidate_words"]
@@ -208,53 +198,21 @@ class Solver:
 
         def query_res(word, ans):            
             feedback = np.zeros(5)
-            # First pass: assign 2 (correct position)
             for i in range(5):
                 if word[i] == ans[i]:
                     feedback[i] = 2
-                    word[i] = None
-                    ans[i] = None
 
-            # Count remaining letters in secret
             remaining = {}
-            for ch in ans:
-                if ch:
+            for i, ch in enumerate(ans):
+                if feedback[i] != 2:
                     remaining[ch] = remaining.get(ch, 0) + 1
 
-            # Second pass: assign 1 (misplaced)
             for i in range(5):
-                if word[i] and remaining.get(word[i], 0) > 0:
+                if feedback[i] != 2 and remaining.get(word[i], 0) > 0:
                     feedback[i] = 1
                     remaining[word[i]] -= 1
 
             return feedback
-
-            # below is legacy code
-            def get_t(word: str, ans: str, i: int) -> int:
-                cnt: int = 0
-                for j in range(5):
-                    if ans[j] == word[i] and ans[j] != word[j]:
-                        cnt += 1
-                return cnt
-            def get_s(word: str, ans: str, i: int) -> int:
-                cnt: int = 0
-                for j in range(i+1):
-                    if word[j] == word[i] and ans[j] != word[j]:
-                        cnt += 1
-                return cnt
-            res = [2, 2, 2, 2, 2]
-            for i, c in enumerate(word):
-                if ans[i] != c:
-                    t = get_t(word, ans, i)
-                    s = get_s(word, ans, i)
-                    res[i] = int(t >= s)
-            return res
-
-        def calc_entropy(word):
-            li = [tuple(query_res(word=word,ans=j)) for j in plausibles]
-            _, counts = np.unique(li, return_counts=True, axis=0)
-            probs = counts/counts.sum()
-            return -np.sum(probs * np.log2(probs))
         
         if history:
             last_guess = guess_history[-1]
@@ -263,6 +221,16 @@ class Solver:
             mask = np.array(mask, dtype=bool)
             plausibles = plausibles[mask]
             self.problems[problem_id]["plausible_words"] = plausibles
+
+        # when find
+        if len(plausibles)==1:
+            guess = plausibles[0]
+            self.problems[problem_id]["guess_history"].append(guess)
+            self._log(f"Turn {turn}: Received feedback: {history[-1] if history else 'None'}")
+            self._log(f"Translated: {translated_history[-1] if history else 'None'}")
+            self._log(f"Turn {turn}: We find the answer!")
+            self._log(f"Turn {turn}: Guess: {guess}")
+            return guess
 
         # when damned
         if len(plausibles)==0:
@@ -274,8 +242,72 @@ class Solver:
             self._log(f"Turn {turn}: Guess: {guess}")
             return guess
 
-        ent = {word:calc_entropy(word) for word in plausibles}
-        guess = max(ent, key=ent.get)
+        def query_res_all(ans: str, words: list[str]) -> np.ndarray:
+            ans = np.array(list(ans), dtype='<U1')
+            words = np.array([list(word) for word in words], dtype='<U1')
+            N: int = words.shape[0]
+
+            not_greens = (ans != words) # (N, 5)
+
+            matches = (words[:, :, None] == ans[None, None, :]) # (N, 5, 5)
+            '''
+            matches[x][i][j]
+            x번째 단어의 i번째 문자와 답의 j번째 문자가 같은지 여부
+            '''
+            t = (matches & not_greens[:, None, :]).sum(axis=2) # (N, 5)
+            '''
+            def get_t(word: str, ans: str, i: int) -> int:
+                cnt: int = 0
+                for j in range(5):
+                    if ans[j] == word[i] and ans[j] != word[j]:
+                        cnt += 1
+                return cnt
+            '''
+
+            matches = (words[:, :, None] == words[:, None, :]) # (N, 5, 5)
+            '''
+            matches[x][i][j]
+            x번째 단어의 i번째 문자와 x번째 단어의 j번째 문자가 같은지 여부
+            '''
+            s = np.cumsum(matches & not_greens[:, None, :], axis=2)[np.arange(N)[:, None], np.arange(5), np.arange(5)] # (N, 5)
+            '''
+            def get_s(word: str, ans: str, i: int) -> int:
+                cnt: int = 0
+                for j in range(i+1):
+                    if word[j] == word[i] and ans[j] != word[j]:
+                        cnt += 1
+                return cnt
+            '''
+            
+            res = np.full_like(words, fill_value=2, dtype=int) # (N, 5)
+            res[not_greens] = (t >= s)[not_greens].astype(int)
+
+            res = (res * np.array([1, 3, 9, 27, 81])).sum(axis=1) # (N,)
+
+            counts = np.zeros(273)
+            counts[res] += 1
+            return counts
+
+        def calc_entropy(ans):
+            counts = query_res_all(ans, candidates)
+            probs = counts/counts.sum()
+            probs_ = probs.copy()
+            probs_[probs == 0] = 1
+            return -np.sum(probs * np.log2(probs_))
+
+        guess = None
+        if len(plausibles) * len(candidates) > 10_000_000:
+            # todo: huristic code
+            pass
+
+        else: 
+            entropies = []
+            for ans in plausibles:
+                entropies.append(calc_entropy(ans))
+            
+            entropies = np.array(entropies)
+            guess = plausibles[np.argmax(entropies)]
+        
         self.problems[problem_id]["guess_history"].append(guess)
 
         self._log(f"Turn {turn}: Received feedback: {history[-1] if history else 'None'}")
@@ -283,6 +315,7 @@ class Solver:
         self._log(f"Turn {turn}: Guess: {guess}")
         self._log(f"time spent for guess: {time.time()-start_time}")
         return guess
+
 
     def _log(self, msg):
         ts = datetime.datetime.now().isoformat()
