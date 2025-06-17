@@ -105,7 +105,7 @@ def compute_feedback(secret, guess):
 
     return feedback
 
-def verbalize_feedback(secret, guess, feedback, useLLM = True):
+def verbalize_feedback(secret, guess, feedback, useLLM = False):
     testLLM = testingLLM()
 
     if useLLM:
@@ -161,7 +161,7 @@ def gain_dataset(word_list, len_test, hard = True):
 
 word_list = open('words.txt').read().strip().split('\n')[:]
 len_test = 10
-dataset = gain_dataset(word_list, len_test, hard = False)
+dataset = gain_dataset(word_list, len_test, hard = True)
 
 testLLM = testingLLM()
 
@@ -175,17 +175,18 @@ Your job is to convert the interpretation into a 5-digit numeric code:
 - 1 = correct letter in wrong position
 - 0 = incorrect letter
 
-Output only the 5-digit code (e.g. `21001`)
+Output only the 5-digit code. (e.g. `21001`) 
+Do not include any other texts
 
 Examples:
 
 Guess: mesic
 Feedback: the letter 's' appears somewhere else in the target word, while all other letters ('m', 'e', 'i', and 'c') are not present in the target word at all.
 Output: 00100
-                              
+                            
 Guess: schwa  
 Feedback: for the guess word "schwa": the first letter 's', second letter 'c', and fourth letter 'w' are not present in the target word at all. the third letter 'h' and the last letter 'a' appear somewhere in the target word, but they are currently in the wrong positions.
-Output: 21002
+Output: 00101
 
 Guess: rasps
 Feedback: 
@@ -219,7 +220,7 @@ Output: 00100
 
 Guess: rutin          
 Feedback: 'r' is not in the word. 'u' is in the correct position. 't' is in the correct position. 'i' is not in the word. 'n' is in the correct position.
-Output: 01101
+Output: 02202
 ''')     
 
 prompts.append(f'''

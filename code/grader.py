@@ -10,6 +10,9 @@ from snowflake.cortex import complete
 import atexit
 import os
 
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
 
 load_dotenv()
 
@@ -67,7 +70,7 @@ PROBLEMS = {
     "B": {"secret_word": "altar", "candidate_words": ["prank", "altar", "adapt"]},
 }
 
-def make_problems(num_test_sets = 100):
+def make_problems(num_test_sets = 20):
     global PROBLEMS
     for i in range(num_test_sets):
         test_id = str(i + 1)
@@ -121,32 +124,61 @@ def compute_feedback(secret, guess):
     return feedback
 
 
-def verbalize_feedback(secret, guess, feedback):
-    prompt = f'''
-        You need to describe the result of the wordle with words only; don't explicitly stating the number value.
-        These are the description for the numerical feedback corresponding to the guess word:
-        0: the character is not in the word
-        1: the character is in the word but in the wrong position.
-        2: the character is in the word and in the correct position.
+def verbalize_feedback(secret, guess, feedback, useLLM = True):
+    if useLLM:
+        prompt = f'''
+            You need to describe the result of the wordle with words only; don't explicitly stating the number value.
+            These are the description for the numerical feedback corresponding to the guess word:
+            0: the character is not in the word
+            1: the character is in the word but in the wrong position.
+            2: the character is in the word and in the correct position.
 
-        This the the guess word and the following feedback: 
-        guess word: {guess}
-        feedback: {feedback}
+            This the the guess word and the following feedback: 
+            guess word: {guess}
+            feedback: {feedback}
 
-    '''
-    verbalized_feedback =  runLLM.get_response(prompt, max_token=150, temp = 0.7)
-    return verbalized_feedback
+        '''
+        return runLLM.get_response(prompt, max_token=150, temp = 0.7)
+
+    parts = []
+    for i, f in enumerate(feedback):
+        ch = guess[i]
+        if f == 2:
+            parts.append(f"'{ch}' is in the correct position.")
+        elif f == 1:
+            parts.append(f"'{ch}' is in the word but in the wrong position.")
+        else:
+            parts.append(f"'{ch}' is not in the word.")
+    return " ".join(parts)
+
+
+def draw_plot(scores: dict):
+    x = list(scores.keys())
+    y = list(scores.values())
+
+    # Create the chart
+    plt.figure(figsize=(6, 4))
+    plt.scatter(x, y, marker='o')
+    plt.xlabel('X Values')
+    plt.ylabel('Y Values')
+    plt.title('Scores Based on Number of Candidates')
+    plt.grid(True)
+
+    # Save the plot
+    plt.savefig('scores_scatter.png', dpi=300)  # Optional: add dpi for better quality
+    plt.close()
 
 
 def run_for_team(team_name, base_url):
     print(f"[{team_name}] Starting evaluation")
+    scores = {}
 
     for problem_id, problem_data in PROBLEMS.items():
         candidate_words = problem_data["candidate_words"]
         secret = problem_data["secret_word"]
 
         try:
-            print(f'secret: {secret}')
+            print(f'secret: {secret}, number of words: {len(candidate_words)}')
             requests.post(
                 f"{base_url}/start_problem",
                 json={"problem_id": problem_id, "candidate_words": candidate_words},
@@ -176,16 +208,18 @@ def run_for_team(team_name, base_url):
             guess_count += 1
 
             # added to avoid infinite loop
-            if guess_count > 20:
+            if guess_count > 10:
                 print(f"[{team_name}] Guess number exceeded 10")
                 break
             if guess == secret:
                 print(f"[{team_name}] Solved {problem_id} in {guess_count} guesses.")
+                scores[len(candidate_words)] = guess_count
                 break
 
             raw_feedback = compute_feedback(secret, guess)
-            feedback = verbalize_feedback(secret, guess, raw_feedback)
+            feedback = verbalize_feedback(secret, guess, raw_feedback, useLLM = False)
 
+    draw_plot(scores)
     print(f"[{team_name}] Finished.")
 
 

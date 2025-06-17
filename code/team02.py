@@ -77,7 +77,8 @@ class Solver:
         - 1 = correct letter in wrong position
         - 0 = incorrect letter
 
-        Output only the 5-digit code (e.g. `21001`)
+        Output only the 5-digit code. (e.g. `21001`) 
+        Do not include any other texts
 
         Examples:
 
@@ -87,7 +88,7 @@ class Solver:
                                     
         Guess: schwa  
         Feedback: for the guess word "schwa": the first letter 's', second letter 'c', and fourth letter 'w' are not present in the target word at all. the third letter 'h' and the last letter 'a' appear somewhere in the target word, but they are currently in the wrong positions.
-        Output: 21002
+        Output: 00101
 
         Guess: rasps
         Feedback: 
@@ -121,7 +122,7 @@ class Solver:
 
         Guess: rutin          
         Feedback: 'r' is not in the word. 'u' is in the correct position. 't' is in the correct position. 'i' is not in the word. 'n' is in the correct position.
-        Output: 01101
+        Output: 02202
         ''')     
 
         prompts.append(f'''
@@ -150,8 +151,8 @@ class Solver:
         Guess: seaze
         Feedback: the first 's' appears somewhere else in the word, the 'e' is in the correct position, 'a' is not in the word at all, 'z' is not in the word at all, and the last 'e' is in the correct position.
         Output: 12002        
-        ''')
-        
+        ''')        
+
         added_prompt = f'''
             Guess: {guess}  
             Feedback: {verbal_feedback}
@@ -161,17 +162,20 @@ class Solver:
 
         for i in range(num_votes):
             start_time = time.time()
-            response = (
-                complete(
-                    model=self.model,
-                    prompt=[{"role": "user", "content": prompts[i] + added_prompt}],
-                    options={"max_tokens": 20, "temperature": 0.0},
-                    session=self.session,
+            response = 'notdigit'
+            while not response.isdigit():
+                response = (
+                    complete(
+                        model=self.model,
+                        prompt=[{"role": "user", "content": prompts[i] + added_prompt}],
+                        options={"max_tokens": 20, "temperature": 0.0},
+                        session=self.session,
+                    )
+                    .strip()
+                    .lower()
                 )
-                .strip()
-                .lower()
-            )
-            print(f'{i}th response: {response}')
+                print(f'{i}th response: {response}')
+                
             for j, num in enumerate(list(map(int, response))):
                 responses[i][j] = num
 
@@ -289,24 +293,32 @@ class Solver:
             return counts
 
         def calc_entropy(ans):
-            counts = query_res_all(ans, candidates)
+            counts = query_res_all(ans, plausibles)
             probs = counts/counts.sum()
             probs_ = probs.copy()
             probs_[probs == 0] = 1
             return -np.sum(probs * np.log2(probs_))
 
         guess = None
+        max_sz = 10_000_000
         if len(plausibles) * len(candidates) > 10_000_000:
-            # todo: huristic code
-            pass
-
-        else: 
+            small_candidates = candidates[::(max_sz / len(plausibles) + 1)]
             entropies = []
-            for ans in plausibles:
+            for ans in small_candidates:
                 entropies.append(calc_entropy(ans))
             
             entropies = np.array(entropies)
-            guess = plausibles[np.argmax(entropies)]
+            guess = small_candidates[np.argmax(entropies)]
+
+            return guess
+            
+        else: 
+            entropies = []
+            for ans in candidates:
+                entropies.append(calc_entropy(ans))
+            
+            entropies = np.array(entropies)
+            guess = candidates[np.argmax(entropies)]
         
         self.problems[problem_id]["guess_history"].append(guess)
 
