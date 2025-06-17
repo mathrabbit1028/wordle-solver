@@ -1,904 +1,696 @@
-[2025-06-17T01:16:24.808979] 
+[2025-06-18T04:55:34.451604] Turn 1: Received feedback: None
+[2025-06-18T04:55:34.451604] Translated: None
+[2025-06-18T04:55:34.451604] Turn 1: Guess: crane
+[2025-06-18T04:55:34.451604] time spent for guess: 0.002014636993408203
+[2025-06-18T04:55:34.451604] plausibles: 3
+[2025-06-18T04:55:38.416794] response: 00202, time took for LLM: 1.9016664028167725
+[2025-06-18T04:55:38.422667] Turn 2: Received feedback: 'c' is not in the word. 'r' is not in the word. 'a' is in the correct position. 'n' is not in the word. 'e' is in the correct position.
+[2025-06-18T04:55:38.422667] Translated: [0, 0, 2, 0, 2]
+[2025-06-18T04:55:38.422667] Turn 2: Guess: flame
+[2025-06-18T04:55:38.422667] time spent for guess: 0.002012968063354492
+[2025-06-18T04:55:38.422667] plausibles: 2
+[2025-06-18T04:55:40.476777] 
+=== Starting Problem B ===
+[2025-06-18T04:55:40.476777] Candidate words: prank, altar, adapt
+[2025-06-18T04:55:42.523780] Turn 1: Received feedback: None
+[2025-06-18T04:55:42.525792] Translated: None
+[2025-06-18T04:55:42.525792] Turn 1: Guess: prank
+[2025-06-18T04:55:42.525792] time spent for guess: 0.004030466079711914
+[2025-06-18T04:55:42.525792] plausibles: 3
+[2025-06-18T04:55:46.802481] response: 01100, time took for LLM: 2.241424322128296
+[2025-06-18T04:55:46.805520] Turn 2: Received feedback: 'p' is not in the word. 'r' is in the word but in the wrong position. 'a' is in the word but in the wrong position. 'n' is not in the word. 'k' is not in the word.
+[2025-06-18T04:55:46.805520] Translated: [0, 1, 1, 0, 0]
+[2025-06-18T04:55:46.805520] Turn 2: Guess: altar
+[2025-06-18T04:55:46.805520] time spent for guess: 0.002017498016357422
+[2025-06-18T04:55:46.805520] plausibles: 1
+[2025-06-18T04:55:48.861265] 
 === Starting Problem 1 ===
-[2025-06-17T01:16:24.808979] Candidate words: crane, flame, slate
-[2025-06-17T01:16:26.858451] Turn 1: Received feedback: None
-[2025-06-17T01:16:26.858451] Translated: None
-[2025-06-17T01:16:26.858451] Turn 1: Guess: flame
-[2025-06-17T01:16:26.858451] time spent for guess: 0.0003902912139892578
-[2025-06-17T01:16:28.932804] 
+[2025-06-18T04:55:48.861265] Candidate words: firms, quyte, abmho, crool, powns
+[2025-06-18T04:55:52.899135] Turn 1: Received feedback: None
+[2025-06-18T04:55:52.899135] Translated: None
+[2025-06-18T04:55:52.899135] Turn 1: Guess: gales
+[2025-06-18T04:55:52.899135] time spent for guess: 1.9897572994232178
+[2025-06-18T04:55:52.899135] plausibles: 7778
+[2025-06-18T04:55:56.630235] response: 01002, time took for LLM: 1.6728098392486572
+[2025-06-18T04:55:56.759141] Turn 2: Received feedback: 'g' is not in the word. 'a' is in the word but in the wrong position. 'l' is not in the word. 'e' is not in the word. 's' is in the correct position.
+[2025-06-18T04:55:56.759141] Translated: [0, 1, 0, 0, 2]
+[2025-06-18T04:55:56.765264] Turn 2: Guess: toras
+[2025-06-18T04:55:56.765264] time spent for guess: 0.13502788543701172
+[2025-06-18T04:55:56.765264] plausibles: 238
+[2025-06-18T04:56:00.654039] response: 00112, time took for LLM: 1.8642959594726562
+[2025-06-18T04:56:01.279781] Turn 3: Received feedback: 't' is not in the word. 'o' is not in the word. 'r' is in the word but in the wrong position. 'a' is in the word but in the wrong position. 's' is in the correct position.
+[2025-06-18T04:56:01.279781] Translated: [0, 0, 1, 1, 2]
+[2025-06-18T04:56:01.279781] Turn 3: Guess: crapy
+[2025-06-18T04:56:01.279781] time spent for guess: 0.6166343688964844
+[2025-06-18T04:56:01.279781] plausibles: 35
+[2025-06-18T04:56:05.336537] response: 11200, time took for LLM: 2.005270004272461
+[2025-06-18T04:56:05.340580] Turn 4: Received feedback: 'c' is in the word but in the wrong position. 'r' is in the word but in the wrong position. 'a' is in the correct position. 'p' is not in the word. 'y' is not in the word.
+[2025-06-18T04:56:05.340580] Translated: [1, 1, 2, 0, 0]
+[2025-06-18T04:56:05.340580] Turn 4: Guess: scars
+[2025-06-18T04:56:05.340580] time spent for guess: 0.0020182132720947266
+[2025-06-18T04:56:05.340580] plausibles: 1
+[2025-06-18T04:56:07.378103] 
 === Starting Problem 2 ===
-[2025-06-17T01:16:28.932804] Candidate words: prank, altar, adapt
-[2025-06-17T01:16:31.006798] Turn 1: Received feedback: None
-[2025-06-17T01:16:31.006798] Translated: None
-[2025-06-17T01:16:31.006798] Turn 1: Guess: prank
-[2025-06-17T01:16:31.006798] time spent for guess: 0.0
-[2025-06-17T01:16:40.749547] response: 01100
-[2025-06-17T01:16:42.137496] response: 01100
-[2025-06-17T01:16:44.444726] response: 01100
-[2025-06-17T01:16:44.444726] Turn 2: Received feedback: 'p' is not in the word. 'r' is in the word but in the wrong position. 'a' is in the word but in the wrong position. 'n' is not in the word. 'k' is not in the word.
-[2025-06-17T01:16:44.444726] Translated: [0, 1, 1, 0, 0]
-[2025-06-17T01:16:44.444726] Turn 2: Guess: altar
-[2025-06-17T01:16:44.444726] time spent for guess: 0.0
-[2025-06-17T01:16:45.009534] 
+[2025-06-18T04:56:07.378103] Candidate words: yodel, cusso, hokis, spork, mirvs
+[2025-06-18T04:56:11.004089] Turn 1: Received feedback: None
+[2025-06-18T04:56:11.004089] Translated: None
+[2025-06-18T04:56:11.004089] Turn 1: Guess: lanes
+[2025-06-18T04:56:11.004089] time spent for guess: 1.5823101997375488
+[2025-06-18T04:56:11.004089] plausibles: 2366
+[2025-06-18T04:56:15.372224] response: 10010, time took for LLM: 2.3106331825256348
+[2025-06-18T04:56:15.580958] Turn 2: Received feedback: 'l' is in the word but in the wrong position. 'a' is not in the word. 'n' is not in the word. 'e' is in the word but in the wrong position. 's' is not in the word.
+[2025-06-18T04:56:15.580958] Translated: [1, 0, 0, 1, 0]
+[2025-06-18T04:56:15.580958] Turn 2: Guess: toile
+[2025-06-18T04:56:15.580958] time spent for guess: 0.2067122459411621
+[2025-06-18T04:56:15.580958] plausibles: 45
+[2025-06-18T04:56:19.866768] response: 00012, time took for LLM: 2.2595741748809814
+[2025-06-18T04:56:20.124359] Turn 3: Received feedback: 't' is not in the word. 'o' is not in the word. 'i' is not in the word. 'l' is in the word but in the wrong position. 'e' is in the correct position.
+[2025-06-18T04:56:20.124359] Translated: [0, 0, 0, 1, 2]
+[2025-06-18T04:56:20.124359] Turn 3: Guess: helve
+[2025-06-18T04:56:20.124359] time spent for guess: 0.2551412582397461
+[2025-06-18T04:56:20.124359] plausibles: 5
+[2025-06-18T04:56:23.974099] response: 00102, time took for LLM: 1.8128783702850342
+[2025-06-18T04:56:24.057499] Turn 4: Received feedback: 'h' is not in the word. 'e' is not in the word. 'l' is in the word but in the wrong position. 'v' is not in the word. 'e' is in the correct position.
+[2025-06-18T04:56:24.057499] Translated: [0, 0, 1, 0, 2]
+[2025-06-18T04:56:24.057499] Turn 4: Guess: fluke
+[2025-06-18T04:56:24.057499] time spent for guess: 0.08340048789978027
+[2025-06-18T04:56:24.057499] plausibles: 4
+[2025-06-18T04:56:26.106606] 
 === Starting Problem 3 ===
-[2025-06-17T01:16:45.009534] Candidate words: aalii, aband, abbot, abled, aboon
-[2025-06-17T01:16:50.930268] Turn 1: Received feedback: None
-[2025-06-17T01:16:50.930268] Translated: None
-[2025-06-17T01:16:50.930268] Turn 1: Guess: reals
-[2025-06-17T01:16:50.930268] time spent for guess: 3.8703055381774902
-[2025-06-17T01:16:55.130862] response: 02002
-[2025-06-17T01:16:57.594329] response: 02002
-[2025-06-17T01:17:01.234399] response: 02002
-[2025-06-17T01:17:01.241085] Turn 2: Received feedback: 'r' is not in the word. 'e' is in the correct position. 'a' is not in the word. 'l' is not in the word. 's' is in the correct position.
-[2025-06-17T01:17:01.241085] Translated: [0, 2, 0, 0, 2]
-[2025-06-17T01:17:01.241085] Turn 2: Guess: kents
-[2025-06-17T01:17:01.241085] time spent for guess: 0.002338886260986328
-[2025-06-17T01:17:05.276328] response: 02002
-[2025-06-17T01:17:06.973176] response: 02002
-[2025-06-17T01:17:10.773148] response: 02002
-[2025-06-17T01:17:10.775872] Turn 3: Received feedback: 'k' is not in the word. 'e' is in the correct position. 'n' is not in the word. 't' is not in the word. 's' is in the correct position.
-[2025-06-17T01:17:10.775872] Translated: [0, 2, 0, 0, 2]
-[2025-06-17T01:17:10.775872] Turn 3: Guess: deems
-[2025-06-17T01:17:10.775872] time spent for guess: 0.0
-[2025-06-17T01:17:18.580080] response: 02002
-[2025-06-17T01:17:20.234009] response: 02002
-[2025-06-17T01:17:23.130071] response: 02002
-[2025-06-17T01:17:23.130071] Turn 4: Received feedback: 'd' is not in the word. 'e' is in the correct position. 'e' is not in the word. 'm' is not in the word. 's' is in the correct position.
-[2025-06-17T01:17:23.130071] Translated: [0, 2, 0, 0, 2]
-[2025-06-17T01:17:23.130071] Turn 4: Guess: vegos
-[2025-06-17T01:17:23.130071] time spent for guess: 0.0
-[2025-06-17T01:17:24.825148] 
+[2025-06-18T04:56:26.106606] Candidate words: rance, quoit, galas, hoing, leams
+[2025-06-18T04:56:29.841899] Turn 1: Received feedback: None
+[2025-06-18T04:56:29.841899] Translated: None
+[2025-06-18T04:56:29.841899] Turn 1: Guess: cares
+[2025-06-18T04:56:29.841899] time spent for guess: 1.7010219097137451
+[2025-06-18T04:56:29.841899] plausibles: 4114
+[2025-06-18T04:56:33.366869] response: 00001, time took for LLM: 1.475667953491211
+[2025-06-18T04:56:34.464538] Turn 2: Received feedback: 'c' is not in the word. 'a' is not in the word. 'r' is not in the word. 'e' is not in the word. 's' is in the word but in the wrong position.
+[2025-06-18T04:56:34.464538] Translated: [0, 0, 0, 0, 1]
+[2025-06-18T04:56:34.464538] Turn 2: Guess: hoist
+[2025-06-18T04:56:34.464538] time spent for guess: 1.0797553062438965
+[2025-06-18T04:56:34.464538] plausibles: 143
+[2025-06-18T04:56:39.027415] response: 10020, time took for LLM: 2.4827957153320312
+[2025-06-18T04:56:39.029432] Turn 3: Received feedback: 'h' is in the word but in the wrong position. 'o' is not in the word. 'i' is not in the word. 's' is in the correct position. 't' is not in the word.
+[2025-06-18T04:56:39.029432] Translated: [1, 0, 0, 2, 0]
+[2025-06-18T04:56:39.029432] Turn 3: Guess: smush
+[2025-06-18T04:56:39.029432] time spent for guess: 0.0
+[2025-06-18T04:56:39.029432] plausibles: 1
+[2025-06-18T04:56:41.085434] 
 === Starting Problem 4 ===
-[2025-06-17T01:17:24.825148] Candidate words: aalii, aband, abbot, abled, aboon
-[2025-06-17T01:17:30.764785] Turn 1: Received feedback: None
-[2025-06-17T01:17:30.764785] Translated: None
-[2025-06-17T01:17:30.764785] Turn 1: Guess: reals
-[2025-06-17T01:17:30.764785] time spent for guess: 3.8763222694396973
-[2025-06-17T01:17:34.668626] response: 00000
-[2025-06-17T01:17:36.444408] response: 00000
-[2025-06-17T01:17:38.336191] response: 00000
-[2025-06-17T01:17:38.361448] Turn 2: Received feedback: 'r' is not in the word. 'e' is not in the word. 'a' is not in the word. 'l' is not in the word. 's' is not in the word.
-[2025-06-17T01:17:38.361448] Translated: [0, 0, 0, 0, 0]
-[2025-06-17T01:17:38.361448] Turn 2: Guess: nomic
-[2025-06-17T01:17:38.361448] time spent for guess: 0.022140979766845703
-[2025-06-17T01:17:44.085339] response: 01101
-[2025-06-17T01:17:45.926642] response: 01102
-[2025-06-17T01:17:52.318477] response: 01101
-[2025-06-17T01:17:52.321515] Turn 3: Received feedback: 'n' is not in the word. 'o' is in the word but in the wrong position. 'm' is in the word but in the wrong position. 'i' is not in the word. 'c' is in the word but in the wrong position.
-[2025-06-17T01:17:52.321515] Translated: [0, 1, 1, 0, 1]
-[2025-06-17T01:17:52.321515] Turn 3: Guess: chomp
-[2025-06-17T01:17:52.321515] time spent for guess: 0.0
-[2025-06-17T01:17:52.355327] 
+[2025-06-18T04:56:41.085434] Candidate words: biker, zoeal, babes, study, merls
+[2025-06-18T04:56:45.201090] Turn 1: Received feedback: None
+[2025-06-18T04:56:45.201090] Translated: None
+[2025-06-18T04:56:45.201090] Turn 1: Guess: lores
+[2025-06-18T04:56:45.201090] time spent for guess: 2.0874063968658447
+[2025-06-18T04:56:45.201090] plausibles: 7914
+[2025-06-18T04:56:49.164362] response: 00011, time took for LLM: 1.9157218933105469
+[2025-06-18T04:56:49.302446] Turn 2: Received feedback: 'l' is not in the word. 'o' is not in the word. 'r' is not in the word. 'e' is in the word but in the wrong position. 's' is in the word but in the wrong position.
+[2025-06-18T04:56:49.302446] Translated: [0, 0, 0, 1, 1]
+[2025-06-18T04:56:49.302446] Turn 2: Guess: saine
+[2025-06-18T04:56:49.302446] time spent for guess: 0.1340475082397461
+[2025-06-18T04:56:49.302446] plausibles: 164
+[2025-06-18T04:56:53.157507] response: 12002, time took for LLM: 1.8098182678222656
+[2025-06-18T04:57:24.542808] 
+=== Starting Problem 10 ===
+[2025-06-18T04:57:24.542808] Candidate words: clavi, hewer, unlet, point, dikas
+[2025-06-18T04:57:40.615094] 
+=== Starting Problem A ===
+[2025-06-18T04:57:40.615094] Candidate words: crane, flame, slate
+[2025-06-18T04:57:44.745232] 
+=== Starting Problem B ===
+[2025-06-18T04:57:44.745232] Candidate words: prank, altar, adapt
+[2025-06-18T04:57:48.872813] 
+=== Starting Problem 1 ===
+[2025-06-18T04:57:48.872813] Candidate words: regar, polly, cinct, addle, pints
+[2025-06-18T04:58:03.124652] 
+=== Starting Problem 4 ===
+[2025-06-18T04:58:03.124652] Candidate words: macho, jumbo, arars, pixie, mains
+[2025-06-18T04:58:05.184768] Turn 1: Received feedback: None
+[2025-06-18T04:58:05.184768] Translated: None
+[2025-06-18T04:58:05.184768] Turn 1: Guess: mains
+[2025-06-18T04:58:05.184768] time spent for guess: 0.010052680969238281
+[2025-06-18T04:58:05.184768] plausibles: 42
+[2025-06-18T04:58:09.230674] response: 10000, time took for LLM: 2.019942045211792
+[2025-06-18T04:58:11.318191] 
 === Starting Problem 5 ===
-[2025-06-17T01:17:52.355887] Candidate words: aalii, aband, abbot, abled, aboon
-[2025-06-17T01:17:58.338844] Turn 1: Received feedback: None
-[2025-06-17T01:17:58.338844] Translated: None
-[2025-06-17T01:17:58.338844] Turn 1: Guess: reals
-[2025-06-17T01:17:58.338844] time spent for guess: 3.9265148639678955
-[2025-06-17T01:18:02.549233] response: 11000
-[2025-06-17T01:18:06.540690] response: 11000
-[2025-06-17T01:18:08.557585] response: 11000
-[2025-06-17T01:18:08.570745] Turn 2: Received feedback: 'r' is in the word but in the wrong position. 'e' is in the word but in the wrong position. 'a' is not in the word. 'l' is not in the word. 's' is not in the word.
-[2025-06-17T01:18:08.570745] Translated: [1, 1, 0, 0, 0]
-[2025-06-17T01:18:08.570745] Turn 2: Guess: treed
-[2025-06-17T01:18:08.570745] time spent for guess: 0.012147665023803711
-[2025-06-17T01:18:17.050640] response: 02200
-[2025-06-17T01:18:18.788881] response: 02200
-[2025-06-17T01:18:20.708695] response: 02200
-[2025-06-17T01:18:20.708695] Turn 3: Received feedback: 't' is not in the word. 'r' is in the correct position. 'e' is in the correct position. 'e' is not in the word. 'd' is not in the word.
-[2025-06-17T01:18:20.708695] Translated: [0, 2, 2, 0, 0]
-[2025-06-17T01:18:20.708695] Turn 3: Guess: ureic
-[2025-06-17T01:18:20.708695] time spent for guess: 0.0
-[2025-06-17T01:18:22.592244] 
+[2025-06-18T04:58:11.318191] Candidate words: tendu, passe, magma, fumed, gator
+[2025-06-18T04:58:15.175765] Turn 1: Received feedback: None
+[2025-06-18T04:58:15.175765] Translated: None
+[2025-06-18T04:58:15.175765] Turn 1: Guess: soare
+[2025-06-18T04:58:15.175765] time spent for guess: 1.7972562313079834
+[2025-06-18T04:58:15.175765] plausibles: 5368
+[2025-06-18T04:58:19.787223] response: 00100, time took for LLM: 2.567039966583252
+[2025-06-18T04:58:21.931059] 
 === Starting Problem 6 ===
-[2025-06-17T01:18:22.592244] Candidate words: aalii, aband, abbot, abled, aboon
-[2025-06-17T01:18:28.347731] Turn 1: Received feedback: None
-[2025-06-17T01:18:28.347731] Translated: None
-[2025-06-17T01:18:28.347731] Turn 1: Guess: reals
-[2025-06-17T01:18:28.347731] time spent for guess: 3.67502760887146
-[2025-06-17T01:18:32.044913] response: 01001
-[2025-06-17T01:18:33.830013] response: 01002
-[2025-06-17T01:18:36.538238] response: 01001
-[2025-06-17T01:18:36.545465] Turn 2: Received feedback: 'r' is not in the word. 'e' is in the word but in the wrong position. 'a' is not in the word. 'l' is not in the word. 's' is in the word but in the wrong position.
-[2025-06-17T01:18:36.545465] Translated: [0, 1, 0, 0, 1]
-[2025-06-17T01:18:36.545465] Turn 2: Guess: skite
-[2025-06-17T01:18:36.545465] time spent for guess: 0.006212949752807617
-[2025-06-17T01:18:44.996140] response: 10002
-[2025-06-17T01:18:46.973123] response: 10002
-[2025-06-17T01:18:49.992440] response: 10002
-[2025-06-17T01:18:49.992440] Turn 3: Received feedback: 's' is in the word but in the wrong position. 'k' is not in the word. 'i' is not in the word. 't' is not in the word. 'e' is in the correct position.
-[2025-06-17T01:18:49.997967] Translated: [1, 0, 0, 0, 2]
-[2025-06-17T01:18:49.997967] Turn 3: Guess: bouse
-[2025-06-17T01:18:49.997967] time spent for guess: 0.005526065826416016
-[2025-06-17T01:21:37.337768] 
-=== Starting Problem 1 ===
-[2025-06-17T01:21:37.337768] Candidate words: crane, flame, slate
-[2025-06-17T01:21:39.364938] Turn 1: Received feedback: None
-[2025-06-17T01:21:39.364938] Translated: None
-[2025-06-17T01:21:39.364938] Turn 1: Guess: flame
-[2025-06-17T01:21:39.364938] time spent for guess: 0.0
-[2025-06-17T01:21:41.418945] 
-=== Starting Problem 2 ===
-[2025-06-17T01:21:41.418945] Candidate words: prank, altar, adapt
-[2025-06-17T01:21:43.463479] Turn 1: Received feedback: None
-[2025-06-17T01:21:43.463479] Translated: None
-[2025-06-17T01:21:43.463479] Turn 1: Guess: prank
-[2025-06-17T01:21:43.463479] time spent for guess: 0.0012416839599609375
-[2025-06-17T01:21:47.677871] response: 01100
-[2025-06-17T01:21:49.439413] response: 01100
-[2025-06-17T01:21:51.968290] response: 01100
-[2025-06-17T01:21:51.974013] Turn 2: Received feedback: 'p' is not in the word. 'r' is in the word but in the wrong position. 'a' is in the word but in the wrong position. 'n' is not in the word. 'k' is not in the word.
-[2025-06-17T01:21:51.974692] Translated: [0, 1, 1, 0, 0]
-[2025-06-17T01:21:51.974692] Turn 2: Guess: altar
-[2025-06-17T01:21:51.974692] time spent for guess: 0.0006794929504394531
-[2025-06-17T01:21:54.034402] 
-=== Starting Problem 3 ===
-[2025-06-17T01:21:54.034402] Candidate words: aalii, aband, abbot, abled, aboon
-[2025-06-17T01:22:00.267392] Turn 1: Received feedback: None
-[2025-06-17T01:22:00.267392] Translated: None
-[2025-06-17T01:22:00.267392] Turn 1: Guess: reals
-[2025-06-17T01:22:00.267392] time spent for guess: 4.191038131713867
-[2025-06-17T01:22:04.191428] response: 00002
-[2025-06-17T01:22:05.859445] response: 00002
-[2025-06-17T01:22:07.599850] response: 00002
-[2025-06-17T01:22:07.613146] Turn 2: Received feedback: 'r' is not in the word. 'e' is not in the word. 'a' is not in the word. 'l' is not in the word. 's' is in the correct position.
-[2025-06-17T01:22:07.613146] Translated: [0, 0, 0, 0, 2]
-[2025-06-17T01:22:07.613146] Turn 2: Guess: oints
-[2025-06-17T01:22:07.613146] time spent for guess: 0.013295173645019531
-[2025-06-17T01:22:11.786909] response: 02002
-[2025-06-17T01:22:13.443562] response: 02002
-[2025-06-17T01:22:16.151045] response: 02002
-[2025-06-17T01:22:16.158934] Turn 3: Received feedback: 'o' is not in the word. 'i' is in the correct position. 'n' is not in the word. 't' is not in the word. 's' is in the correct position.
-[2025-06-17T01:22:16.158934] Translated: [0, 2, 0, 0, 2]
-[2025-06-17T01:22:16.158934] Turn 3: Guess: dimps
-[2025-06-17T01:22:16.158934] time spent for guess: 0.0
-[2025-06-17T01:22:20.754119] response: 22002
-[2025-06-17T01:22:22.626968] response: 22002
-[2025-06-17T01:22:24.734241] response: 22002
-[2025-06-17T01:22:24.734241] Turn 4: Received feedback: 'd' is in the correct position. 'i' is in the correct position. 'm' is not in the word. 'p' is not in the word. 's' is in the correct position.
-[2025-06-17T01:22:24.734241] Translated: [2, 2, 0, 0, 2]
-[2025-06-17T01:22:24.734241] Turn 4: Guess: dicks
-[2025-06-17T01:22:24.734241] time spent for guess: 0.0
-[2025-06-17T01:22:30.514905] response: 22002
-[2025-06-17T01:22:32.158840] response: 22002
-[2025-06-17T01:22:34.028875] response: 22002
-[2025-06-17T01:22:34.030890] Turn 5: Received feedback: 'd' is in the correct position. 'i' is in the correct position. 'c' is not in the word. 'k' is not in the word. 's' is in the correct position.
-[2025-06-17T01:22:34.030890] Translated: [2, 2, 0, 0, 2]
-[2025-06-17T01:22:34.030890] Turn 5: Guess: divis
-[2025-06-17T01:22:34.030890] time spent for guess: 0.0
-[2025-06-17T01:22:36.092019] 
-=== Starting Problem 4 ===
-[2025-06-17T01:22:36.092019] Candidate words: aalii, aband, abbot, abled, aboon
-[2025-06-17T01:22:41.953024] Turn 1: Received feedback: None
-[2025-06-17T01:22:41.953024] Translated: None
-[2025-06-17T01:22:41.953024] Turn 1: Guess: reals
-[2025-06-17T01:22:41.953024] time spent for guess: 3.8242433071136475
-[2025-06-17T01:22:46.520450] response: 01001
-[2025-06-17T01:22:48.148361] response: 01002
-[2025-06-17T01:22:50.248593] response: 01001
-[2025-06-17T01:22:50.253774] Turn 2: Received feedback: 'r' is not in the word. 'e' is in the word but in the wrong position. 'a' is not in the word. 'l' is not in the word. 's' is in the word but in the wrong position.
-[2025-06-17T01:22:50.253774] Translated: [0, 1, 0, 0, 1]
-[2025-06-17T01:22:50.253774] Turn 2: Guess: skite
-[2025-06-17T01:22:50.253774] time spent for guess: 0.0037889480590820312
-[2025-06-17T01:22:54.403862] response: 20022
-[2025-06-17T01:22:55.813884] response: 20022
-[2025-06-17T01:22:57.850841] response: 20022
-[2025-06-17T01:22:57.851845] Turn 3: Received feedback: 's' is in the correct position. 'k' is not in the word. 'i' is not in the word. 't' is in the correct position. 'e' is in the correct position.
-[2025-06-17T01:22:57.851845] Translated: [2, 0, 0, 2, 2]
-[2025-06-17T01:22:57.851845] Turn 3: Guess: scute
-[2025-06-17T01:22:57.851845] time spent for guess: 0.0
-[2025-06-17T01:22:59.900041] 
-=== Starting Problem 5 ===
-[2025-06-17T01:22:59.900041] Candidate words: aalii, aband, abbot, abled, aboon
-[2025-06-17T01:23:05.851909] Turn 1: Received feedback: None
-[2025-06-17T01:23:05.851909] Translated: None
-[2025-06-17T01:23:05.851909] Turn 1: Guess: reals
-[2025-06-17T01:23:05.851909] time spent for guess: 3.8773460388183594
-[2025-06-17T01:23:09.775599] response: 11100
-[2025-06-17T01:23:11.375469] response: 11100
-[2025-06-17T01:23:13.961075] response: 11100
-[2025-06-17T01:23:13.967601] Turn 2: Received feedback: 'r' is in the word but in the wrong position. 'e' is in the word but in the wrong position. 'a' is in the word but in the wrong position. 'l' is not in the word. 's' is not in the word.
-[2025-06-17T01:23:13.967601] Translated: [1, 1, 1, 0, 0]
-[2025-06-17T01:23:13.967601] Turn 2: Guess: pared
-[2025-06-17T01:23:13.967601] time spent for guess: 0.002088785171508789
-[2025-06-17T01:23:16.003255] 
-=== Starting Problem 6 ===
-[2025-06-17T01:23:16.003255] Candidate words: aalii, aband, abbot, abled, aboon
-[2025-06-17T01:23:22.338843] Turn 1: Received feedback: None
-[2025-06-17T01:23:22.338843] Translated: None
-[2025-06-17T01:23:22.338843] Turn 1: Guess: reals
-[2025-06-17T01:23:22.338843] time spent for guess: 4.300412893295288
-[2025-06-17T01:23:27.466970] response: 11100
-[2025-06-17T01:23:28.990345] response: 11100
-[2025-06-17T01:23:30.787984] response: 11100
-[2025-06-17T01:23:30.797516] Turn 2: Received feedback: 'r' is in the word but in the wrong position. 'e' is in the word but in the wrong position. 'a' is in the word but in the wrong position. 'l' is not in the word. 's' is not in the word.
-[2025-06-17T01:23:30.797516] Translated: [1, 1, 1, 0, 0]
-[2025-06-17T01:23:30.797516] Turn 2: Guess: pared
-[2025-06-17T01:23:30.797516] time spent for guess: 0.009531974792480469
-[2025-06-17T01:23:35.657405] response: 02110
-[2025-06-17T01:23:37.656086] response: 02110
-[2025-06-17T01:23:43.747493] response: 02110
-[2025-06-17T01:23:43.748502] Turn 3: Received feedback: 'p' is not in the word. 'a' is in the correct position. 'r' is in the word but in the wrong position. 'e' is in the word but in the wrong position. 'd' is not in the word.
-[2025-06-17T01:23:43.748502] Translated: [0, 2, 1, 1, 0]
-[2025-06-17T01:23:43.748502] Turn 3: Guess: zaire
-[2025-06-17T01:23:43.748502] time spent for guess: 0.0
-[2025-06-17T01:24:59.188879] 
-=== Starting Problem 1 ===
-[2025-06-17T01:24:59.188879] Candidate words: crane, flame, slate
-[2025-06-17T01:25:01.238139] Turn 1: Received feedback: None
-[2025-06-17T01:25:01.238139] Translated: None
-[2025-06-17T01:25:01.238139] Turn 1: Guess: flame
-[2025-06-17T01:25:01.238139] time spent for guess: 0.0
-[2025-06-17T01:25:03.275137] 
-=== Starting Problem 2 ===
-[2025-06-17T01:25:03.275137] Candidate words: prank, altar, adapt
-[2025-06-17T01:25:05.319583] Turn 1: Received feedback: None
-[2025-06-17T01:25:05.319583] Translated: None
-[2025-06-17T01:25:05.319583] Turn 1: Guess: prank
-[2025-06-17T01:25:05.319583] time spent for guess: 0.0
-[2025-06-17T01:25:09.453800] response: 01100, time took for LLM: 2.1030373573303223
-[2025-06-17T01:25:11.432218] response: 01100, time took for LLM: 1.9784178733825684
-[2025-06-17T01:25:13.337186] response: 01100, time took for LLM: 1.904968500137329
-[2025-06-17T01:25:13.337186] Turn 2: Received feedback: 'p' is not in the word. 'r' is in the word but in the wrong position. 'a' is in the word but in the wrong position. 'n' is not in the word. 'k' is not in the word.
-[2025-06-17T01:25:13.337186] Translated: [0, 1, 1, 0, 0]
-[2025-06-17T01:25:13.337186] Turn 2: Guess: altar
-[2025-06-17T01:25:13.337186] time spent for guess: 0.0
-[2025-06-17T01:25:15.392881] 
-=== Starting Problem 3 ===
-[2025-06-17T01:25:15.392881] Candidate words: aalii, aband, abbot, abled, aboon
-[2025-06-17T01:25:21.395123] Turn 1: Received feedback: None
-[2025-06-17T01:25:21.395123] Translated: None
-[2025-06-17T01:25:21.395123] Turn 1: Guess: reals
-[2025-06-17T01:25:21.395123] time spent for guess: 3.9576778411865234
-[2025-06-17T01:25:25.673067] response: 00112, time took for LLM: 2.2295939922332764
-[2025-06-17T01:25:28.723898] response: 00112, time took for LLM: 3.0508313179016113
-[2025-06-17T01:25:31.006417] response: 00112, time took for LLM: 2.282519578933716
-[2025-06-17T01:25:31.011439] Turn 2: Received feedback: 'r' is not in the word. 'e' is not in the word. 'a' is in the word but in the wrong position. 'l' is in the word but in the wrong position. 's' is in the correct position.
-[2025-06-17T01:25:31.011439] Translated: [0, 0, 1, 1, 2]
-[2025-06-17T01:25:31.011439] Turn 2: Guess: limas
-[2025-06-17T01:25:31.011439] time spent for guess: 0.004020214080810547
-[2025-06-17T01:25:34.759352] response: 21012, time took for LLM: 1.683666467666626
-[2025-06-17T01:25:36.385880] response: 21012, time took for LLM: 1.6265275478363037
-[2025-06-17T01:25:38.274831] response: 21012, time took for LLM: 1.8889515399932861
-[2025-06-17T01:25:38.276232] Turn 3: Received feedback: 'l' is in the correct position. 'i' is in the word but in the wrong position. 'm' is not in the word. 'a' is in the word but in the wrong position. 's' is in the correct position.
-[2025-06-17T01:25:38.276232] Translated: [2, 1, 0, 1, 2]
-[2025-06-17T01:25:38.276232] Turn 3: Guess: laids
-[2025-06-17T01:25:38.276232] time spent for guess: 0.0014009475708007812
-[2025-06-17T01:25:40.344437] 
-=== Starting Problem 4 ===
-[2025-06-17T01:25:40.344437] Candidate words: aalii, aband, abbot, abled, aboon
-[2025-06-17T01:25:46.459471] Turn 1: Received feedback: None
-[2025-06-17T01:25:46.459471] Translated: None
-[2025-06-17T01:25:46.459471] Turn 1: Guess: reals
-[2025-06-17T01:25:46.459471] time spent for guess: 4.052893161773682
-[2025-06-17T01:25:50.570299] response: 01002, time took for LLM: 2.0445396900177
-[2025-06-17T01:25:52.391606] response: 01002, time took for LLM: 1.82130765914917
-[2025-06-17T01:25:54.602786] response: 01002, time took for LLM: 2.2111802101135254
-[2025-06-17T01:25:54.611553] Turn 2: Received feedback: 'r' is not in the word. 'e' is in the word but in the wrong position. 'a' is not in the word. 'l' is not in the word. 's' is in the correct position.
-[2025-06-17T01:25:54.611553] Translated: [0, 1, 0, 0, 2]
-[2025-06-17T01:25:54.611553] Turn 2: Guess: bites
-[2025-06-17T01:25:54.611553] time spent for guess: 0.007256984710693359
-[2025-06-17T01:25:58.381171] response: 00122, time took for LLM: 1.7050364017486572
-[2025-06-17T01:25:59.941081] response: 00122, time took for LLM: 1.5599100589752197
-[2025-06-17T01:26:02.061329] response: 00122, time took for LLM: 2.1202480792999268
-[2025-06-17T01:26:02.061329] Turn 3: Received feedback: 'b' is not in the word. 'i' is not in the word. 't' is in the word but in the wrong position. 'e' is in the correct position. 's' is in the correct position.
-[2025-06-17T01:26:02.061329] Translated: [0, 0, 1, 2, 2]
-[2025-06-17T01:26:02.061329] Turn 3: Guess: tones
-[2025-06-17T01:26:02.061329] time spent for guess: 0.0
-[2025-06-17T01:26:05.951555] response: 20222, time took for LLM: 1.866335391998291
-[2025-06-17T01:26:07.580802] response: 20222, time took for LLM: 1.6292474269866943
-[2025-06-17T01:26:09.347677] response: 20222, time took for LLM: 1.7668747901916504
-[2025-06-17T01:26:09.347677] Turn 4: Received feedback: 't' is in the correct position. 'o' is not in the word. 'n' is in the correct position. 'e' is in the correct position. 's' is in the correct position.
-[2025-06-17T01:26:09.347677] Translated: [2, 0, 2, 2, 2]
-[2025-06-17T01:26:09.347677] Turn 4: Guess: tynes
-[2025-06-17T01:26:09.347677] time spent for guess: 0.0
-[2025-06-17T01:26:11.406908] 
-=== Starting Problem 5 ===
-[2025-06-17T01:26:11.406908] Candidate words: aalii, aband, abbot, abled, aboon
-[2025-06-17T01:26:17.384642] Turn 1: Received feedback: None
-[2025-06-17T01:26:17.384642] Translated: None
-[2025-06-17T01:26:17.384642] Turn 1: Guess: reals
-[2025-06-17T01:26:17.384642] time spent for guess: 3.9262351989746094
-[2025-06-17T01:26:21.424404] response: 00100, time took for LLM: 2.010438919067383
-[2025-06-17T01:26:22.855433] response: 00100, time took for LLM: 1.4296841621398926
-[2025-06-17T01:26:24.523532] response: 00100, time took for LLM: 1.6680989265441895
-[2025-06-17T01:26:24.542600] Turn 2: Received feedback: 'r' is not in the word. 'e' is not in the word. 'a' is in the word but in the wrong position. 'l' is not in the word. 's' is not in the word.
-[2025-06-17T01:26:24.542600] Translated: [0, 0, 1, 0, 0]
-[2025-06-17T01:26:24.542600] Turn 2: Guess: mania
-[2025-06-17T01:26:24.542600] time spent for guess: 0.019067764282226562
-[2025-06-17T01:26:28.003851] response: 02202, time took for LLM: 1.3800275325775146
-[2025-06-17T01:26:30.249506] response: 02202, time took for LLM: 2.245654821395874
-[2025-06-17T01:26:33.328176] response: 02202, time took for LLM: 3.078669786453247
-[2025-06-17T01:26:33.328176] Turn 3: Received feedback: 'm' is not in the word. 'a' is in the correct position. 'n' is in the correct position. 'i' is not in the word. 'a' is in the correct position.
-[2025-06-17T01:26:33.328176] Translated: [0, 2, 2, 0, 2]
-[2025-06-17T01:26:33.328176] Turn 3: Guess: fanga
-[2025-06-17T01:26:33.328176] time spent for guess: 0.0
-[2025-06-17T01:26:37.070063] response: 02202, time took for LLM: 1.6810925006866455
-[2025-06-17T01:26:38.871259] response: 02202, time took for LLM: 1.8011960983276367
-[2025-06-17T01:26:40.518204] response: 02202, time took for LLM: 1.6469449996948242
-[2025-06-17T01:26:40.518204] Turn 4: Received feedback: 'f' is not in the word. 'a' is in the correct position. 'n' is in the correct position. 'g' is not in the word. 'a' is in the correct position.
-[2025-06-17T01:26:40.518204] Translated: [0, 2, 2, 0, 2]
-[2025-06-17T01:26:40.518204] Turn 4: Guess: wanna
-[2025-06-17T01:26:40.518204] time spent for guess: 0.0
-[2025-06-17T01:26:42.568506] 
-=== Starting Problem 6 ===
-[2025-06-17T01:26:42.568506] Candidate words: aalii, aband, abbot, abled, aboon
-[2025-06-17T01:26:48.556130] Turn 1: Received feedback: None
-[2025-06-17T01:26:48.556130] Translated: None
-[2025-06-17T01:26:48.556130] Turn 1: Guess: reals
-[2025-06-17T01:26:48.556130] time spent for guess: 3.934431791305542
-[2025-06-17T01:26:52.985986] response: 11000, time took for LLM: 2.374718189239502
-[2025-06-17T01:26:54.483631] response: 11000, time took for LLM: 1.4976451396942139
-[2025-06-17T01:26:56.180494] response: 11000, time took for LLM: 1.6968631744384766
-[2025-06-17T01:26:56.189585] Turn 2: Received feedback: 'r' is in the word but in the wrong position. 'e' is in the word but in the wrong position. 'a' is not in the word. 'l' is not in the word. 's' is not in the word.
-[2025-06-17T01:26:56.189585] Translated: [1, 1, 0, 0, 0]
-[2025-06-17T01:26:56.189585] Turn 2: Guess: treed
-[2025-06-17T01:26:56.189585] time spent for guess: 0.00909113883972168
-[2025-06-17T01:27:00.026489] response: 01100, time took for LLM: 1.7733886241912842
-[2025-06-17T01:27:01.124390] response: 01100, time took for LLM: 1.0979015827178955
-[2025-06-17T01:27:04.030430] response: 01100, time took for LLM: 2.9060399532318115
-[2025-06-17T01:27:04.030937] Turn 3: Received feedback: 't' is not in the word. 'r' is in the word but in the wrong position. 'e' is in the word but in the wrong position. 'e' is not in the word. 'd' is not in the word.
-[2025-06-17T01:27:04.030937] Translated: [0, 1, 1, 0, 0]
-[2025-06-17T01:27:04.030937] Turn 3: Guess: enorm
-[2025-06-17T01:27:04.030937] time spent for guess: 0.0
-[2025-06-17T01:27:07.967526] response: 10010, time took for LLM: 1.874718427658081
-[2025-06-17T01:27:09.688388] response: 10012, time took for LLM: 1.7208621501922607
-[2025-06-17T01:27:12.107770] response: 10010, time took for LLM: 2.419382333755493
-[2025-06-17T01:27:12.107770] Turn 4: Received feedback: 'e' is in the word but in the wrong position. 'n' is not in the word. 'o' is not in the word. 'r' is in the word but in the wrong position. 'm' is not in the word.
-[2025-06-17T01:27:12.107770] Translated: [1, 0, 0, 1, 0]
-[2025-06-17T01:27:12.107770] Turn 4: Guess: furze
-[2025-06-17T01:27:12.107770] time spent for guess: 0.0
-[2025-06-17T01:49:10.085476] 
-=== Starting Problem 1 ===
-[2025-06-17T01:49:10.085476] Candidate words: crane, flame, slate
-[2025-06-17T01:49:12.119920] Turn 1: Received feedback: None
-[2025-06-17T01:49:12.119920] Translated: None
-[2025-06-17T01:49:12.119920] Turn 1: Guess: flame
-[2025-06-17T01:49:12.119920] time spent for guess: 0.0
-[2025-06-17T01:49:14.153015] 
-=== Starting Problem 2 ===
-[2025-06-17T01:49:14.153015] Candidate words: prank, altar, adapt
-[2025-06-17T01:49:16.204268] Turn 1: Received feedback: None
-[2025-06-17T01:49:16.204268] Translated: None
-[2025-06-17T01:49:16.204268] Turn 1: Guess: prank
-[2025-06-17T01:49:16.204268] time spent for guess: 0.0005083084106445312
-[2025-06-17T01:49:20.344862] response: 01100, time took for LLM: 2.0987508296966553
-[2025-06-17T01:49:20.346870] Turn 2: Received feedback: 'p' is not in the word. 'r' is in the word but in the wrong position. 'a' is in the word but in the wrong position. 'n' is not in the word. 'k' is not in the word.
-[2025-06-17T01:49:20.346870] Translated: [0, 1, 1, 0, 0]
-[2025-06-17T01:49:20.348039] Turn 2: Guess: altar
-[2025-06-17T01:49:20.348039] time spent for guess: 0.001168966293334961
-[2025-06-17T01:49:22.386018] 
-=== Starting Problem 3 ===
-[2025-06-17T01:49:22.386018] Candidate words: aalii, aband, abbot, abled, aboon
-[2025-06-17T01:49:34.016382] Turn 1: Received feedback: None
-[2025-06-17T01:49:34.017384] Translated: None
-[2025-06-17T01:49:34.017384] Turn 1: Guess: reals
-[2025-06-17T01:49:34.017384] time spent for guess: 9.595828533172607
-[2025-06-17T01:49:38.400518] response: 01010, time took for LLM: 2.3400211334228516
-[2025-06-17T01:49:38.430779] Turn 2: Received feedback: 'r' is not in the word. 'e' is in the word but in the wrong position. 'a' is not in the word. 'l' is in the word but in the wrong position. 's' is in the word but in the wrong position.
-[2025-06-17T01:49:38.430779] Translated: [0, 1, 0, 1, 0]
-[2025-06-17T01:49:38.430779] Turn 2: Guess: coled
-[2025-06-17T01:49:38.430779] time spent for guess: 0.02670001983642578
-[2025-06-17T01:49:43.219965] response: 00120, time took for LLM: 2.7409136295318604
-[2025-06-17T01:49:43.222000] Turn 3: Received feedback: 'c' is not in the word. 'o' is not in the word. 'l' is in the word but in the wrong position. 'e' is in the correct position. 'd' is not in the word.
-[2025-06-17T01:49:43.222000] Translated: [0, 0, 1, 2, 0]
-[2025-06-17T01:49:43.222000] Turn 3: Guess: limey
-[2025-06-17T01:49:43.223027] time spent for guess: 0.0020475387573242188
-[2025-06-17T01:49:47.304618] response: 12020, time took for LLM: 2.0511910915374756
-[2025-06-17T01:49:47.308208] Turn 4: Received feedback: 'l' is in the word but in the wrong position. 'i' is in the correct position. 'm' is not in the word. 'e' is in the correct position. 'y' is not in the word.
-[2025-06-17T01:49:47.308208] Translated: [1, 2, 0, 2, 0]
-[2025-06-17T01:49:47.308208] Turn 4: We are damned
-[2025-06-17T01:49:47.308208] Turn 4: Guess: yappy
-[2025-06-17T01:49:51.031124] response: 00000, time took for LLM: 1.6624062061309814
-[2025-06-17T01:49:51.033654] Turn 5: Received feedback: 'y' is not in the word. 'a' is not in the word. 'p' is not in the word. 'p' is not in the word. 'y' is not in the word.
-[2025-06-17T01:49:51.033654] Translated: [0, 0, 0, 0, 0]
-[2025-06-17T01:49:51.033654] Turn 5: We are damned
-[2025-06-17T01:49:51.033654] Turn 5: Guess: murre
-[2025-06-17T01:49:55.342166] response: 00001, time took for LLM: 2.225151538848877
-[2025-06-17T01:49:55.344777] Turn 6: Received feedback: 'm' is not in the word. 'u' is not in the word. 'r' is not in the word. 'r' is not in the word. 'e' is in the word but in the wrong position.
-[2025-06-17T01:49:55.344777] Translated: [0, 0, 0, 0, 1]
-[2025-06-17T01:49:55.344777] Turn 6: We are damned
-[2025-06-17T01:49:55.344777] Turn 6: Guess: shogi
-[2025-06-17T01:49:59.616369] response: 10001, time took for LLM: 2.2202727794647217
-[2025-06-17T01:49:59.619393] Turn 7: Received feedback: 's' is in the word but in the wrong position. 'h' is not in the word. 'o' is not in the word. 'g' is not in the word. 'i' is in the word but in the wrong position.
-[2025-06-17T01:49:59.619393] Translated: [1, 0, 0, 0, 1]
-[2025-06-17T01:49:59.619393] Turn 7: We are damned
-[2025-06-17T01:49:59.619393] Turn 7: Guess: gormy
-[2025-06-17T01:50:03.420158] response: 00000, time took for LLM: 1.7214782238006592
-[2025-06-17T01:50:03.422133] Turn 8: Received feedback: 'g' is not in the word. 'o' is not in the word. 'r' is not in the word. 'm' is not in the word. 'y' is not in the word.
-[2025-06-17T01:50:03.422133] Translated: [0, 0, 0, 0, 0]
-[2025-06-17T01:50:03.422133] Turn 8: We are damned
-[2025-06-17T01:50:03.422133] Turn 8: Guess: busby
-[2025-06-17T01:50:07.470370] response: 00200, time took for LLM: 1.9869439601898193
-[2025-06-17T01:50:07.472381] Turn 9: Received feedback: 'b' is not in the word. 'u' is not in the word. 's' is in the correct position. 'b' is not in the word. 'y' is not in the word.
-[2025-06-17T01:50:07.472381] Translated: [0, 0, 2, 0, 0]
-[2025-06-17T01:50:07.472381] Turn 9: We are damned
-[2025-06-17T01:50:07.472381] Turn 9: Guess: skear
-[2025-06-17T01:50:12.165630] response: 10100, time took for LLM: 2.580644369125366
-[2025-06-17T01:50:12.166934] Turn 10: Received feedback: 's' is in the word but in the wrong position. 'k' is not in the word. 'e' is in the word but in the wrong position. 'a' is not in the word. 'r' is not in the word.
-[2025-06-17T01:50:12.166934] Translated: [1, 0, 1, 0, 0]
-[2025-06-17T01:50:12.166934] Turn 10: We are damned
-[2025-06-17T01:50:12.166934] Turn 10: Guess: cusks
-[2025-06-17T01:50:16.316052] response: 00200, time took for LLM: 2.137249231338501
-[2025-06-17T01:50:16.316052] Turn 11: Received feedback: 'c' is not in the word. 'u' is not in the word. 's' is in the correct position. 'k' is not in the word. 's' is not in the word.
-[2025-06-17T01:50:16.316052] Translated: [0, 0, 2, 0, 0]
-[2025-06-17T01:50:16.316052] Turn 11: We are damned
-[2025-06-17T01:50:16.316052] Turn 11: Guess: heron
-[2025-06-17T01:50:18.362255] 
-=== Starting Problem 4 ===
-[2025-06-17T01:50:18.362255] Candidate words: aalii, aband, abbot, abled, aboon
-[2025-06-17T01:50:26.167711] Turn 1: Received feedback: None
-[2025-06-17T01:50:26.167711] Translated: None
-[2025-06-17T01:50:26.167711] Turn 1: Guess: reals
-[2025-06-17T01:50:26.167711] time spent for guess: 5.772514820098877
-[2025-06-17T01:50:30.535218] response: 01101, time took for LLM: 2.312082052230835
-[2025-06-17T01:50:30.542178] Turn 2: Received feedback: 'r' is not in the word. 'e' is in the word but in the wrong position. 'a' is in the word but in the wrong position. 'l' is not in the word. 's' is in the word but in the wrong position.
-[2025-06-17T01:50:30.542178] Translated: [0, 1, 1, 0, 1]
-[2025-06-17T01:50:30.542178] Turn 2: Guess: ansae
-[2025-06-17T01:50:30.543222] time spent for guess: 0.005632162094116211
-[2025-06-17T01:50:34.358601] response: 20201, time took for LLM: 1.731358528137207
-[2025-06-17T01:50:34.359661] Turn 3: Received feedback: 'a' is in the correct position. 'n' is not in the word. 's' is in the correct position. 'a' is not in the word. 'e' is in the word but in the wrong position.
-[2025-06-17T01:50:34.360686] Translated: [2, 0, 2, 0, 1]
-[2025-06-17T01:50:34.360686] Turn 3: Guess: assez
-[2025-06-17T01:50:34.360686] time spent for guess: 0.0010249614715576172
-[2025-06-17T01:50:36.402992] 
-=== Starting Problem 5 ===
-[2025-06-17T01:50:36.402992] Candidate words: aalii, aband, abbot, abled, aboon
-[2025-06-17T01:50:42.970369] Turn 1: Received feedback: None
-[2025-06-17T01:50:42.970369] Translated: None
-[2025-06-17T01:50:42.970369] Turn 1: Guess: reals
-[2025-06-17T01:50:42.970369] time spent for guess: 4.553899049758911
-[2025-06-17T01:50:47.369823] response: 00110, time took for LLM: 2.3568074703216553
-[2025-06-17T01:50:47.372857] Turn 2: Received feedback: 'r' is not in the word. 'e' is not in the word. 'a' is in the word but in the wrong position. 'l' is in the word but in the wrong position. 's' is not in the word.
-[2025-06-17T01:50:47.372857] Translated: [0, 0, 1, 1, 0]
-[2025-06-17T01:50:47.372857] Turn 2: Guess: aalii
-[2025-06-17T01:50:47.372857] time spent for guess: 0.0005512237548828125
-[2025-06-17T01:50:51.600283] response: 10200, time took for LLM: 2.1781394481658936
-[2025-06-17T01:50:51.600283] Turn 3: Received feedback: 'a' is in the word but in the wrong position. 'a' is not in the word. 'l' is in the correct position. 'i' is not in the word. 'i' is not in the word.
-[2025-06-17T01:50:51.600283] Translated: [1, 0, 2, 0, 0]
-[2025-06-17T01:50:51.600283] Turn 3: Guess: molal
-[2025-06-17T01:50:51.600283] time spent for guess: 0.0
-[2025-06-17T01:50:55.853409] response: 00210, time took for LLM: 2.1586427688598633
-[2025-06-17T01:50:55.855425] Turn 4: Received feedback: 'm' is not in the word. 'o' is not in the word. 'l' is in the correct position. 'a' is in the word but in the wrong position. 'l' is not in the word.
-[2025-06-17T01:50:55.855425] Translated: [0, 0, 2, 1, 0]
-[2025-06-17T01:50:55.855425] Turn 4: Guess: pulka
-[2025-06-17T01:50:55.855425] time spent for guess: 0.0
-[2025-06-17T01:50:57.889918] 
-=== Starting Problem 6 ===
-[2025-06-17T01:50:57.889918] Candidate words: aalii, aband, abbot, abled, aboon
-[2025-06-17T01:51:03.995979] Turn 1: Received feedback: None
-[2025-06-17T01:51:03.995979] Translated: None
-[2025-06-17T01:51:03.995979] Turn 1: Guess: reals
-[2025-06-17T01:51:03.995979] time spent for guess: 4.048404693603516
-[2025-06-17T01:51:08.256902] response: 10101, time took for LLM: 2.2054245471954346
-[2025-06-17T01:51:08.260535] Turn 2: Received feedback: 'r' is in the word but in the wrong position. 'e' is not in the word. 'a' is in the word but in the wrong position. 'l' is not in the word. 's' is in the word but in the wrong position.
-[2025-06-17T01:51:08.260535] Translated: [1, 0, 1, 0, 1]
-[2025-06-17T01:51:08.260535] Turn 2: Guess: scrat
-[2025-06-17T01:51:08.260535] time spent for guess: 0.0028467178344726562
-[2025-06-17T01:51:12.094638] response: 10210, time took for LLM: 1.807227611541748
-[2025-06-17T01:51:12.094638] Turn 3: Received feedback: 's' is in the word but in the wrong position. 'c' is not in the word. 'r' is in the correct position. 'a' is in the word but in the wrong position. 't' is not in the word.
-[2025-06-17T01:51:12.094638] Translated: [1, 0, 2, 1, 0]
-[2025-06-17T01:51:12.094638] Turn 3: Guess: marsh
-[2025-06-17T01:51:12.094638] time spent for guess: 0.0
-[2025-06-17T02:06:58.677386] 
-=== Starting Problem 1 ===
-[2025-06-17T02:06:58.677386] Candidate words: crane, flame, slate
-[2025-06-17T02:07:00.754580] Turn 1: Received feedback: None
-[2025-06-17T02:07:00.754580] Translated: None
-[2025-06-17T02:07:00.754580] Turn 1: Guess: flame
-[2025-06-17T02:07:00.754580] time spent for guess: 0.0
-[2025-06-17T02:07:02.811893] 
-=== Starting Problem 2 ===
-[2025-06-17T02:07:02.811893] Candidate words: prank, altar, adapt
-[2025-06-17T02:07:04.850236] Turn 1: Received feedback: None
-[2025-06-17T02:07:04.850236] Translated: None
-[2025-06-17T02:07:04.850236] Turn 1: Guess: prank
-[2025-06-17T02:07:04.850236] time spent for guess: 0.0
-[2025-06-17T02:07:09.543659] response: 01100, time took for LLM: 2.6574437618255615
-[2025-06-17T02:07:09.546541] Turn 2: Received feedback: 'p' is not in the word. 'r' is in the word but in the wrong position. 'a' is in the word but in the wrong position. 'n' is not in the word. 'k' is not in the word.
-[2025-06-17T02:07:09.547550] Translated: [0, 1, 1, 0, 0]
-[2025-06-17T02:07:09.547550] Turn 2: Guess: altar
-[2025-06-17T02:07:09.547550] time spent for guess: 0.0010089874267578125
-[2025-06-17T02:07:11.603564] 
-=== Starting Problem 3 ===
-[2025-06-17T02:07:11.604633] Candidate words: aalii, aband, abbot, abled, aboon
-[2025-06-17T02:07:17.898462] Turn 1: Received feedback: None
-[2025-06-17T02:07:17.898462] Translated: None
-[2025-06-17T02:07:17.898462] Turn 1: Guess: reals
-[2025-06-17T02:07:17.898462] time spent for guess: 4.265661001205444
-[2025-06-17T02:07:22.040857] response: 02110, time took for LLM: 2.052128553390503
-[2025-06-17T02:07:22.051423] Turn 2: Received feedback: 'r' is not in the word. 'e' is in the correct position. 'a' is in the word but in the wrong position. 'l' is in the word but in the wrong position. 's' is not in the word.
-[2025-06-17T02:07:22.051423] Translated: [0, 2, 1, 1, 0]
-[2025-06-17T02:07:22.051423] Turn 2: Guess: belay
-[2025-06-17T02:07:22.051423] time spent for guess: 0.0025229454040527344
-[2025-06-17T02:07:24.082113] 
-=== Starting Problem 4 ===
-[2025-06-17T02:07:24.082113] Candidate words: aalii, aband, abbot, abled, aboon
-[2025-06-17T02:07:30.804211] Turn 1: Received feedback: None
-[2025-06-17T02:07:30.804211] Translated: None
-[2025-06-17T02:07:30.804211] Turn 1: Guess: reals
-[2025-06-17T02:07:30.804211] time spent for guess: 4.685128450393677
-[2025-06-17T02:07:41.721965] response: 02002, time took for LLM: 8.88871955871582
-[2025-06-17T02:07:41.721965] Turn 2: Received feedback: 'r' is not in the word. 'e' is in the correct position. 'a' is not in the word. 'l' is not in the word. 's' is in the correct position.
-[2025-06-17T02:07:41.721965] Translated: [0, 2, 0, 0, 2]
-[2025-06-17T02:07:41.721965] Turn 2: Guess: kents
-[2025-06-17T02:07:41.721965] time spent for guess: 0.0
-[2025-06-17T02:07:46.072917] response: 12002, time took for LLM: 2.291205406188965
-[2025-06-17T02:07:46.072917] Turn 3: Received feedback: 'k' is in the word but in the wrong position. 'e' is in the correct position. 'n' is not in the word. 't' is not in the word. 's' is in the correct position.
-[2025-06-17T02:07:46.072917] Translated: [1, 2, 0, 0, 2]
-[2025-06-17T02:07:46.072917] Turn 3: Guess: desks
-[2025-06-17T02:07:46.072917] time spent for guess: 0.0
-[2025-06-17T02:07:50.725056] response: 02022, time took for LLM: 2.601142168045044
-[2025-06-17T02:07:50.726643] Turn 4: Received feedback: 'd' is not in the word. 'e' is in the correct position. 's' is not in the word. 'k' is in the correct position. 's' is in the correct position.
-[2025-06-17T02:07:50.726643] Translated: [0, 2, 0, 2, 2]
-[2025-06-17T02:07:50.726643] Turn 4: We are damned
-[2025-06-17T02:07:50.726643] Turn 4: Guess: nixer
-[2025-06-17T02:07:55.291781] response: 00010, time took for LLM: 2.5030479431152344
-[2025-06-17T02:07:55.291781] Turn 5: Received feedback: 'n' is not in the word. 'i' is not in the word. 'x' is not in the word. 'e' is in the word but in the wrong position. 'r' is not in the word.
-[2025-06-17T02:07:55.291781] Translated: [0, 0, 0, 1, 0]
-[2025-06-17T02:07:55.291781] Turn 5: We are damned
-[2025-06-17T02:07:55.291781] Turn 5: Guess: focus
-[2025-06-17T02:08:03.572627] response: 20202, time took for LLM: 6.238412618637085
-[2025-06-17T02:08:03.577813] Turn 6: Received feedback: 'f' is in the correct position. 'o' is not in the word. 'c' is in the correct position. 'u' is not in the word. 's' is in the correct position.
-[2025-06-17T02:08:03.577813] Translated: [2, 0, 2, 0, 2]
-[2025-06-17T02:08:03.577813] Turn 6: We are damned
-[2025-06-17T02:08:03.577813] Turn 6: Guess: vares
-[2025-06-17T02:08:10.609496] response: 00012, time took for LLM: 5.003056049346924
-[2025-06-17T02:08:10.610547] Turn 7: Received feedback: 'v' is not in the word. 'a' is not in the word. 'r' is not in the word. 'e' is in the word but in the wrong position. 's' is in the correct position.
-[2025-06-17T02:08:10.610547] Translated: [0, 0, 0, 1, 2]
-[2025-06-17T02:08:10.610547] Turn 7: We are damned
-[2025-06-17T02:08:10.610547] Turn 7: Guess: ludes
-[2025-06-17T02:08:20.197163] response: 00012, time took for LLM: 7.537651062011719
-[2025-06-17T02:08:20.198144] Turn 8: Received feedback: 'l' is not in the word. 'u' is not in the word. 'd' is not in the word. 'e' is in the word but in the wrong position. 's' is in the correct position.
-[2025-06-17T02:08:20.198144] Translated: [0, 0, 0, 1, 2]
-[2025-06-17T02:08:20.198144] Turn 8: We are damned
-[2025-06-17T02:08:20.198144] Turn 8: Guess: blurb
-[2025-06-17T02:08:24.144274] response: 00000, time took for LLM: 1.9050593376159668
-[2025-06-17T02:08:24.144274] Turn 9: Received feedback: 'b' is not in the word. 'l' is not in the word. 'u' is not in the word. 'r' is not in the word. 'b' is not in the word.
-[2025-06-17T02:08:24.144274] Translated: [0, 0, 0, 0, 0]
-[2025-06-17T02:08:24.144274] Turn 9: We are damned
-[2025-06-17T02:08:24.144274] Turn 9: Guess: dicks
-[2025-06-17T02:08:28.173298] response: 00222, time took for LLM: 1.9646070003509521
-[2025-06-17T02:08:28.174807] Turn 10: Received feedback: 'd' is not in the word. 'i' is not in the word. 'c' is in the correct position. 'k' is in the correct position. 's' is in the correct position.
-[2025-06-17T02:08:28.174807] Translated: [0, 0, 2, 2, 2]
-[2025-06-17T02:08:28.174807] Turn 10: We are damned
-[2025-06-17T02:08:28.174807] Turn 10: Guess: steds
-[2025-06-17T02:08:32.405240] response: 00102, time took for LLM: 2.165398359298706
-[2025-06-17T02:08:32.405240] Turn 11: Received feedback: 's' is not in the word. 't' is not in the word. 'e' is in the word but in the wrong position. 'd' is not in the word. 's' is in the correct position.
-[2025-06-17T02:08:32.405240] Translated: [0, 0, 1, 0, 2]
-[2025-06-17T02:08:32.405240] Turn 11: We are damned
-[2025-06-17T02:08:32.405240] Turn 11: Guess: caeca
-[2025-06-17T02:08:34.461730] 
-=== Starting Problem 5 ===
-[2025-06-17T02:08:34.461730] Candidate words: aalii, aband, abbot, abled, aboon
-[2025-06-17T02:08:40.550886] Turn 1: Received feedback: None
-[2025-06-17T02:08:40.550886] Translated: None
-[2025-06-17T02:08:40.550886] Turn 1: Guess: reals
-[2025-06-17T02:08:40.550886] time spent for guess: 4.072481632232666
-[2025-06-17T02:08:46.064487] response: 00210, time took for LLM: 3.471827983856201
-[2025-06-17T02:08:46.068861] Turn 2: Received feedback: 'r' is not in the word. 'e' is not in the word. 'a' is in the correct position. 'l' is in the word but in the wrong position. 's' is not in the word.
-[2025-06-17T02:08:46.068861] Translated: [0, 0, 2, 1, 0]
-[2025-06-17T02:08:46.068861] Turn 2: Guess: liana
-[2025-06-17T02:08:46.068861] time spent for guess: 0.0033736228942871094
-[2025-06-17T02:08:51.827511] response: 10220, time took for LLM: 3.724159002304077
-[2025-06-17T02:08:51.827511] Turn 3: Received feedback: 'l' is in the word but in the wrong position. 'i' is not in the word. 'a' is in the correct position. 'n' is in the correct position. 'a' is not in the word.
-[2025-06-17T02:08:51.827511] Translated: [1, 0, 2, 2, 0]
-[2025-06-17T02:08:51.827511] Turn 3: Guess: plant
-[2025-06-17T02:08:51.827511] time spent for guess: 0.0
-[2025-06-17T02:08:53.894470] 
-=== Starting Problem 6 ===
-[2025-06-17T02:08:53.894470] Candidate words: aalii, aband, abbot, abled, aboon
-[2025-06-17T02:08:59.767831] Turn 1: Received feedback: None
-[2025-06-17T02:08:59.767831] Translated: None
-[2025-06-17T02:08:59.767831] Turn 1: Guess: reals
-[2025-06-17T02:08:59.767831] time spent for guess: 3.8215737342834473
-[2025-06-17T02:09:06.198032] response: 10000, time took for LLM: 4.379639625549316
-[2025-06-17T02:09:06.208295] Turn 2: Received feedback: 'r' is in the word but in the wrong position. 'e' is not in the word. 'a' is not in the word. 'l' is not in the word. 's' is not in the word.
-[2025-06-17T02:09:06.208295] Translated: [1, 0, 0, 0, 0]
-[2025-06-17T02:09:06.208295] Turn 2: Guess: crout
-[2025-06-17T02:09:06.208295] time spent for guess: 0.010263442993164062
-[2025-06-17T02:09:10.118960] response: 01101, time took for LLM: 1.8695127964019775
-[2025-06-17T02:09:10.118960] Turn 3: Received feedback: 'c' is not in the word. 'r' is in the word but in the wrong position. 'o' is in the word but in the wrong position. 'u' is not in the word. 't' is in the word but in the wrong position.
-[2025-06-17T02:09:10.118960] Translated: [0, 1, 1, 0, 1]
-[2025-06-17T02:09:10.118960] Turn 3: Guess: forth
-[2025-06-17T02:09:10.118960] time spent for guess: 0.0
-[2025-06-17T15:42:10.239484] 
-=== Starting Problem 1 ===
-[2025-06-17T15:42:10.239484] Candidate words: crane, flame, slate
-[2025-06-17T15:42:12.314207] Turn 1: Received feedback: None
-[2025-06-17T15:42:12.314207] Translated: None
-[2025-06-17T15:42:12.314207] Turn 1: Guess: flame
-[2025-06-17T15:42:12.314207] time spent for guess: 0.0
-[2025-06-17T15:42:14.382689] 
-=== Starting Problem 2 ===
-[2025-06-17T15:42:14.382689] Candidate words: prank, altar, adapt
-[2025-06-17T15:42:16.443562] Turn 1: Received feedback: None
-[2025-06-17T15:42:16.443562] Translated: None
-[2025-06-17T15:42:16.443562] Turn 1: Guess: prank
-[2025-06-17T15:42:16.443562] time spent for guess: 0.0020487308502197266
-[2025-06-17T15:42:20.576012] 
-=== Starting Problem 3 ===
-[2025-06-17T15:42:20.576012] Candidate words: aalii, aband, abbot, abled, aboon
-[2025-06-17T15:42:28.597919] Turn 1: Received feedback: None
-[2025-06-17T15:42:28.597919] Translated: None
-[2025-06-17T15:42:28.597919] Turn 1: Guess: reals
-[2025-06-17T15:42:28.597919] time spent for guess: 5.974391937255859
-[2025-06-17T15:42:32.691617] 
-=== Starting Problem 4 ===
-[2025-06-17T15:42:32.691617] Candidate words: aalii, aband, abbot, abled, aboon
-[2025-06-17T15:42:41.227079] Turn 1: Received feedback: None
-[2025-06-17T15:42:41.227079] Translated: None
-[2025-06-17T15:42:41.227079] Turn 1: Guess: reals
-[2025-06-17T15:42:41.227079] time spent for guess: 6.492138385772705
-[2025-06-17T15:42:45.297574] 
-=== Starting Problem 5 ===
-[2025-06-17T15:42:45.297574] Candidate words: aalii, aband, abbot, abled, aboon
-[2025-06-17T15:42:53.693171] Turn 1: Received feedback: None
-[2025-06-17T15:42:53.693171] Translated: None
-[2025-06-17T15:42:53.693171] Turn 1: Guess: reals
-[2025-06-17T15:42:53.693171] time spent for guess: 6.3334126472473145
-[2025-06-17T15:43:32.209868] 
-=== Starting Problem 1 ===
-[2025-06-17T15:43:32.211879] Candidate words: crane, flame, slate
-[2025-06-17T15:43:34.234108] Turn 1: Received feedback: None
-[2025-06-17T15:43:34.234108] Translated: None
-[2025-06-17T15:43:34.234108] Turn 1: Guess: flame
-[2025-06-17T15:43:34.234108] time spent for guess: 0.0
-[2025-06-17T15:43:36.278463] 
-=== Starting Problem 2 ===
-[2025-06-17T15:43:36.278463] Candidate words: prank, altar, adapt
-[2025-06-17T15:43:38.293140] Turn 1: Received feedback: None
-[2025-06-17T15:43:38.293140] Translated: None
-[2025-06-17T15:43:38.293140] Turn 1: Guess: prank
-[2025-06-17T15:43:38.293140] time spent for guess: 0.0
-[2025-06-17T15:43:42.362933] 
-=== Starting Problem 3 ===
-[2025-06-17T15:43:42.362933] Candidate words: aalii, aband, abbot, abled, aboon
-[2025-06-17T15:47:07.104764] 
-=== Starting Problem 2 ===
-[2025-06-17T15:47:07.104764] Candidate words: prank, altar, adapt
-[2025-06-17T15:47:09.158096] Turn 1: Received feedback: None
-[2025-06-17T15:47:09.158096] Translated: None
-[2025-06-17T15:47:09.158096] Turn 1: Guess: prank
-[2025-06-17T15:47:09.158096] time spent for guess: 0.0020139217376708984
-[2025-06-17T15:47:13.299403] 
-=== Starting Problem 3 ===
-[2025-06-17T15:47:13.299403] Candidate words: aalii, aband, abbot, abled, aboon
-[2025-06-17T15:47:25.355926] Turn 1: Received feedback: None
-[2025-06-17T15:47:25.355926] Translated: None
-[2025-06-17T15:47:25.355926] Turn 1: Guess: reals
-[2025-06-17T15:47:25.355926] time spent for guess: 10.001299142837524
-[2025-06-17T15:47:27.341515] 
-=== Starting Problem 4 ===
-[2025-06-17T15:47:27.341515] Candidate words: aalii, aband, abbot, abled, aboon
-[2025-06-17T15:47:39.130219] Turn 1: Received feedback: None
-[2025-06-17T15:47:39.130219] Translated: None
-[2025-06-17T15:47:39.130219] Turn 1: Guess: reals
-[2025-06-17T15:47:39.130219] time spent for guess: 9.723407745361328
-[2025-06-17T15:47:43.258260] 
-=== Starting Problem 5 ===
-[2025-06-17T15:47:43.260300] Candidate words: aalii, aband, abbot, abled, aboon
-[2025-06-17T15:47:55.051539] Turn 1: Received feedback: None
-[2025-06-17T15:47:55.051539] Translated: None
-[2025-06-17T15:47:55.051539] Turn 1: Guess: reals
-[2025-06-17T15:47:55.051539] time spent for guess: 9.727659463882446
-[2025-06-17T15:47:59.186267] 
-=== Starting Problem 6 ===
-[2025-06-17T15:47:59.186267] Candidate words: aalii, aband, abbot, abled, aboon
-[2025-06-17T15:48:10.988165] Turn 1: Received feedback: None
-[2025-06-17T15:48:10.988165] Translated: None
-[2025-06-17T15:48:10.988165] Turn 1: Guess: reals
-[2025-06-17T15:48:10.988165] time spent for guess: 9.768421411514282
-[2025-06-17T15:50:41.672666] 
-=== Starting Problem 2 ===
-[2025-06-17T15:50:41.672666] Candidate words: prank, altar, adapt
-[2025-06-17T15:50:43.721135] Turn 1: Received feedback: None
-[2025-06-17T15:50:43.721135] Translated: None
-[2025-06-17T15:50:43.721135] Turn 1: Guess: prank
-[2025-06-17T15:50:43.721135] time spent for guess: 0.0
-[2025-06-17T15:50:55.620546] response using splited_feedback: 0, time took: 9.849992752075195
-[2025-06-17T15:50:55.628629] Turn 2: Received feedback: 'p' is not in the word. 'r' is in the word but in the wrong position. 'a' is in the word but in the wrong position. 'n' is not in the word. 'k' is not in the word.
-[2025-06-17T15:50:55.628629] Translated: [0, 0, 0, 0, 0, 0, 1, 1, 0]
-[2025-06-17T15:50:55.628629] Turn 2: We are damned
-[2025-06-17T15:50:55.628629] Turn 2: Guess: altar
-[2025-06-17T15:50:57.690116] 
-=== Starting Problem 3 ===
-[2025-06-17T15:50:57.690116] Candidate words: aalii, aband, abbot, abled, aboon
-[2025-06-17T15:51:06.434990] Turn 1: Received feedback: None
-[2025-06-17T15:51:06.434990] Translated: None
-[2025-06-17T15:51:06.434990] Turn 1: Guess: reals
-[2025-06-17T15:51:06.434990] time spent for guess: 6.692127227783203
-[2025-06-17T15:51:15.385983] response using splited_feedback: 0, time took: 6.922048091888428
-[2025-06-17T15:51:15.390259] Turn 2: Received feedback: 'r' is in the word but in the wrong position. 'e' is not in the word. 'a' is in the correct position. 'l' is not in the word. 's' is in the correct position.
-[2025-06-17T15:51:15.390259] Translated: [0, 0, 0, 0, 0, 1, 0, 2, 0]
-[2025-06-17T15:51:15.390259] Turn 2: We are damned
-[2025-06-17T15:51:15.390259] Turn 2: Guess: jaded
-[2025-06-17T15:51:25.833731] response using splited_feedback: 0, time took: 8.387595891952515
-[2025-06-17T15:51:25.833731] Turn 3: Received feedback: 'j' is not in the word. 'a' is in the word but in the wrong position. 'd' is not in the word. 'e' is not in the word. 'd' is not in the word.
-[2025-06-17T15:51:25.833731] Translated: [0, 0, 0, 0, 0, 0, 1, 0, 0]
-[2025-06-17T15:51:25.833731] Turn 3: We are damned
-[2025-06-17T15:51:25.833731] Turn 3: Guess: dulse
-[2025-06-17T15:51:38.018312] response using splited_feedback: 1, time took: 10.156687498092651
-[2025-06-17T15:51:38.018312] Turn 4: Received feedback: 'd' is not in the word. 'u' is not in the word. 'l' is not in the word. 's' is in the word but in the wrong position. 'e' is not in the word.
-[2025-06-17T15:51:38.018312] Translated: [0, 0, 0, 0, 0, 0, 0, 0, 1]
-[2025-06-17T15:51:38.018312] Turn 4: We are damned
-[2025-06-17T15:51:38.018312] Turn 4: Guess: bries
-[2025-06-17T15:51:39.830248] 
-=== Starting Problem 4 ===
-[2025-06-17T15:51:39.830248] Candidate words: aalii, aband, abbot, abled, aboon
-[2025-06-17T15:51:48.438585] Turn 1: Received feedback: None
-[2025-06-17T15:51:48.438585] Translated: None
-[2025-06-17T15:51:48.438585] Turn 1: Guess: reals
-[2025-06-17T15:51:48.438585] time spent for guess: 6.557088613510132
-[2025-06-17T15:52:00.856243] response using splited_feedback: 0, time took: 10.358367204666138
-[2025-06-17T15:52:00.856776] Turn 2: Received feedback: 'r' is not in the word. 'e' is in the correct position. 'a' is not in the word. 'l' is not in the word. 's' is in the correct position.
-[2025-06-17T15:52:00.856776] Translated: [0, 0, 0, 0, 0, 0, 2, 0, 0]
-[2025-06-17T15:52:00.856776] Turn 2: We are damned
-[2025-06-17T15:52:00.856776] Turn 2: Guess: malis
-[2025-06-17T15:52:14.940850] 
-=== Starting Problem 1 ===
-[2025-06-17T15:52:14.940850] Candidate words: crane, flame, slate
-[2025-06-17T15:52:16.981124] Turn 1: Received feedback: None
-[2025-06-17T15:52:16.981124] Translated: None
-[2025-06-17T15:52:16.981124] Turn 1: Guess: flame
-[2025-06-17T15:52:16.981124] time spent for guess: 0.0
-[2025-06-17T15:52:19.024463] 
-=== Starting Problem 2 ===
-[2025-06-17T15:52:19.024463] Candidate words: prank, altar, adapt
-[2025-06-17T15:52:21.098785] Turn 1: Received feedback: None
-[2025-06-17T15:52:21.098785] Translated: None
-[2025-06-17T15:52:21.098785] Turn 1: Guess: prank
-[2025-06-17T15:52:21.098785] time spent for guess: 0.0
-[2025-06-17T15:52:32.710922] response using splited_feedback: 0, time took: 9.525446653366089
-[2025-06-17T15:52:32.710922] Turn 2: Received feedback: 'p' is not in the word. 'r' is in the word but in the wrong position. 'a' is in the word but in the wrong position. 'n' is not in the word. 'k' is not in the word.
-[2025-06-17T15:52:32.710922] Translated: [0, 0, 0, 0, 0, 0, 1, 1, 0]
-[2025-06-17T15:52:32.710922] Turn 2: We are damned
-[2025-06-17T15:52:32.710922] Turn 2: Guess: prank
-[2025-06-17T15:52:43.699663] response using splited_feedback: 0, time took: 8.94170331954956
-[2025-06-17T15:52:43.699663] Turn 3: Received feedback: 'p' is not in the word. 'r' is in the word but in the wrong position. 'a' is in the word but in the wrong position. 'n' is not in the word. 'k' is not in the word.
-[2025-06-17T15:52:43.699663] Translated: [0, 0, 0, 0, 0, 0, 1, 1, 0]
-[2025-06-17T15:52:43.699663] Turn 3: We are damned
-[2025-06-17T15:52:43.699663] Turn 3: Guess: altar
-[2025-06-17T15:52:45.752087] 
-=== Starting Problem 3 ===
-[2025-06-17T15:52:45.752087] Candidate words: aalii, aband, abbot, abled, aboon
-[2025-06-17T15:52:57.246408] Turn 1: Received feedback: None
-[2025-06-17T15:52:57.246408] Translated: None
-[2025-06-17T15:52:57.246408] Turn 1: Guess: reals
-[2025-06-17T15:52:57.246408] time spent for guess: 9.41093635559082
-[2025-06-17T15:53:08.137891] response using splited_feedback: 2, time took: 8.855777978897095
-[2025-06-17T15:53:08.137891] Turn 2: Received feedback: 'r' is not in the word. 'e' is not in the word. 'a' is in the word but in the wrong position. 'l' is in the correct position. 's' is in the correct position.
-[2025-06-17T15:53:08.137891] Translated: [0, 0, 0, 0, 0, 0, 0, 1, 2]
-[2025-06-17T15:53:08.137891] Turn 2: We are damned
-[2025-06-17T15:53:08.137891] Turn 2: Guess: ingle
-[2025-06-17T15:53:19.915875] response using splited_feedback: 2, time took: 9.706969261169434
-[2025-06-17T15:53:19.915875] Turn 3: Received feedback: 'i' is not in the word. 'n' is not in the word. 'g' is not in the word. 'l' is in the correct position. 'e' is not in the word.
-[2025-06-17T15:53:19.915875] Translated: [0, 0, 0, 0, 0, 0, 0, 0, 2]
-[2025-06-17T15:53:19.915875] Turn 3: We are damned
-[2025-06-17T15:53:19.915875] Turn 3: Guess: ungum
-[2025-06-17T15:53:30.160482] response using splited_feedback: 0, time took: 8.191874980926514
-[2025-06-17T15:53:30.160482] Turn 4: Received feedback: 'u' is not in the word. 'n' is not in the word. 'g' is not in the word. 'u' is not in the word. 'm' is in the word but in the wrong position.
-[2025-06-17T15:53:30.160482] Translated: [0, 0, 0, 0, 0, 0, 0, 0, 0]
-[2025-06-17T15:53:30.160482] Turn 4: We are damned
-[2025-06-17T15:53:30.160482] Turn 4: Guess: arils
-[2025-06-17T15:53:41.524797] response using splited_feedback: 2, time took: 9.307517051696777
-[2025-06-17T15:53:41.524797] Turn 5: Received feedback: 'a' is in the correct position. 'r' is not in the word. 'i' is not in the word. 'l' is in the correct position. 's' is in the correct position.
-[2025-06-17T15:53:41.524797] Translated: [0, 0, 0, 0, 0, 2, 0, 0, 2]
-[2025-06-17T15:53:41.524797] Turn 5: We are damned
-[2025-06-17T15:53:41.524797] Turn 5: Guess: fools
-[2025-06-17T15:53:51.945537] response using splited_feedback: 2, time took: 8.361629962921143
-[2025-06-17T15:53:51.945537] Turn 6: Received feedback: 'f' is not in the word. 'o' is not in the word. 'o' is not in the word. 'l' is in the correct position. 's' is in the correct position.
-[2025-06-17T15:53:51.945537] Translated: [0, 0, 0, 0, 0, 0, 0, 0, 2]
-[2025-06-17T15:53:51.945537] Turn 6: We are damned
-[2025-06-17T15:53:51.945537] Turn 6: Guess: queyn
-[2025-06-17T15:54:04.673264] response using splited_feedback: 1, time took: 10.657761096954346
-[2025-06-17T15:54:04.673264] Turn 7: Received feedback: 'q' is not in the word. 'u' is not in the word. 'e' is not in the word. 'y' is in the word but in the wrong position. 'n' is not in the word.
-[2025-06-17T15:54:04.673264] Translated: [0, 0, 0, 0, 0, 0, 0, 0, 1]
-[2025-06-17T15:54:04.673264] Turn 7: We are damned
-[2025-06-17T15:54:04.673264] Turn 7: Guess: calid
-[2025-06-17T15:54:05.968266] 
-=== Starting Problem 4 ===
-[2025-06-17T15:54:05.968266] Candidate words: aalii, aband, abbot, abled, aboon
-[2025-06-17T15:54:22.574423] 
-=== Starting Problem 1 ===
-[2025-06-17T15:54:22.576431] Candidate words: crane, flame, slate
-[2025-06-17T15:54:24.627545] Turn 1: Received feedback: None
-[2025-06-17T15:54:24.628532] Translated: None
-[2025-06-17T15:54:24.628532] Turn 1: Guess: flame
-[2025-06-17T15:54:24.628532] time spent for guess: 0.0014660358428955078
-[2025-06-17T15:54:26.669992] 
-=== Starting Problem 2 ===
-[2025-06-17T15:54:26.669992] Candidate words: prank, altar, adapt
-[2025-06-17T15:54:28.735925] Turn 1: Received feedback: None
-[2025-06-17T15:54:28.735925] Translated: None
-[2025-06-17T15:54:28.735925] Turn 1: Guess: prank
-[2025-06-17T15:54:28.735925] time spent for guess: 0.0
-[2025-06-17T15:54:39.167438] response using splited_feedback: [0, 1, 1, 0], time took: 8.396669387817383
-[2025-06-17T15:54:39.167438] Turn 2: Received feedback: 'p' is not in the word. 'r' is in the word but in the wrong position. 'a' is in the word but in the wrong position. 'n' is not in the word. 'k' is not in the word.
-[2025-06-17T15:54:39.167438] Translated: [0, 1, 1, 0]
-[2025-06-17T15:54:39.167438] Turn 2: We are damned
-[2025-06-17T15:54:39.167438] Turn 2: Guess: prank
-[2025-06-17T15:54:49.834667] response using splited_feedback: [0, 1, 1, 0], time took: 8.624520301818848
-[2025-06-17T15:54:49.834667] Turn 3: Received feedback: 'p' is not in the word. 'r' is in the word but in the wrong position. 'a' is in the word but in the wrong position. 'n' is not in the word. 'k' is not in the word.
-[2025-06-17T15:54:49.834667] Translated: [0, 1, 1, 0]
-[2025-06-17T15:54:49.834667] Turn 3: We are damned
-[2025-06-17T15:54:49.834667] Turn 3: Guess: prank
-[2025-06-17T15:55:01.532359] response using splited_feedback: [0, 1, 1, 0], time took: 9.638837575912476
-[2025-06-17T15:55:01.532359] Turn 4: Received feedback: 'p' is not in the word. 'r' is in the word but in the wrong position. 'a' is in the word but in the wrong position. 'n' is not in the word. 'k' is not in the word.
-[2025-06-17T15:55:01.532359] Translated: [0, 1, 1, 0]
-[2025-06-17T15:55:01.532359] Turn 4: We are damned
-[2025-06-17T15:55:01.532359] Turn 4: Guess: altar
-[2025-06-17T15:55:03.613481] 
-=== Starting Problem 3 ===
-[2025-06-17T15:55:03.613481] Candidate words: aalii, aband, abbot, abled, aboon
-[2025-06-17T15:55:14.901283] Turn 1: Received feedback: None
-[2025-06-17T15:55:14.901283] Translated: None
-[2025-06-17T15:55:14.901283] Turn 1: Guess: reals
-[2025-06-17T15:55:14.901283] time spent for guess: 9.240211725234985
-[2025-06-17T15:55:46.852713] 
-=== Starting Problem 1 ===
-[2025-06-17T15:55:46.852713] Candidate words: crane, flame, slate
-[2025-06-17T15:55:48.907016] Turn 1: Received feedback: None
-[2025-06-17T15:55:48.907016] Translated: None
-[2025-06-17T15:55:48.907016] Turn 1: Guess: flame
-[2025-06-17T15:55:48.907016] time spent for guess: 0.0005071163177490234
-[2025-06-17T15:55:50.956673] 
-=== Starting Problem 2 ===
-[2025-06-17T15:55:50.957675] Candidate words: prank, altar, adapt
-[2025-06-17T15:55:53.042861] Turn 1: Received feedback: None
-[2025-06-17T15:55:53.042861] Translated: None
-[2025-06-17T15:55:53.042861] Turn 1: Guess: prank
-[2025-06-17T15:55:53.042861] time spent for guess: 0.0
-[2025-06-17T15:56:07.977285] response using splited_feedback: [0, 1, 1, 0, 0], time took: 12.863075256347656
-[2025-06-17T15:56:07.977285] Turn 2: Received feedback: 'p' is not in the word. 'r' is in the word but in the wrong position. 'a' is in the word but in the wrong position. 'n' is not in the word. 'k' is not in the word.
-[2025-06-17T15:56:07.977285] Translated: [0, 1, 1, 0, 0]
-[2025-06-17T15:56:07.977285] Turn 2: Guess: altar
-[2025-06-17T15:56:07.977285] time spent for guess: 0.0
-[2025-06-17T15:56:07.990566] 
-=== Starting Problem 3 ===
-[2025-06-17T15:56:07.990566] Candidate words: aalii, aband, abbot, abled, aboon
-[2025-06-17T15:56:17.619131] Turn 1: Received feedback: None
-[2025-06-17T15:56:17.619131] Translated: None
-[2025-06-17T15:56:17.619131] Turn 1: Guess: reals
-[2025-06-17T15:56:17.619131] time spent for guess: 7.582243204116821
-[2025-06-17T15:56:31.516052] response using splited_feedback: [0, 0, 1, 0, 0], time took: 11.860227108001709
-[2025-06-17T15:56:31.547627] Turn 2: Received feedback: 'r' is not in the word. 'e' is not in the word. 'a' is in the word but in the wrong position. 'l' is not in the word. 's' is not in the word.
-[2025-06-17T15:56:31.547627] Translated: [0, 0, 1, 0, 0]
-[2025-06-17T15:56:31.547627] Turn 2: Guess: mania
-[2025-06-17T15:56:31.547627] time spent for guess: 0.03157496452331543
-[2025-06-17T15:56:31.589135] 
-=== Starting Problem 4 ===
-[2025-06-17T15:56:31.589135] Candidate words: aalii, aband, abbot, abled, aboon
-[2025-06-17T15:56:40.312338] Turn 1: Received feedback: None
-[2025-06-17T15:56:40.312338] Translated: None
-[2025-06-17T15:56:40.312338] Turn 1: Guess: reals
-[2025-06-17T15:56:40.312338] time spent for guess: 6.686091184616089
-[2025-06-17T15:56:54.675384] response using splited_feedback: [0, 0, 0, 0, 2], time took: 12.315219402313232
-[2025-06-17T15:56:54.693873] Turn 2: Received feedback: 'r' is not in the word. 'e' is not in the word. 'a' is not in the word. 'l' is not in the word. 's' is in the correct position.
-[2025-06-17T15:56:54.693873] Translated: [0, 0, 0, 0, 2]
-[2025-06-17T15:56:54.693873] Turn 2: Guess: oints
-[2025-06-17T15:56:54.693873] time spent for guess: 0.018489599227905273
-[2025-06-17T15:56:54.740149] 
-=== Starting Problem 5 ===
-[2025-06-17T15:56:54.740149] Candidate words: aalii, aband, abbot, abled, aboon
-[2025-06-17T15:57:03.651687] Turn 1: Received feedback: None
-[2025-06-17T15:57:03.651687] Translated: None
-[2025-06-17T15:57:03.651687] Turn 1: Guess: reals
-[2025-06-17T15:57:03.651687] time spent for guess: 6.871574640274048
-[2025-06-17T15:57:18.320755] response using splited_feedback: [0, 1, 1, 0, 0], time took: 12.632504940032959
-[2025-06-17T15:57:18.337799] Turn 2: Received feedback: 'r' is not in the word. 'e' is in the word but in the wrong position. 'a' is in the word but in the wrong position. 'l' is not in the word. 's' is not in the word.
-[2025-06-17T15:57:18.337799] Translated: [0, 1, 1, 0, 0]
-[2025-06-17T15:57:18.337799] Turn 2: Guess: cawed
-[2025-06-17T15:57:18.337799] time spent for guess: 0.017043113708496094
-[2025-06-17T15:57:18.366937] 
-=== Starting Problem 6 ===
-[2025-06-17T15:57:18.367565] Candidate words: aalii, aband, abbot, abled, aboon
-[2025-06-17T15:57:26.594817] Turn 1: Received feedback: None
-[2025-06-17T15:57:26.594817] Translated: None
-[2025-06-17T15:57:26.594817] Turn 1: Guess: reals
-[2025-06-17T15:57:26.594817] time spent for guess: 6.18888783454895
-[2025-06-17T15:57:40.759398] response using splited_feedback: [1, 0, 0, 0, 0], time took: 12.137372970581055
-[2025-06-17T15:57:40.780248] Turn 2: Received feedback: 'r' is in the word but in the wrong position. 'e' is not in the word. 'a' is not in the word. 'l' is not in the word. 's' is not in the word.
-[2025-06-17T15:57:40.780248] Translated: [1, 0, 0, 0, 0]
-[2025-06-17T15:57:40.780248] Turn 2: Guess: crout
-[2025-06-17T15:57:40.780248] time spent for guess: 0.020850419998168945
+[2025-06-18T04:58:21.931059] Candidate words: tusks, bloop, yards, lehrs, hokku
+[2025-06-18T04:58:25.697816] Turn 1: Received feedback: None
+[2025-06-18T04:58:25.697816] Translated: None
+[2025-06-18T04:58:25.697816] Turn 1: Guess: lares
+[2025-06-18T04:58:25.697816] time spent for guess: 1.697436809539795
+[2025-06-18T04:58:25.697816] plausibles: 2034
+[2025-06-18T04:58:30.437583] response: 01022, time took for LLM: 2.702471971511841
+[2025-06-18T04:58:32.515195] 
+=== Starting Problem 7 ===
+[2025-06-18T04:58:32.515195] Candidate words: equal, peers, bitos, stuns, moder
+[2025-06-18T04:58:37.003553] Turn 1: Received feedback: None
+[2025-06-18T04:58:37.003553] Translated: None
+[2025-06-18T04:58:37.003553] Turn 1: Guess: teras
+[2025-06-18T04:58:37.003553] time spent for guess: 2.4333534240722656
+[2025-06-18T04:58:37.003553] plausibles: 4522
+[2025-06-18T04:58:50.970272] 
+=== Starting Problem 10 ===
+[2025-06-18T04:58:50.970272] Candidate words: rewet, chaws, weest, blats, wyled
+[2025-06-18T04:58:55.046894] Turn 1: Received feedback: None
+[2025-06-18T04:58:55.046894] Translated: None
+[2025-06-18T04:58:55.046894] Turn 1: Guess: saner
+[2025-06-18T04:58:55.046894] time spent for guess: 2.024109125137329
+[2025-06-18T04:58:55.046894] plausibles: 10145
+[2025-06-18T04:58:58.649375] response: 00000, time took for LLM: 1.568941593170166
+[2025-06-18T04:59:00.977950] Turn 2: Received feedback: 's' is not in the word. 'a' is not in the word. 'n' is not in the word. 'e' is not in the word. 'r' is not in the word.
+[2025-06-18T04:59:00.977950] Translated: [0, 0, 0, 0, 0]
+[2025-06-18T04:59:00.977950] Turn 2: Guess: aloes
+[2025-06-18T04:59:00.977950] time spent for guess: 2.3248038291931152
+[2025-06-18T04:59:00.977950] plausibles: 639
+[2025-06-18T04:59:05.254745] response: 02000, time took for LLM: 2.2261431217193604
+[2025-06-18T04:59:07.396306] Turn 3: Received feedback: 'a' is not in the word. 'l' is in the correct position. 'o' is not in the word. 'e' is not in the word. 's' is not in the word.
+[2025-06-18T04:59:07.396306] Translated: [0, 2, 0, 0, 0]
+[2025-06-18T04:59:07.396306] Turn 3: Guess: dates
+[2025-06-18T04:59:07.396306] time spent for guess: 2.1395509243011475
+[2025-06-18T04:59:07.396306] plausibles: 26
+[2025-06-18T04:59:11.399050] response: 00000, time took for LLM: 1.9433221817016602
+[2025-06-18T04:59:13.623805] Turn 4: Received feedback: 'd' is not in the word. 'a' is not in the word. 't' is not in the word. 'e' is not in the word. 's' is not in the word.
+[2025-06-18T04:59:13.623805] Translated: [0, 0, 0, 0, 0]
+[2025-06-18T04:59:13.623805] Turn 4: Guess: tabes
+[2025-06-18T04:59:13.623805] time spent for guess: 2.222731590270996
+[2025-06-18T04:59:13.623805] plausibles: 16
+[2025-06-18T04:59:17.233627] response: 00000, time took for LLM: 1.5679731369018555
+[2025-06-18T04:59:19.437145] Turn 5: Received feedback: 't' is not in the word. 'a' is not in the word. 'b' is not in the word. 'e' is not in the word. 's' is not in the word.
+[2025-06-18T04:59:19.437145] Translated: [0, 0, 0, 0, 0]
+[2025-06-18T04:59:19.437145] Turn 5: Guess: parrs
+[2025-06-18T04:59:19.437145] time spent for guess: 2.2015013694763184
+[2025-06-18T04:59:19.437145] plausibles: 13
+[2025-06-18T04:59:23.378962] response: 20000, time took for LLM: 1.8997445106506348
+[2025-06-18T04:59:25.596761] Turn 6: Received feedback: 'p' is in the correct position. 'a' is not in the word. 'r' is not in the word. 'r' is not in the word. 's' is not in the word.
+[2025-06-18T04:59:25.596761] Translated: [2, 0, 0, 0, 0]
+[2025-06-18T04:59:25.596761] Turn 6: Guess: drily
+[2025-06-18T04:59:25.596761] time spent for guess: 2.2157766819000244
+[2025-06-18T04:59:25.596761] plausibles: 3
+[2025-06-18T04:59:30.443389] response: 00100, time took for LLM: 2.8093957901000977
+[2025-06-18T04:59:32.642934] Turn 7: Received feedback: 'd' is not in the word. 'r' is not in the word. 'i' is not in the word. 'l' is in the word but in the wrong position. 'y' is not in the word.
+[2025-06-18T04:59:32.642934] Translated: [0, 0, 1, 0, 0]
+[2025-06-18T04:59:32.642934] Turn 7: Guess: nazis
+[2025-06-18T04:59:32.642934] time spent for guess: 2.1975228786468506
+[2025-06-18T04:59:32.642934] plausibles: 0
+[2025-06-18T04:59:36.796494] response: 00000, time took for LLM: 2.1240665912628174
+[2025-06-18T04:59:39.037566] Turn 8: Received feedback: 'n' is not in the word. 'a' is not in the word. 'z' is not in the word. 'i' is not in the word. 's' is not in the word.
+[2025-06-18T04:59:39.037566] Translated: [0, 0, 0, 0, 0]
+[2025-06-18T04:59:39.037566] Turn 8: Guess: genie
+[2025-06-18T04:59:39.037566] time spent for guess: 2.2359471321105957
+[2025-06-18T04:59:39.037566] plausibles: 0
+[2025-06-18T04:59:43.959599] response: 00000, time took for LLM: 2.827533483505249
+[2025-06-18T04:59:46.063039] Turn 9: Received feedback: 'g' is not in the word. 'e' is not in the word. 'n' is not in the word. 'i' is not in the word. 'e' is not in the word.
+[2025-06-18T04:59:46.063039] Translated: [0, 0, 0, 0, 0]
+[2025-06-18T04:59:46.063039] Turn 9: Guess: proul
+[2025-06-18T04:59:46.063039] time spent for guess: 2.1034398078918457
+[2025-06-18T04:59:46.063039] plausibles: 0
+[2025-06-18T04:59:50.530329] response: 20011, time took for LLM: 2.4206812381744385
+[2025-06-18T04:59:52.732943] Turn 10: Received feedback: 'p' is in the correct position. 'r' is not in the word. 'o' is not in the word. 'u' is in the word but in the wrong position. 'l' is in the word but in the wrong position.
+[2025-06-18T04:59:52.732943] Translated: [2, 0, 0, 1, 1]
+[2025-06-18T04:59:52.732943] Turn 10: Guess: yells
+[2025-06-18T04:59:52.732943] time spent for guess: 2.2026138305664062
+[2025-06-18T04:59:52.732943] plausibles: 0
+[2025-06-18T04:59:57.273378] response: 00100, time took for LLM: 2.5116982460021973
+[2025-06-18T04:59:59.455482] Turn 11: Received feedback: 'y' is not in the word. 'e' is not in the word. 'l' is in the word but in the wrong position. 'l' is not in the word. 's' is not in the word.
+[2025-06-18T04:59:59.455482] Translated: [0, 0, 1, 0, 0]
+[2025-06-18T04:59:59.455482] Turn 11: Guess: pluto
+[2025-06-18T04:59:59.455482] time spent for guess: 2.1800904273986816
+[2025-06-18T04:59:59.455482] plausibles: 0
+[2025-06-18T05:00:01.488683] 
+=== Starting Problem 11 ===
+[2025-06-18T05:00:01.488683] Candidate words: fonly, unled, nooit, boozy, dampy
+[2025-06-18T05:00:05.571420] Turn 1: Received feedback: None
+[2025-06-18T05:00:05.571420] Translated: None
+[2025-06-18T05:00:05.571420] Turn 1: Guess: toeas
+[2025-06-18T05:00:05.571420] time spent for guess: 1.99796724319458
+[2025-06-18T05:00:05.571420] plausibles: 9099
+[2025-06-18T05:00:09.185009] response: 02101, time took for LLM: 1.5766053199768066
+[2025-06-18T05:00:11.240050] Turn 2: Received feedback: 't' is not in the word. 'o' is in the correct position. 'e' is in the word but in the wrong position. 'a' is not in the word. 's' is in the word but in the wrong position.
+[2025-06-18T05:00:11.240050] Translated: [0, 2, 1, 0, 1]
+[2025-06-18T05:00:11.240050] Turn 2: Guess: soare
+[2025-06-18T05:00:11.240050] time spent for guess: 2.0550413131713867
+[2025-06-18T05:00:11.240050] plausibles: 55
+[2025-06-18T05:00:22.978834] 
+=== Starting Problem 13 ===
+[2025-06-18T05:00:22.978834] Candidate words: dread, tiled, torsk, apple, ecads
+[2025-06-18T05:00:26.809375] Turn 1: Received feedback: None
+[2025-06-18T05:00:26.809375] Translated: None
+[2025-06-18T05:00:26.809375] Turn 1: Guess: tares
+[2025-06-18T05:00:26.809375] time spent for guess: 1.7809081077575684
+[2025-06-18T05:00:26.809375] plausibles: 4929
+[2025-06-18T05:00:31.584479] response: 00010, time took for LLM: 2.737370252609253
+[2025-06-18T05:00:33.473672] Turn 2: Received feedback: 't' is not in the word. 'a' is not in the word. 'r' is not in the word. 'e' is in the word but in the wrong position. 's' is not in the word.
+[2025-06-18T05:00:33.473672] Translated: [0, 0, 0, 1, 0]
+[2025-06-18T05:00:33.473672] Turn 2: Guess: salet
+[2025-06-18T05:00:33.473672] time spent for guess: 1.887183666229248
+[2025-06-18T05:00:33.473672] plausibles: 254
+[2025-06-18T05:00:37.719449] response: 00210, time took for LLM: 2.186866044998169
+[2025-06-18T05:00:39.678757] Turn 3: Received feedback: 's' is not in the word. 'a' is not in the word. 'l' is in the correct position. 'e' is in the word but in the wrong position. 't' is not in the word.
+[2025-06-18T05:00:39.678757] Translated: [0, 0, 2, 1, 0]
+[2025-06-18T05:00:39.678757] Turn 3: Guess: bears
+[2025-06-18T05:00:39.678757] time spent for guess: 1.9572913646697998
+[2025-06-18T05:00:39.678757] plausibles: 23
+[2025-06-18T05:00:43.786752] response: 01000, time took for LLM: 2.0609004497528076
+[2025-06-18T05:00:45.752878] Turn 4: Received feedback: 'b' is not in the word. 'e' is in the word but in the wrong position. 'a' is not in the word. 'r' is not in the word. 's' is not in the word.
+[2025-06-18T05:00:45.752878] Translated: [0, 1, 0, 0, 0]
+[2025-06-18T05:00:45.752878] Turn 4: Guess: scone
+[2025-06-18T05:00:45.752878] time spent for guess: 1.9661259651184082
+[2025-06-18T05:00:45.752878] plausibles: 8
+[2025-06-18T05:00:49.392932] response: 00102, time took for LLM: 1.5834004878997803
+[2025-06-18T05:00:51.277205] Turn 5: Received feedback: 's' is not in the word. 'c' is not in the word. 'o' is in the word but in the wrong position. 'n' is not in the word. 'e' is in the correct position.
+[2025-06-18T05:00:51.277205] Translated: [0, 0, 1, 0, 2]
+[2025-06-18T05:00:51.277205] Turn 5: Guess: toled
+[2025-06-18T05:00:51.277205] time spent for guess: 1.882253646850586
+[2025-06-18T05:00:51.277205] plausibles: 5
+[2025-06-18T05:00:55.229086] response: 02210, time took for LLM: 1.906787633895874
+[2025-06-18T05:00:57.155910] Turn 6: Received feedback: 't' is not in the word. 'o' is in the correct position. 'l' is in the correct position. 'e' is in the word but in the wrong position. 'd' is not in the word.
+[2025-06-18T05:00:57.155910] Translated: [0, 2, 2, 1, 0]
+[2025-06-18T05:00:57.155910] Turn 6: Guess: roate
+[2025-06-18T05:00:57.155910] time spent for guess: 1.9248085021972656
+[2025-06-18T05:00:57.155910] plausibles: 3
+[2025-06-18T05:01:01.476716] response: 02002, time took for LLM: 2.2898597717285156
+[2025-06-18T05:01:03.497545] Turn 7: Received feedback: 'r' is not in the word. 'o' is in the correct position. 'a' is not in the word. 't' is not in the word. 'e' is in the correct position.
+[2025-06-18T05:01:03.497545] Translated: [0, 2, 0, 0, 2]
+[2025-06-18T05:01:03.497545] Turn 7: Guess: poyse
+[2025-06-18T05:01:03.497545] time spent for guess: 2.018810749053955
+[2025-06-18T05:01:03.497545] plausibles: 3
+[2025-06-18T05:01:07.422801] response: 02002, time took for LLM: 1.8827087879180908
+[2025-06-18T05:01:09.269582] Turn 8: Received feedback: 'p' is not in the word. 'o' is in the correct position. 'y' is not in the word. 's' is not in the word. 'e' is in the correct position.
+[2025-06-18T05:01:09.269582] Translated: [0, 2, 0, 0, 2]
+[2025-06-18T05:01:09.269582] Turn 8: Guess: sonde
+[2025-06-18T05:01:09.269582] time spent for guess: 1.8447623252868652
+[2025-06-18T05:01:09.269582] plausibles: 2
+[2025-06-18T05:01:14.894892] response: 02002, time took for LLM: 3.588665723800659
+[2025-06-18T05:01:16.823610] Turn 9: Received feedback: 's' is not in the word. 'o' is in the correct position. 'n' is not in the word. 'd' is not in the word. 'e' is in the correct position.
+[2025-06-18T05:01:16.823610] Translated: [0, 2, 0, 0, 2]
+[2025-06-18T05:01:16.823610] Turn 9: Guess: porae
+[2025-06-18T05:01:16.823610] time spent for guess: 1.9266979694366455
+[2025-06-18T05:01:16.823610] plausibles: 2
+[2025-06-18T05:01:21.955865] response: 02002, time took for LLM: 3.0794098377227783
+[2025-06-18T05:01:23.871204] Turn 10: Received feedback: 'p' is not in the word. 'o' is in the correct position. 'r' is not in the word. 'a' is not in the word. 'e' is in the correct position.
+[2025-06-18T05:01:23.871204] Translated: [0, 2, 0, 0, 2]
+[2025-06-18T05:01:23.871204] Turn 10: Guess: cosie
+[2025-06-18T05:01:23.871204] time spent for guess: 1.9143190383911133
+[2025-06-18T05:01:23.871204] plausibles: 2
+[2025-06-18T05:01:28.304367] response: 02002, time took for LLM: 2.3865535259246826
+[2025-06-18T05:01:28.306382] Turn 11: Received feedback: 'c' is not in the word. 'o' is in the correct position. 's' is not in the word. 'i' is not in the word. 'e' is in the correct position.
+[2025-06-18T05:01:28.306382] Translated: [0, 2, 0, 0, 2]
+[2025-06-18T05:01:28.306382] Turn 11: Guess: volve
+[2025-06-18T05:01:28.306382] time spent for guess: 0.0
+[2025-06-18T05:01:28.306382] plausibles: 1
+[2025-06-18T05:01:30.397287] 
+=== Starting Problem 14 ===
+[2025-06-18T05:01:30.397287] Candidate words: maras, dewax, derby, withy, seric
+[2025-06-18T05:01:34.622883] Turn 1: Received feedback: None
+[2025-06-18T05:01:34.622883] Translated: None
+[2025-06-18T05:01:34.622883] Turn 1: Guess: rales
+[2025-06-18T05:01:34.622883] time spent for guess: 2.1912834644317627
+[2025-06-18T05:01:34.622883] plausibles: 7529
+[2025-06-18T05:01:38.851094] response: 00002, time took for LLM: 2.188793420791626
+[2025-06-18T05:01:40.936220] Turn 2: Received feedback: 'r' is not in the word. 'a' is not in the word. 'l' is not in the word. 'e' is not in the word. 's' is in the correct position.
+[2025-06-18T05:01:40.936220] Translated: [0, 0, 0, 0, 2]
+[2025-06-18T05:01:40.936220] Turn 2: Guess: heats
+[2025-06-18T05:01:40.936220] time spent for guess: 2.083106756210327
+[2025-06-18T05:01:40.936220] plausibles: 447
+[2025-06-18T05:01:45.298275] response: 00022, time took for LLM: 2.336843490600586
+[2025-06-18T05:01:47.346387] Turn 3: Received feedback: 'h' is not in the word. 'e' is not in the word. 'a' is not in the word. 't' is in the correct position. 's' is in the correct position.
+[2025-06-18T05:01:47.346387] Translated: [0, 0, 0, 2, 2]
+[2025-06-18T05:01:47.346387] Turn 3: Guess: teals
+[2025-06-18T05:01:47.346387] time spent for guess: 2.043224573135376
+[2025-06-18T05:01:47.346387] plausibles: 53
+[2025-06-18T05:01:51.235214] response: 10002, time took for LLM: 1.871206283569336
+[2025-06-18T05:01:53.245111] Turn 4: Received feedback: 't' is in the word but in the wrong position. 'e' is not in the word. 'a' is not in the word. 'l' is not in the word. 's' is in the correct position.
+[2025-06-18T05:01:53.245111] Translated: [1, 0, 0, 0, 2]
+[2025-06-18T05:01:53.245111] Turn 4: Guess: rotis
+[2025-06-18T05:01:53.245111] time spent for guess: 2.0078775882720947
+[2025-06-18T05:01:53.245111] plausibles: 48
+[2025-06-18T05:01:57.285177] response: 02102, time took for LLM: 1.9721767902374268
+[2025-06-18T05:01:59.439625] Turn 5: Received feedback: 'r' is not in the word. 'o' is in the correct position. 't' is in the word but in the wrong position. 'i' is not in the word. 's' is in the correct position.
+[2025-06-18T05:01:59.439625] Translated: [0, 2, 1, 0, 2]
+[2025-06-18T05:01:59.439625] Turn 5: Guess: setal
+[2025-06-18T05:01:59.439625] time spent for guess: 2.153433322906494
+[2025-06-18T05:01:59.439625] plausibles: 10
+[2025-06-18T05:02:02.964908] response: 10100, time took for LLM: 1.4571678638458252
+[2025-06-18T05:02:05.208364] Turn 6: Received feedback: 's' is in the word but in the wrong position. 'e' is not in the word. 't' is in the word but in the wrong position. 'a' is not in the word. 'l' is not in the word.
+[2025-06-18T05:02:05.208364] Translated: [1, 0, 1, 0, 0]
+[2025-06-18T05:02:05.208364] Turn 6: Guess: torus
+[2025-06-18T05:02:05.208364] time spent for guess: 2.2398111820220947
+[2025-06-18T05:02:05.208364] plausibles: 9
+[2025-06-18T05:02:09.580692] response: 10202, time took for LLM: 2.332348108291626
+[2025-06-18T05:02:22.013641] 
+=== Starting Problem 17 ===
+[2025-06-18T05:02:22.013641] Candidate words: alane, zarfs, whore, tiled, shoes
+[2025-06-18T05:02:25.771625] Turn 1: Received feedback: None
+[2025-06-18T05:02:25.771625] Translated: None
+[2025-06-18T05:02:25.771625] Turn 1: Guess: tares
+[2025-06-18T05:02:25.771625] time spent for guess: 1.7044012546539307
+[2025-06-18T05:02:25.771625] plausibles: 1875
+[2025-06-18T05:02:29.848738] response: 01012, time took for LLM: 2.0514228343963623
+[2025-06-18T05:02:30.056486] Turn 2: Received feedback: 't' is not in the word. 'a' is in the word but in the wrong position. 'r' is not in the word. 'e' is in the word but in the wrong position. 's' is in the correct position.
+[2025-06-18T05:02:30.056486] Translated: [0, 1, 0, 1, 2]
+[2025-06-18T05:02:30.056486] Turn 2: Guess: earst
+[2025-06-18T05:02:30.056486] time spent for guess: 0.20572996139526367
+[2025-06-18T05:02:30.056486] plausibles: 13
+[2025-06-18T05:02:34.155791] response: 21010, time took for LLM: 2.0369482040405273
+[2025-06-18T05:02:34.157809] Turn 3: Received feedback: 'e' is in the correct position. 'a' is in the word but in the wrong position. 'r' is not in the word. 's' is in the word but in the wrong position. 't' is not in the word.
+[2025-06-18T05:02:34.157809] Translated: [2, 1, 0, 1, 0]
+[2025-06-18T05:02:34.157809] Turn 3: Guess: egmas
+[2025-06-18T05:02:34.157809] time spent for guess: 0.0
+[2025-06-18T05:02:34.157809] plausibles: 1
+[2025-06-18T05:02:36.208545] 
+=== Starting Problem 18 ===
+[2025-06-18T05:02:36.208545] Candidate words: kotch, amort, admin, imped, ayaya
+[2025-06-18T05:02:40.003618] Turn 1: Received feedback: None
+[2025-06-18T05:02:40.003618] Translated: None
+[2025-06-18T05:02:40.003618] Turn 1: Guess: lares
+[2025-06-18T05:02:40.003618] time spent for guess: 1.7474114894866943
+[2025-06-18T05:02:40.003618] plausibles: 2740
+[2025-06-18T05:02:43.673390] response: 00022, time took for LLM: 1.6267943382263184
+[2025-06-18T05:02:43.919632] Turn 2: Received feedback: 'l' is not in the word. 'a' is not in the word. 'r' is not in the word. 'e' is in the correct position. 's' is in the correct position.
+[2025-06-18T05:02:43.919632] Translated: [0, 0, 0, 2, 2]
+[2025-06-18T05:02:43.919632] Turn 2: Guess: cotes
+[2025-06-18T05:02:43.919632] time spent for guess: 0.24421906471252441
+[2025-06-18T05:02:43.919632] plausibles: 81
+[2025-06-18T05:02:47.882373] response: 00022, time took for LLM: 1.9005367755889893
+[2025-06-18T05:02:48.085679] Turn 3: Received feedback: 'c' is not in the word. 'o' is not in the word. 't' is not in the word. 'e' is in the correct position. 's' is in the correct position.
+[2025-06-18T05:02:48.085679] Translated: [0, 0, 0, 2, 2]
+[2025-06-18T05:02:48.085679] Turn 3: Guess: dines
+[2025-06-18T05:02:48.085679] time spent for guess: 0.19034790992736816
+[2025-06-18T05:02:48.085679] plausibles: 40
+[2025-06-18T05:02:51.765224] response: 00022, time took for LLM: 1.644388198852539
+[2025-06-18T05:02:51.957736] Turn 4: Received feedback: 'd' is not in the word. 'i' is not in the word. 'n' is not in the word. 'e' is in the correct position. 's' is in the correct position.
+[2025-06-18T05:02:51.957736] Translated: [0, 0, 0, 2, 2]
+[2025-06-18T05:02:51.957736] Turn 4: Guess: aures
+[2025-06-18T05:02:51.957736] time spent for guess: 0.1765596866607666
+[2025-06-18T05:02:51.957736] plausibles: 16
+[2025-06-18T05:02:55.648364] response: 02022, time took for LLM: 1.6338732242584229
+[2025-06-18T05:02:55.903135] Turn 5: Received feedback: 'a' is not in the word. 'u' is in the correct position. 'r' is not in the word. 'e' is in the correct position. 's' is in the correct position.
+[2025-06-18T05:02:55.903135] Translated: [0, 2, 0, 2, 2]
+[2025-06-18T05:02:55.903135] Turn 5: Guess: pales
+[2025-06-18T05:02:55.903135] time spent for guess: 0.2547719478607178
+[2025-06-18T05:02:55.903135] plausibles: 5
+[2025-06-18T05:02:59.647357] response: 00022, time took for LLM: 1.6959357261657715
+[2025-06-18T05:02:59.838760] Turn 6: Received feedback: 'p' is not in the word. 'a' is not in the word. 'l' is not in the word. 'e' is in the correct position. 's' is in the correct position.
+[2025-06-18T05:02:59.838760] Translated: [0, 0, 0, 2, 2]
+[2025-06-18T05:02:59.838760] Turn 6: Guess: tomes
+[2025-06-18T05:02:59.838760] time spent for guess: 0.18938708305358887
+[2025-06-18T05:02:59.838760] plausibles: 4
+[2025-06-18T05:03:04.140769] response: 00022, time took for LLM: 2.2498435974121094
+[2025-06-18T05:03:04.350578] Turn 7: Received feedback: 't' is not in the word. 'o' is not in the word. 'm' is not in the word. 'e' is in the correct position. 's' is in the correct position.
+[2025-06-18T05:03:04.350578] Translated: [0, 0, 0, 2, 2]
+[2025-06-18T05:03:04.350578] Turn 7: Guess: lases
+[2025-06-18T05:03:04.350578] time spent for guess: 0.2098095417022705
+[2025-06-18T05:03:04.350578] plausibles: 2
+[2025-06-18T05:03:08.554990] response: 00022, time took for LLM: 2.139742851257324
+[2025-06-18T05:03:08.836418] Turn 8: Received feedback: 'l' is not in the word. 'a' is not in the word. 's' is not in the word. 'e' is in the correct position. 's' is in the correct position.
+[2025-06-18T05:03:08.836418] Translated: [0, 0, 0, 2, 2]
+[2025-06-18T05:03:08.836418] Turn 8: Guess: bines
+[2025-06-18T05:03:08.836418] time spent for guess: 0.27940821647644043
+[2025-06-18T05:03:08.836418] plausibles: 2
+[2025-06-18T05:03:15.519317] response: 00022, time took for LLM: 4.629924058914185
+[2025-06-18T05:03:15.696095] Turn 9: Received feedback: 'b' is not in the word. 'i' is not in the word. 'n' is not in the word. 'e' is in the correct position. 's' is in the correct position.
+[2025-06-18T05:03:15.696095] Translated: [0, 0, 0, 2, 2]
+[2025-06-18T05:03:15.696095] Turn 9: Guess: cures
+[2025-06-18T05:03:15.696095] time spent for guess: 0.17501258850097656
+[2025-06-18T05:03:15.696095] plausibles: 2
+[2025-06-18T05:03:19.612107] response: 02022, time took for LLM: 1.8651080131530762
+[2025-06-18T05:03:19.829035] Turn 10: Received feedback: 'c' is not in the word. 'u' is in the correct position. 'r' is not in the word. 'e' is in the correct position. 's' is in the correct position.
+[2025-06-18T05:03:19.829035] Translated: [0, 2, 0, 2, 2]
+[2025-06-18T05:03:19.829035] Turn 10: Guess: tokes
+[2025-06-18T05:03:19.829035] time spent for guess: 0.21089553833007812
+[2025-06-18T05:03:19.829035] plausibles: 2
+[2025-06-18T05:03:24.429014] response: 00022, time took for LLM: 2.5504894256591797
+[2025-06-18T05:03:24.429552] Turn 11: Received feedback: 't' is not in the word. 'o' is not in the word. 'k' is not in the word. 'e' is in the correct position. 's' is in the correct position.
+[2025-06-18T05:03:24.429552] Translated: [0, 0, 0, 2, 2]
+[2025-06-18T05:03:24.429552] Turn 11: Guess: juves
+[2025-06-18T05:03:24.429552] time spent for guess: 0.0
+[2025-06-18T05:03:24.429552] plausibles: 1
+[2025-06-18T05:03:26.505201] 
+=== Starting Problem 19 ===
+[2025-06-18T05:03:26.505201] Candidate words: royal, husks, grape, diyas, sowne
+[2025-06-18T05:03:30.649743] Turn 1: Received feedback: None
+[2025-06-18T05:03:30.649743] Translated: None
+[2025-06-18T05:03:30.649743] Turn 1: Guess: teras
+[2025-06-18T05:03:30.649743] time spent for guess: 2.0893449783325195
+[2025-06-18T05:03:30.649743] plausibles: 9947
+[2025-06-18T05:03:35.791240] response: 01110, time took for LLM: 3.103926658630371
+[2025-06-18T05:03:36.182897] Turn 2: Received feedback: 't' is not in the word. 'e' is in the word but in the wrong position. 'r' is in the word but in the wrong position. 'a' is in the word but in the wrong position. 's' is not in the word.
+[2025-06-18T05:03:36.182897] Translated: [0, 1, 1, 1, 0]
+[2025-06-18T05:03:36.182897] Turn 2: Guess: harts
+[2025-06-18T05:03:36.182897] time spent for guess: 0.39165759086608887
+[2025-06-18T05:03:36.182897] plausibles: 154
+[2025-06-18T05:03:40.113041] response: 01100, time took for LLM: 1.904585361480713
+[2025-06-18T05:03:40.346784] Turn 3: Received feedback: 'h' is not in the word. 'a' is in the word but in the wrong position. 'r' is in the word but in the wrong position. 't' is not in the word. 's' is not in the word.
+[2025-06-18T05:03:40.346784] Translated: [0, 1, 1, 0, 0]
+[2025-06-18T05:03:40.346784] Turn 3: Guess: armed
+[2025-06-18T05:03:40.346784] time spent for guess: 0.2317342758178711
+[2025-06-18T05:03:40.346784] plausibles: 63
+[2025-06-18T05:03:43.882718] response: 22020, time took for LLM: 1.4977431297302246
+[2025-06-18T05:03:44.234122] Turn 4: Received feedback: 'a' is in the correct position. 'r' is in the correct position. 'm' is not in the word. 'e' is in the correct position. 'd' is not in the word.
+[2025-06-18T05:03:44.234122] Translated: [2, 2, 0, 2, 0]
+[2025-06-18T05:03:44.234122] Turn 4: Guess: arpen
+[2025-06-18T05:03:44.234122] time spent for guess: 0.3493919372558594
+[2025-06-18T05:03:44.234122] plausibles: 2
+[2025-06-18T05:03:47.888178] response: 22020, time took for LLM: 1.6156680583953857
+[2025-06-18T05:03:47.888178] Turn 5: Received feedback: 'a' is in the correct position. 'r' is in the correct position. 'p' is not in the word. 'e' is in the correct position. 'n' is not in the word.
+[2025-06-18T05:03:47.888178] Translated: [2, 2, 0, 2, 0]
+[2025-06-18T05:03:47.888178] Turn 5: Guess: arvee
+[2025-06-18T05:03:47.888178] time spent for guess: 0.0
+[2025-06-18T05:03:47.888178] plausibles: 1
+[2025-06-18T05:03:49.946098] 
+=== Starting Problem 20 ===
+[2025-06-18T05:03:49.946098] Candidate words: onlay, prest, dwelt, egger, nalas
+[2025-06-18T05:03:54.195374] Turn 1: Received feedback: None
+[2025-06-18T05:03:54.195374] Translated: None
+[2025-06-18T05:03:54.195374] Turn 1: Guess: teras
+[2025-06-18T05:03:54.195374] time spent for guess: 2.163562536239624
+[2025-06-18T05:03:54.195374] plausibles: 12623
+[2025-06-18T05:03:58.321662] response: 01012, time took for LLM: 2.057734251022339
+[2025-06-18T05:03:58.755719] Turn 2: Received feedback: 't' is not in the word. 'e' is in the word but in the wrong position. 'r' is not in the word. 'a' is in the word but in the wrong position. 's' is in the correct position.
+[2025-06-18T05:03:58.755719] Translated: [0, 1, 0, 1, 2]
+[2025-06-18T05:03:58.755719] Turn 2: Guess: alecs
+[2025-06-18T05:03:58.755719] time spent for guess: 0.43405699729919434
+[2025-06-18T05:03:58.755719] plausibles: 151
+[2025-06-18T05:04:02.926939] response: 10112, time took for LLM: 2.1138253211975098
+[2025-06-18T05:04:03.271591] Turn 3: Received feedback: 'a' is in the word but in the wrong position. 'l' is not in the word. 'e' is in the word but in the wrong position. 'c' is in the word but in the wrong position. 's' is in the correct position.
+[2025-06-18T05:04:03.271591] Translated: [1, 0, 1, 1, 2]
+[2025-06-18T05:04:03.271591] Turn 3: Guess: canes
+[2025-06-18T05:04:03.271591] time spent for guess: 0.3446524143218994
+[2025-06-18T05:04:03.271591] plausibles: 14
+[2025-06-18T05:04:08.119067] response: 22022, time took for LLM: 2.816226005554199
+[2025-06-18T05:04:08.512134] Turn 4: Received feedback: 'c' is in the correct position. 'a' is in the correct position. 'n' is not in the word. 'e' is in the correct position. 's' is in the correct position.
+[2025-06-18T05:04:08.512134] Translated: [2, 2, 0, 2, 2]
+[2025-06-18T05:04:08.512134] Turn 4: Guess: cades
+[2025-06-18T05:04:08.512134] time spent for guess: 0.39104604721069336
+[2025-06-18T05:04:08.512134] plausibles: 8
+[2025-06-18T05:04:12.862789] response: 22022, time took for LLM: 2.2947933673858643
+[2025-06-18T05:04:13.119835] Turn 5: Received feedback: 'c' is in the correct position. 'a' is in the correct position. 'd' is not in the word. 'e' is in the correct position. 's' is in the correct position.
+[2025-06-18T05:04:13.119835] Translated: [2, 2, 0, 2, 2]
+[2025-06-18T05:04:13.119835] Turn 5: Guess: cames
+[2025-06-18T05:04:13.119835] time spent for guess: 0.25502872467041016
+[2025-06-18T05:04:13.119835] plausibles: 7
+[2025-06-18T05:04:17.067494] response: 22022, time took for LLM: 1.8953897953033447
+[2025-06-18T05:04:17.406909] Turn 6: Received feedback: 'c' is in the correct position. 'a' is in the correct position. 'm' is not in the word. 'e' is in the correct position. 's' is in the correct position.
+[2025-06-18T05:04:17.406909] Translated: [2, 2, 0, 2, 2]
+[2025-06-18T05:04:17.406909] Turn 6: Guess: cates
+[2025-06-18T05:04:17.406909] time spent for guess: 0.3394150733947754
+[2025-06-18T05:04:17.406909] plausibles: 6
+[2025-06-18T05:04:21.671420] response: 22022, time took for LLM: 2.192626953125
+[2025-06-18T05:04:22.014399] Turn 7: Received feedback: 'c' is in the correct position. 'a' is in the correct position. 't' is not in the word. 'e' is in the correct position. 's' is in the correct position.
+[2025-06-18T05:04:22.014399] Translated: [2, 2, 0, 2, 2]
+[2025-06-18T05:04:22.014399] Turn 7: Guess: cares
+[2025-06-18T05:04:22.014399] time spent for guess: 0.3419058322906494
+[2025-06-18T05:04:22.014399] plausibles: 6
+[2025-06-18T05:04:25.976034] response: 22022, time took for LLM: 1.921727180480957
+[2025-06-18T05:04:26.386691] Turn 8: Received feedback: 'c' is in the correct position. 'a' is in the correct position. 'r' is not in the word. 'e' is in the correct position. 's' is in the correct position.
+[2025-06-18T05:04:26.386691] Translated: [2, 2, 0, 2, 2]
+[2025-06-18T05:04:26.386691] Turn 8: Guess: paces
+[2025-06-18T05:04:26.386691] time spent for guess: 0.40864133834838867
+[2025-06-18T05:04:26.386691] plausibles: 6
+[2025-06-18T05:04:30.575193] response: 02122, time took for LLM: 2.132802724838257
+[2025-06-18T05:04:30.916697] Turn 9: Received feedback: 'p' is not in the word. 'a' is in the correct position. 'c' is in the word but in the wrong position. 'e' is in the correct position. 's' is in the correct position.
+[2025-06-18T05:04:30.916697] Translated: [0, 2, 1, 2, 2]
+[2025-06-18T05:04:30.916697] Turn 9: Guess: capes
+[2025-06-18T05:04:30.916697] time spent for guess: 0.3394887447357178
+[2025-06-18T05:04:30.916697] plausibles: 5
+[2025-06-18T05:04:34.504149] response: 22022, time took for LLM: 1.5393619537353516
+[2025-06-18T05:04:34.843319] Turn 10: Received feedback: 'c' is in the correct position. 'a' is in the correct position. 'p' is not in the word. 'e' is in the correct position. 's' is in the correct position.
+[2025-06-18T05:04:34.843319] Translated: [2, 2, 0, 2, 2]
+[2025-06-18T05:04:34.843319] Turn 10: Guess: maces
+[2025-06-18T05:04:34.843319] time spent for guess: 0.3391697406768799
+[2025-06-18T05:04:34.843319] plausibles: 5
+[2025-06-18T05:04:39.791298] response: 02122, time took for LLM: 2.908864974975586
+[2025-06-18T05:04:40.031937] Turn 11: Received feedback: 'm' is not in the word. 'a' is in the correct position. 'c' is in the word but in the wrong position. 'e' is in the correct position. 's' is in the correct position.
+[2025-06-18T05:04:40.031937] Translated: [0, 2, 1, 2, 2]
+[2025-06-18T05:04:40.031937] Turn 11: Guess: cages
+[2025-06-18T05:04:40.031937] time spent for guess: 0.23862671852111816
+[2025-06-18T05:04:40.031937] plausibles: 5
+[2025-06-18T05:04:42.068659] 
+=== Starting Problem 21 ===
+[2025-06-18T05:04:42.068659] Candidate words: lords, boart, sinew, trill, goosy
+[2025-06-18T05:04:45.929352] Turn 1: Received feedback: None
+[2025-06-18T05:04:45.929352] Translated: None
+[2025-06-18T05:04:45.929352] Turn 1: Guess: reals
+[2025-06-18T05:04:45.940145] time spent for guess: 1.8196253776550293
+[2025-06-18T05:04:45.940145] plausibles: 4581
+[2025-06-18T05:04:50.241970] response: 01000, time took for LLM: 2.264219284057617
+[2025-06-18T05:04:50.478924] Turn 2: Received feedback: 'r' is not in the word. 'e' is in the word but in the wrong position. 'a' is not in the word. 'l' is not in the word. 's' is not in the word.
+[2025-06-18T05:04:50.478924] Translated: [0, 1, 0, 0, 0]
+[2025-06-18T05:04:50.478924] Turn 2: Guess: reins
+[2025-06-18T05:04:50.478924] time spent for guess: 0.23494291305541992
+[2025-06-18T05:04:50.478924] plausibles: 253
+[2025-06-18T05:04:54.027540] response: 01010, time took for LLM: 1.51552414894104
+[2025-06-18T05:04:54.330265] Turn 3: Received feedback: 'r' is not in the word. 'e' is in the word but in the wrong position. 'i' is not in the word. 'n' is in the word but in the wrong position. 's' is not in the word.
+[2025-06-18T05:04:54.330265] Translated: [0, 1, 0, 1, 0]
+[2025-06-18T05:04:54.330265] Turn 3: Guess: token
+[2025-06-18T05:04:54.330265] time spent for guess: 0.3009836673736572
+[2025-06-18T05:04:54.330265] plausibles: 41
+[2025-06-18T05:04:58.225668] response: 20022, time took for LLM: 1.8389434814453125
+[2025-06-18T05:04:58.227686] Turn 4: Received feedback: 't' is in the correct position. 'o' is not in the word. 'k' is not in the word. 'e' is in the correct position. 'n' is in the correct position.
+[2025-06-18T05:04:58.227686] Translated: [2, 0, 0, 2, 2]
+[2025-06-18T05:04:58.227686] Turn 4: Guess: tween
+[2025-06-18T05:04:58.227686] time spent for guess: 0.0
+[2025-06-18T05:04:58.227686] plausibles: 1
+[2025-06-18T05:05:00.260411] 
+=== Starting Problem 22 ===
+[2025-06-18T05:05:00.260411] Candidate words: flegs, ctene, wicca, beaut, tavah
+[2025-06-18T05:05:03.904194] Turn 1: Received feedback: None
+[2025-06-18T05:05:03.904194] Translated: None
+[2025-06-18T05:05:03.904194] Turn 1: Guess: seral
+[2025-06-18T05:05:03.904194] time spent for guess: 1.622743844985962
+[2025-06-18T05:05:03.904194] plausibles: 1476
+[2025-06-18T05:05:08.255823] response: 00100, time took for LLM: 2.334036350250244
+[2025-06-18T05:05:08.475019] Turn 2: Received feedback: 's' is not in the word. 'e' is not in the word. 'r' is in the word but in the wrong position. 'a' is not in the word. 'l' is not in the word.
+[2025-06-18T05:05:08.475019] Translated: [0, 0, 1, 0, 0]
+[2025-06-18T05:05:08.475019] Turn 2: Guess: beals
+[2025-06-18T05:05:08.475019] time spent for guess: 0.2147388458251953
+[2025-06-18T05:05:08.475019] plausibles: 34
+[2025-06-18T05:05:13.184210] response: 20000, time took for LLM: 2.6520068645477295
+[2025-06-18T05:05:13.376855] Turn 3: Received feedback: 'b' is in the correct position. 'e' is not in the word. 'a' is not in the word. 'l' is not in the word. 's' is not in the word.
+[2025-06-18T05:05:13.376855] Translated: [2, 0, 0, 0, 0]
+[2025-06-18T05:05:13.376855] Turn 3: Guess: heils
+[2025-06-18T05:05:13.376855] time spent for guess: 0.19063758850097656
+[2025-06-18T05:05:13.376855] plausibles: 4
+[2025-06-18T05:05:17.579299] response: 00200, time took for LLM: 2.1723809242248535
+[2025-06-18T05:05:17.764216] Turn 4: Received feedback: 'h' is not in the word. 'e' is not in the word. 'i' is in the correct position. 'l' is not in the word. 's' is not in the word.
+[2025-06-18T05:05:17.764216] Translated: [0, 0, 2, 0, 0]
+[2025-06-18T05:05:17.764216] Turn 4: Guess: solde
+[2025-06-18T05:05:17.764216] time spent for guess: 0.18491697311401367
+[2025-06-18T05:05:17.764216] plausibles: 2
+[2025-06-18T05:05:21.367563] response: 00000, time took for LLM: 1.5591228008270264
+[2025-06-18T05:05:21.660862] Turn 5: Received feedback: 's' is not in the word. 'o' is not in the word. 'l' is not in the word. 'd' is not in the word. 'e' is not in the word.
+[2025-06-18T05:05:21.660862] Translated: [0, 0, 0, 0, 0]
+[2025-06-18T05:05:21.660862] Turn 5: Guess: stear
+[2025-06-18T05:05:21.660862] time spent for guess: 0.29329919815063477
+[2025-06-18T05:05:21.660862] plausibles: 2
+[2025-06-18T05:05:25.563135] response: 00001, time took for LLM: 1.8599863052368164
+[2025-06-18T05:05:25.756000] Turn 6: Received feedback: 's' is not in the word. 't' is not in the word. 'e' is not in the word. 'a' is not in the word. 'r' is in the word but in the wrong position.
+[2025-06-18T05:05:25.756000] Translated: [0, 0, 0, 0, 1]
+[2025-06-18T05:05:25.756000] Turn 6: Guess: arnut
+[2025-06-18T05:05:25.756000] time spent for guess: 0.1870732307434082
+[2025-06-18T05:05:25.756000] plausibles: 2
+[2025-06-18T05:05:29.867124] response: 02000, time took for LLM: 2.072490692138672
+[2025-06-18T05:05:29.869142] Turn 7: Received feedback: 'a' is not in the word. 'r' is in the correct position. 'n' is not in the word. 'u' is not in the word. 't' is not in the word.
+[2025-06-18T05:05:29.869142] Translated: [0, 2, 0, 0, 0]
+[2025-06-18T05:05:29.871160] Turn 7: Guess: brick
+[2025-06-18T05:05:29.871160] time spent for guess: 0.0020177364349365234
+[2025-06-18T05:05:29.871160] plausibles: 1
+[2025-06-18T05:05:31.911307] 
+=== Starting Problem 23 ===
+[2025-06-18T05:05:31.911307] Candidate words: gemel, herms, kench, hound, kutch
+[2025-06-18T05:05:35.825703] Turn 1: Received feedback: None
+[2025-06-18T05:05:35.825703] Translated: None
+[2025-06-18T05:05:35.825703] Turn 1: Guess: raise
+[2025-06-18T05:05:35.825703] time spent for guess: 1.8823862075805664
+[2025-06-18T05:05:35.825703] plausibles: 6156
+[2025-06-18T05:05:40.004550] response: 01100, time took for LLM: 2.1461756229400635
+[2025-06-18T05:05:40.258535] Turn 2: Received feedback: 'r' is not in the word. 'a' is in the word but in the wrong position. 'i' is in the word but in the wrong position. 's' is not in the word. 'e' is not in the word.
+[2025-06-18T05:05:40.258535] Translated: [0, 1, 1, 0, 0]
+[2025-06-18T05:05:40.258535] Turn 2: Guess: autos
+[2025-06-18T05:05:40.258535] time spent for guess: 0.2539849281311035
+[2025-06-18T05:05:40.258535] plausibles: 83
+[2025-06-18T05:05:44.407323] response: 10000, time took for LLM: 2.1025373935699463
+[2025-06-18T05:05:44.698297] Turn 3: Received feedback: 'a' is in the word but in the wrong position. 'u' is not in the word. 't' is not in the word. 'o' is not in the word. 's' is not in the word.
+[2025-06-18T05:05:44.698297] Translated: [1, 0, 0, 0, 0]
+[2025-06-18T05:05:44.698297] Turn 3: Guess: barre
+[2025-06-18T05:05:44.698297] time spent for guess: 0.28896069526672363
+[2025-06-18T05:05:44.698297] plausibles: 30
+[2025-06-18T05:05:49.525775] response: 21000, time took for LLM: 2.7674124240875244
+[2025-06-18T05:05:49.734884] Turn 4: Received feedback: 'b' is in the correct position. 'a' is in the word but in the wrong position. 'r' is not in the word. 'r' is not in the word. 'e' is not in the word.
+[2025-06-18T05:05:49.734884] Translated: [2, 1, 0, 0, 0]
+[2025-06-18T05:05:49.734884] Turn 4: Guess: feria
+[2025-06-18T05:05:49.734884] time spent for guess: 0.20480918884277344
+[2025-06-18T05:05:49.734884] plausibles: 3
+[2025-06-18T05:05:54.442011] response: 00012, time took for LLM: 2.668618679046631
+[2025-06-18T05:05:54.442011] Turn 5: Received feedback: 'f' is not in the word. 'e' is not in the word. 'r' is not in the word. 'i' is in the word but in the wrong position. 'a' is in the correct position.
+[2025-06-18T05:05:54.442011] Translated: [0, 0, 0, 1, 2]
+[2025-06-18T05:05:54.442011] Turn 5: Guess: bigha
+[2025-06-18T05:05:54.442011] time spent for guess: 0.0
+[2025-06-18T05:05:54.442011] plausibles: 1
+[2025-06-18T05:05:56.480248] 
+=== Starting Problem 24 ===
+[2025-06-18T05:05:56.480248] Candidate words: oshac, tauts, ablet, alien, hants
+[2025-06-18T05:06:00.117458] Turn 1: Received feedback: None
+[2025-06-18T05:06:00.119463] Translated: None
+[2025-06-18T05:06:00.119463] Turn 1: Guess: leats
+[2025-06-18T05:06:00.119463] time spent for guess: 1.5947842597961426
+[2025-06-18T05:06:00.119463] plausibles: 2162
+[2025-06-18T05:06:04.068238] response: 01012, time took for LLM: 1.9073593616485596
+[2025-06-18T05:06:04.356691] Turn 2: Received feedback: 'l' is not in the word. 'e' is in the word but in the wrong position. 'a' is not in the word. 't' is in the word but in the wrong position. 's' is in the correct position.
+[2025-06-18T05:06:04.356691] Translated: [0, 1, 0, 1, 2]
+[2025-06-18T05:06:04.356691] Turn 2: Guess: tores
+[2025-06-18T05:06:04.356691] time spent for guess: 0.28642868995666504
+[2025-06-18T05:06:04.356691] plausibles: 15
+[2025-06-18T05:06:06.405403] 
+=== Starting Problem 25 ===
+[2025-06-18T05:06:06.405403] Candidate words: netty, foals, cozed, sieur, guana
+[2025-06-18T05:06:10.497643] Turn 1: Received feedback: None
+[2025-06-18T05:06:10.497643] Translated: None
+[2025-06-18T05:06:10.497643] Turn 1: Guess: lares
+[2025-06-18T05:06:10.497643] time spent for guess: 2.0407280921936035
+[2025-06-18T05:06:10.497643] plausibles: 7719
+[2025-06-18T05:06:14.719575] response: 10010, time took for LLM: 2.161214590072632
+[2025-06-18T05:06:14.974563] Turn 2: Received feedback: 'l' is in the word but in the wrong position. 'a' is not in the word. 'r' is not in the word. 'e' is in the word but in the wrong position. 's' is not in the word.
+[2025-06-18T05:06:14.974563] Translated: [1, 0, 0, 1, 0]
+[2025-06-18T05:06:14.974563] Turn 2: Guess: darks
+[2025-06-18T05:06:14.974563] time spent for guess: 0.2532210350036621
+[2025-06-18T05:06:14.974563] plausibles: 151
+[2025-06-18T05:06:19.053138] response: 00000, time took for LLM: 2.0190486907958984
+[2025-06-18T05:06:19.338707] Turn 3: Received feedback: 'd' is not in the word. 'a' is not in the word. 'r' is not in the word. 'k' is not in the word. 's' is not in the word.
+[2025-06-18T05:06:19.338707] Translated: [0, 0, 0, 0, 0]
+[2025-06-18T05:06:19.338707] Turn 3: Guess: noule
+[2025-06-18T05:06:19.338707] time spent for guess: 0.2834811210632324
+[2025-06-18T05:06:19.338707] plausibles: 111
+[2025-06-18T05:06:23.365068] response: 01021, time took for LLM: 1.9658069610595703
+[2025-06-18T05:06:23.576414] Turn 4: Received feedback: 'n' is not in the word. 'o' is in the word but in the wrong position. 'u' is not in the word. 'l' is in the correct position. 'e' is in the word but in the wrong position.
+[2025-06-18T05:06:23.578419] Translated: [0, 1, 0, 2, 1]
+[2025-06-18T05:06:23.578419] Turn 4: Guess: helot
+[2025-06-18T05:06:23.578419] time spent for guess: 0.21335101127624512
+[2025-06-18T05:06:23.578419] plausibles: 4
+[2025-06-18T05:06:27.310287] response: 02210, time took for LLM: 1.6663234233856201
+[2025-06-18T05:06:27.611316] Turn 5: Received feedback: 'h' is not in the word. 'e' is in the correct position. 'l' is in the correct position. 'o' is in the word but in the wrong position. 't' is not in the word.
+[2025-06-18T05:06:27.611316] Translated: [0, 2, 2, 1, 0]
+[2025-06-18T05:06:27.611316] Turn 5: Guess: felon
+[2025-06-18T05:06:27.611316] time spent for guess: 0.3010294437408447
+[2025-06-18T05:06:27.611316] plausibles: 2
+[2025-06-18T05:06:31.614819] response: 02210, time took for LLM: 1.9401116371154785
+[2025-06-18T05:06:31.900628] Turn 6: Received feedback: 'f' is not in the word. 'e' is in the correct position. 'l' is in the correct position. 'o' is in the word but in the wrong position. 'n' is not in the word.
+[2025-06-18T05:06:31.900628] Translated: [0, 2, 2, 1, 0]
+[2025-06-18T05:06:31.900628] Turn 6: Guess: rello
+[2025-06-18T05:06:31.900628] time spent for guess: 0.2838001251220703
+[2025-06-18T05:06:31.900628] plausibles: 2
+[2025-06-18T05:06:35.896215] response: 02222, time took for LLM: 1.9668371677398682
+[2025-06-18T05:06:36.115675] Turn 7: Received feedback: 'r' is not in the word. 'e' is in the correct position. 'l' is in the correct position. 'l' is in the correct position. 'o' is in the correct position.
+[2025-06-18T05:06:36.115675] Translated: [0, 2, 2, 2, 2]
+[2025-06-18T05:06:36.115675] Turn 7: Guess: teloi
+[2025-06-18T05:06:36.115675] time spent for guess: 0.2184441089630127
+[2025-06-18T05:06:36.115675] plausibles: 2
