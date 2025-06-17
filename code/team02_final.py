@@ -171,6 +171,24 @@ class Solver:
         history = self.problems[problem_id]["feedback_history"]
         translated_history = self.problems[problem_id]["translated_feedback"]
         guess_history = self.problems[problem_id]["guess_history"]
+
+        def query_res(word, ans):            
+            feedback = np.zeros(5)
+            for i in range(5):
+                if word[i] == ans[i]:
+                    feedback[i] = 2
+
+            remaining = {}
+            for i, ch in enumerate(ans):
+                if feedback[i] != 2:
+                    remaining[ch] = remaining.get(ch, 0) + 1
+
+            for i in range(5):
+                if feedback[i] != 2 and remaining.get(word[i], 0) > 0:
+                    feedback[i] = 1
+                    remaining[word[i]] -= 1
+
+            return feedback
         
         if history:
             last_guess = guess_history[-1]
@@ -178,9 +196,7 @@ class Solver:
             mask = [(tuple(query_res(word=last_guess, ans=t)) == tuple(last_guess_res)) for t in plausibles]
             mask = np.array(mask, dtype=bool)
             plausibles = plausibles[mask]
-            needed_results = needed_results[mask]
             self.problems[problem_id]["plausible_words"] = plausibles
-            self.problems[problem_id]["needed_results"] = needed_results
 
         # when find
         if len(plausibles)==1:
@@ -202,25 +218,9 @@ class Solver:
             self._log(f"Turn {turn}: Guess: {guess}")
             return guess
 
-        def query_res(word, ans):            
-            feedback = np.zeros(5)
-            for i in range(5):
-                if word[i] == ans[i]:
-                    feedback[i] = 2
-
-            remaining = {}
-            for i, ch in enumerate(ans):
-                if feedback[i] != 2:
-                    remaining[ch] = remaining.get(ch, 0) + 1
-
-            for i in range(5):
-                if feedback[i] != 2 and remaining.get(word[i], 0) > 0:
-                    feedback[i] = 1
-                    remaining[word[i]] -= 1
-
-            return feedback
-
-        def query_res_all(ans: np.ndarray, words: np.ndarray) -> np.ndarray:
+        def query_res_all(ans: str, words: list[str]) -> np.ndarray:
+            ans = np.array(list(ans), dtype='<U1')
+            words = np.array([list(word) for word in words], dtype='<U1')
             N: int = words.shape[0]
 
             not_greens = (ans != words) # (N, 5)
@@ -276,9 +276,40 @@ class Solver:
             # todo: huristic code
             pass
         
-        elif len(plausibles) <= 10:
-            # todo: brute-force code
-            pass
+        # elif len(plausibles) <= 10:
+        #     # todo: brute-force code
+        #     candidates_str = np.array([''.join(row) for row in candidates])
+        #     plausibles_str = np.array([''.join(row) for row in plausibles])
+
+        #     remaining_candidates = np.setdiff1d(candidates_str, plausibles_str)
+
+        #     num_needed = 100 - len(plausibles_str)
+        #     extra_selected = np.random.choice(remaining_candidates, num_needed, replace=False)
+
+        #     final_words = np.array(list(plausibles_str) + list(extra_selected))
+        #     small_candidates = np.array([list(word) for word in final_words])
+
+        #     n = len(plausibles)
+        #     m = small_candidates.shape[0]
+
+        #     dp = -np.ones((1 << n, n, m), dtype=int)
+
+        #     def solve(bit, i, k):
+        #         if dp[bit][i][k] != -1:
+        #             return dp[bit][i][k]
+                
+        #         if bit == (1 << i):
+        #             match = np.array_equal(plausibles[i], small_candidates[k])
+        #             dp[bit][i][k] = 1 if match else 1000
+        #             return dp[bit][i][k]
+                
+        #         for j in range(m):
+                    
+
+        #         dp[bit][i][k] = res
+        #         return res
+            
+
 
         else: 
             entropies = []
