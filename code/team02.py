@@ -64,12 +64,43 @@ class Solver:
             self.problems[problem_id]["translated_feedback"].append(self.translate(verbal_feedback, last_guess))
 
     def translate(self, verbal_feedback, guess):
-        # todo: translate
+        # new try: if the verbal feedback can be separated by a specific sign, then divide the verbal feedback
+        def splited_by(verbal_feedback, sign):
+            return (verbal_feedback.count(sign) == 5)
+        
+        for sign in ['.', ',', '\n']:
+            if splited_by(verbal_feedback, sign):
+                combined_response = [0, 0, 0, 0, 0]
+                splited_feedbacks = verbal_feedback.split(sign)[:4]
+                shared_prompt = f'''
+                    You are a precise wordle solver. 
+                    Return a single digit 0,1,2 based on which case the verbal feedback falls on.
+                    0: the character is not in the word
+                    1: the character is in the word but in the wrong position
+                    2: the character is in the word in the correct position
+                    Return only the single digit. No explanation. No extra text. 
+                '''
+                for splited_feedback in splited_feedbacks:
+                    response = (
+                        complete(
+                            model=models[i],
+                            prompt=[{"role": "user", "content": prompts[i]}],
+                            options={"max_tokens": 20, "temperature": 0.0},
+                            session=self.session,
+                        )
+                        .strip()
+                        .lower()
+                    )
+                    combined_response.append(int(response))
+                
+                self._log(f'response using splited_feedback: {response}')
+                return combined_response
+            
         num_votes = 1
 
-        prompt = []
+        prompts = []
 
-        prompt.append(f'''
+        prompts.append(f'''
         You are a precise logic translator for Wordle feedback.
 
         Task:
@@ -77,9 +108,7 @@ class Solver:
         - A guess word (5 letters)
         - A verbal feedback about the guess
 
-        Your job is to:
-        1. Carefully analyze the verbal feedback.
-        2. Convert the interpretation into a 5-digit numeric code:
+        Your job is to convert the interpretation into a 5-digit numeric code:
         - 2 = correct letter in correct position
         - 1 = correct letter in wrong position
         - 0 = incorrect letter
@@ -116,35 +145,29 @@ class Solver:
 
         Guess: {guess}  
         Feedback: {verbal_feedback}
-        ''')
-        
-        prompt.append(f'''
+        ''')        
+        prompts.append(f'''
         You're playing Wordle. 
         Convert the following input into strings of 0,1,2 where
         0 represents that the letter is not in the word,
         1 represents that the letter is in wrong position,
         2 represents that the letter in right position.
 
+        Return only the 5-letter string like this: 01012
+
         Guess: {guess}  
         Feedback: {verbal_feedback}
-
-        Return only the 5-letter string like this: 
-        ''')
-
-        prompt.append(prompt[0])
-        
-        prompt.append(prompt[0])
-
-        prompt.append(prompt[0])
+        ''')     
+        prompts.append(prompts[0])
 
         responses = np.zeros((num_votes,5))
-        models = ["claude-3-5-sonnet", "claude-3-5-sonnet", "claude-3-5-sonnet", "claude-3-5-sonnet", "claude-3-5-sonnet"]
+        models = ["claude-3-5-sonnet", "claude-3-5-sonnet", "claude-3-5-sonnet"]
         for i in range(num_votes):
             start_time = time.time()
             response = (
                 complete(
                     model=models[i],
-                    prompt=[{"role": "user", "content": prompt[i]}],
+                    prompt=[{"role": "user", "content": prompts[i]}],
                     options={"max_tokens": 20, "temperature": 0.0},
                     session=self.session,
                 )

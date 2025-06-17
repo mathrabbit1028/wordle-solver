@@ -1,0 +1,78 @@
+testing 0th prompt
+response: [0, 1, 0, 0, 1], raw_feedback: [0, 1, 0, 0, 1], time computed: 2.313164234161377
+response: [1, 0, 1, 0, 2], raw_feedback: [1, 0, 1, 0, 2], time computed: 2.8210721015930176
+response: [0, 0, 0, 0, 2], raw_feedback: [0, 0, 0, 0, 2], time computed: 2.195765256881714
+response: [0, 2, 2, 2, 0], raw_feedback: [0, 2, 2, 0, 2], time computed: 2.354058265686035
+the response is wrong.
+verbal feedback: 'r' is not in the word. 'u' is in the correct position. 't' is in the correct position. 'i' is not in the word. 'n' is in the correct position.
+
+response: [1, 1, 1, 0, 0], raw_feedback: [1, 1, 1, 0, 0], time computed: 2.569040298461914
+response: [1, 0, 0, 1, 2], raw_feedback: [1, 0, 0, 1, 2], time computed: 2.4143314361572266
+response: [0, 2, 0, 0, 0], raw_feedback: [0, 2, 0, 0, 0], time computed: 2.1038782596588135
+response: [0, 0, 1, 1, 1], raw_feedback: [0, 0, 1, 1, 1], time computed: 3.317457675933838
+response: [1, 0, 0, 0, 0], raw_feedback: [1, 0, 0, 0, 0], time computed: 4.556450605392456
+response: [0, 1, 0, 1, 1], raw_feedback: [0, 1, 0, 1, 1], time computed: 4.100780487060547
+response: [0, 1, 2, 0, 2], raw_feedback: [0, 1, 2, 0, 2], time computed: 2.3497984409332275
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 2.2484896183013916
+response: [0, 0, 0, 1, 0], raw_feedback: [0, 0, 0, 1, 0], time computed: 5.120073318481445
+response: [0, 0, 0, 0, 2], raw_feedback: [0, 0, 0, 0, 2], time computed: 4.306969881057739
+response: [0, 0, 2, 0, 0], raw_feedback: [0, 0, 2, 0, 0], time computed: 3.477715253829956
+response: [0, 1, 0, 2, 0], raw_feedback: [0, 1, 0, 2, 0], time computed: 3.072781562805176
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 3.7498037815093994
+response: [1, 0, 0, 1, 0], raw_feedback: [1, 0, 0, 1, 0], time computed: 3.2144908905029297
+response: [0, 0, 0, 1, 2], raw_feedback: [0, 0, 0, 1, 2], time computed: 2.6801130771636963
+response: [2, 0, 2, 0, 0], raw_feedback: [2, 0, 2, 0, 0], time computed: 3.3609631061553955
+response: [0, 2, 0, 0, 1], raw_feedback: [0, 2, 0, 0, 1], time computed: 2.9671897888183594
+response: [1, 1, 0, 0, 0], raw_feedback: [1, 1, 0, 0, 0], time computed: 4.505089521408081
+response: [1, 0, 0, 0, 0], raw_feedback: [1, 0, 0, 0, 0], time computed: 4.049651861190796
+response: [0, 1, 0, 0, 1], raw_feedback: [0, 1, 0, 0, 1], time computed: 2.303295612335205
+response: [0, 0, 0, 1, 0], raw_feedback: [0, 0, 0, 1, 0], time computed: 1.8366734981536865
+response: [0, 0, 0, 2, 2], raw_feedback: [0, 0, 0, 2, 2], time computed: 1.9527482986450195
+response: [0, 1, 0, 0, 2], raw_feedback: [0, 1, 0, 0, 2], time computed: 3.9946351051330566
+response: [1, 0, 0, 0, 2], raw_feedback: [1, 0, 0, 0, 2], time computed: 2.142488479614258
+response: [0, 2, 1, 0, 2], raw_feedback: [0, 2, 1, 0, 2], time computed: 3.3832895755767822
+response: [0, 1, 0, 1, 2], raw_feedback: [0, 1, 0, 1, 2], time computed: 3.887580394744873
+testing 0th prompt
+response: [0, 0, 0, 1, 0], raw_feedback: [0, 0, 0, 1, 0], time computed: 2.5625364780426025
+response: [0, 0, 0, 2, 0], raw_feedback: [0, 0, 0, 2, 0], time computed: 2.234138011932373
+response: [0, 0, 2, 2, 1], raw_feedback: [0, 0, 2, 2, 1], time computed: 2.5677194595336914
+response: [1, 1, 0, 0, 0], raw_feedback: [1, 1, 0, 0, 0], time computed: 2.238767385482788
+response: [2, 0, 0, 0, 0], raw_feedback: [2, 0, 0, 0, 0], time computed: 2.562396287918091
+response: [1, 1, 0, 0, 1], raw_feedback: [1, 1, 0, 0, 1], time computed: 3.8924474716186523
+response: [0, 0, 0, 1, 0], raw_feedback: [0, 0, 0, 1, 0], time computed: 49.48790717124939
+response: [0, 0, 0, 0, 2], raw_feedback: [0, 0, 0, 0, 2], time computed: 2.6995279788970947
+response: [2, 0, 0, 1, 0], raw_feedback: [2, 0, 0, 1, 0], time computed: 2.502286911010742
+response: [0, 0, 2, 0, 0], raw_feedback: [0, 0, 2, 0, 0], time computed: 4.130798578262329
+response: [0, 1, 1, 0, 0], raw_feedback: [0, 1, 1, 0, 0], time computed: 2.406798839569092
+response: [0, 1, 2, 0, 0], raw_feedback: [0, 1, 2, 0, 0], time computed: 2.706590414047241
+response: [0, 1, 1, 1, 0], raw_feedback: [0, 1, 1, 0, 1], time computed: 2.733651876449585
+the response is wrong.
+verbal feedback: 'r' is not in the word. 'o' is in the word but in the wrong position. 'u' is in the word but in the wrong position. 'e' is not in the word. 'n' is in the word but in the wrong position.
+
+response: [0, 0, 0, 0, 2], raw_feedback: [0, 0, 0, 0, 2], time computed: 1.7534384727478027
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 2.864298105239868
+response: [0, 2, 0, 2, 0], raw_feedback: [0, 2, 0, 2, 0], time computed: 1.8634116649627686
+response: [0, 0, 1, 1, 0], raw_feedback: [0, 0, 1, 1, 0], time computed: 2.0258712768554688
+response: [2, 0, 0, 0, 1], raw_feedback: [2, 0, 0, 0, 1], time computed: 2.2585880756378174
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 3.4809300899505615
+response: [0, 0, 0, 0, 2], raw_feedback: [0, 0, 0, 0, 2], time computed: 2.449927806854248
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 3.079571008682251
+response: [0, 1, 1, 0, 0], raw_feedback: [0, 1, 1, 0, 0], time computed: 2.6607518196105957
+response: [0, 0, 1, 0, 0], raw_feedback: [0, 0, 1, 0, 0], time computed: 2.8728721141815186
+response: [0, 1, 0, 0, 0], raw_feedback: [0, 1, 0, 0, 0], time computed: 2.2489676475524902
+response: [0, 0, 0, 1, 0], raw_feedback: [0, 0, 0, 1, 0], time computed: 2.8676390647888184
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 2.2565231323242188
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 21.556572914123535
+response: [0, 0, 0, 1, 1], raw_feedback: [0, 0, 0, 1, 1], time computed: 3.836904287338257
+response: [0, 1, 0, 0, 0], raw_feedback: [0, 1, 0, 0, 0], time computed: 1.936128854751587
+response: [0, 0, 2, 0, 2], raw_feedback: [0, 0, 2, 0, 2], time computed: 2.8560400009155273
+testing 0th prompt
+response: [0, 0, 1, 0, 0], raw_feedback: [0, 0, 1, 0, 0], time computed: 3.07588267326355
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 2.712343454360962
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 3.1509876251220703
+response: [0, 0, 0, 0, 0], raw_feedback: [0, 0, 0, 0, 0], time computed: 2.884758234024048
+response: [0, 0, 0, 0, 1], raw_feedback: [0, 0, 0, 0, 1], time computed: 2.459841728210449
+response: [0, 1, 1, 0, 0], raw_feedback: [0, 1, 1, 0, 0], time computed: 2.0069937705993652
+response: [0, 0, 0, 1, 1], raw_feedback: [0, 0, 0, 1, 1], time computed: 2.4846994876861572
+response: [0, 1, 0, 0, 0], raw_feedback: [0, 1, 0, 0, 0], time computed: 3.1889491081237793
+response: [0, 1, 0, 0, 0], raw_feedback: [0, 1, 0, 0, 0], time computed: 2.6638641357421875
