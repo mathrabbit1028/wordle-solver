@@ -1,23 +1,47 @@
 import requests
 from concurrent.futures import ThreadPoolExecutor
 import time
+import random
 import numpy as np
 
 STUDENTS = {
     "team02": "http://localhost:8000",
 }
 
-word_list = open('./words.txt').read().strip().split('\n')[1::10]
+word_list = open('./words.txt').read().strip().split('\n')
+
+np.random.seed(1234567890)
 
 PROBLEMS = {
-    "1": {"secret_word": "flame", "candidate_words": ["crane", "flame", "slate"]},
-    "2": {"secret_word": "altar", "candidate_words": ["prank", "altar", "adapt"]},
-    "3": {"secret_word": word_list[np.random.randint(0,len(word_list)-1)], "candidate_words": word_list},
-    "4": {"secret_word": word_list[np.random.randint(0,len(word_list)-1)], "candidate_words": word_list},
-    "5": {"secret_word": word_list[np.random.randint(0,len(word_list)-1)], "candidate_words": word_list},
-    "6": {"secret_word": word_list[np.random.randint(0,len(word_list)-1)], "candidate_words": word_list},
-    #"7": {"secret_word": word_list[np.random.randint(0,len(word_list)-1)], "candidate_words": word_list},
+    "A": {"secret_word": "flame", "candidate_words": ["crane", "flame", "slate"]},
+    "B": {"secret_word": "altar", "candidate_words": ["prank", "altar", "adapt"]},
 }
+
+def make_problems(num_test_sets = 100):
+    global PROBLEMS
+    for i in range(num_test_sets):
+        test_id = str(i + 1)
+
+        secret_word = random.choice(word_list)
+
+        min_candidates = 10 # 최소 후보 단어 개수
+        max_candidates = len(word_list) # 최대 후보 단어 개수를 word_list 크기와 5000 중 작은 값으로 제한
+
+        num_candidates = random.randint(min_candidates, max_candidates)
+
+        candidate_words_set = set()
+        candidate_words_set.add(secret_word)
+
+        while len(candidate_words_set) < num_candidates:
+            candidate_words_set.add(random.choice(word_list))
+
+        candidate_words = list(candidate_words_set)
+        random.shuffle(candidate_words)
+
+        PROBLEMS[test_id] = {
+            "secret_word": secret_word,
+            "candidate_words": candidate_words
+        }
 
 
 def compute_feedback(secret, guess):
@@ -68,6 +92,7 @@ def run_for_team(team_name, base_url):
         secret = problem_data["secret_word"]
 
         try:
+            print(secret)
             requests.post(
                 f"{base_url}/start_problem",
                 json={"problem_id": problem_id, "candidate_words": candidate_words},
@@ -117,4 +142,5 @@ def main():
 
 
 if __name__ == "__main__":
+    make_problems()
     main()
