@@ -49,8 +49,22 @@ def verbalize_feedback(secret, guess, feedback):
             parts.append(f"'{ch}' is not in the word.")
     return " ".join(parts)
 
-def gain_dataset(word_list, len_test):
+def gain_dataset(word_list, len_test, hard = True):
     dataset = []
+
+    if hard:
+        for i in range(len_test): 
+            data_easy = True
+            while(data_easy): 
+                secret = word_list[np.random.randint(10000)]
+                guess = word_list[np.random.randint(10000)]
+                raw_feedback = compute_feedback(secret, guess)
+                data_easy = (sum([int(i != 0) for i in raw_feedback]) < 3)
+            verbalized_feedback = verbalize_feedback(secret, guess, raw_feedback)
+            dataset.append({'secret': secret, 'guess': guess, 'raw_feedback': raw_feedback, 'verbalized_feedback': verbalized_feedback})
+            print(f"guess word: {guess}\nverbalized feedback: {verbalized_feedback}\nraw_feedback: {''.join(map(str, raw_feedback))}")
+        return dataset
+    
     for i in range(len_test):
         secret = word_list[np.random.randint(10000)]
         guess = word_list[np.random.randint(10000)]
@@ -131,9 +145,8 @@ class testingLLM():
 
 word_list = open('words.txt').read().strip().split('\n')[:]
 len_test = 10
-dataset = gain_dataset(word_list, len_test)
-
-print(f'dataset: {dataset}')
+# dataset = gain_dataset(word_list, len_test)
+dataset = [{'secret': 'ambos', 'guess': 'calms', 'raw_feedback': [0, 1, 0, 1, 2], 'verbalized_feedback': "'c' is not in the word. 'a' is in the word but in the wrong position. 'l' is not in the word. 'm' is in the word but in the wrong position. 's' is in the correct position."}, {'secret': 'capex', 'guess': 'adept', 'raw_feedback': [1, 0, 1, 1, 0], 'verbalized_feedback': "'a' is in the word but in the wrong position. 'd' is not in the word. 'e' is in the word but in the wrong position. 'p' is in the word but in the wrong position. 't' is not in the word."}, {'secret': 'carle', 'guess': 'creep', 'raw_feedback': [2, 1, 1, 0, 0], 'verbalized_feedback': "'c' is in the correct position. 'r' is in the word but in the wrong position. 'e' is in the word but in the wrong position. 'e' is not in the word. 'p' is not in the word."}, {'secret': 'eying', 'guess': 'jiggy', 'raw_feedback': [0, 1, 1, 0, 1], 'verbalized_feedback': "'j' is not in the word. 'i' is in the word but in the wrong position. 'g' is in the word but in the wrong position. 'g' is not in the word. 'y' is in the word but in the wrong position."}, {'secret': 'flews', 'guess': 'leats', 'raw_feedback': [1, 1, 0, 0, 2], 'verbalized_feedback': "'l' is in the word but in the wrong position. 'e' is in the word but in the wrong position. 'a' is not in the word. 't' is not in the word. 's' is in the correct position."}, {'secret': 'ruana', 'guess': 'aruhe', 'raw_feedback': [1, 1, 1, 0, 0], 'verbalized_feedback': "'a' is in the word but in the wrong position. 'r' is in the word but in the wrong position. 'u' is in the word but in the wrong position. 'h' is not in the word. 'e' is not in the word."}, {'secret': 'astun', 'guess': 'savin', 'raw_feedback': [1, 1, 0, 0, 2], 'verbalized_feedback': "'s' is in the word but in the wrong position. 'a' is in the word but in the wrong position. 'v' is not in the word. 'i' is not in the word. 'n' is in the correct position."}, {'secret': 'greve', 'guess': 'sered', 'raw_feedback': [0, 1, 1, 1, 0], 'verbalized_feedback': "'s' is not in the word. 'e' is in the word but in the wrong position. 'r' is in the word but in the wrong position. 'e' is in the word but in the wrong position. 'd' is not in the word."}, {'secret': 'ileum', 'guess': 'liter', 'raw_feedback': [1, 1, 0, 1, 0], 'verbalized_feedback': "'l' is in the word but in the wrong position. 'i' is in the word but in the wrong position. 't' is not in the word. 'e' is in the word but in the wrong position. 'r' is not in the word."}, {'secret': 'ryked', 'guess': 'icker', 'raw_feedback': [0, 0, 2, 2, 1], 'verbalized_feedback': "'i' is not in the word. 'c' is not in the word. 'k' is in the correct position. 'e' is in the correct position. 'r' is in the word but in the wrong position."}]
 
 testLLM = testingLLM()
 
@@ -185,13 +198,26 @@ Now process the following input:
 
 prompts.append('''
 You're playing Wordle.
-Convert the feedback into a 5-digit code using the following rules:
+Convert the verbal feedback into a 5-digit code using the following rules:
 - 0: Letter is not in the word 
 - 1: Letter is in the word but in the wrong position 
 - 2: Letter is in the correct position
 Return only the 5-digit code (e.g., 20100).
 Do not include any explanation or extra text.  
-               ''')     
+               
+Examples:
+Guess: liter
+Feedback: 'l' is in the word but in the wrong position. 'i' is in the word but in the wrong position. 't' is not in the word. 'e' is in the word but in the wrong position. 'r' is not in the word.
+Output: 11010
+               
+Guess: sered
+Feedback: 's' is not in the word. 'e' is in the word but in the wrong position. 'r' is in the word but in the wrong position. 'e' is in the word but in the wrong position. 'd' is not in the word.
+Output: 01110
+
+Guess: rutin          
+Feedback: 'r' is not in the word. 'u' is in the correct position. 't' is in the correct position. 'i' is not in the word. 'n' is in the correct position.
+Output: 01101
+''')     
 
 scores = [None for i in range(len(prompts))]
 

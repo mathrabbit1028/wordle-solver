@@ -64,14 +64,16 @@ class Solver:
             self.problems[problem_id]["translated_feedback"].append(self.translate(verbal_feedback, last_guess))
 
     def translate(self, verbal_feedback, guess):
-        # new try: if the verbal feedback can be separated by a specific sign, then divide the verbal feedback
+        # new try, not used. if the verbal feedback can be separated by a specific sign, then divide the verbal feedback
         def splited_by(verbal_feedback, sign):
+            return False
             return (verbal_feedback.count(sign) == 5)
         
         for sign in ['.', ',', '\n']:
             if splited_by(verbal_feedback, sign):
-                combined_response = [0, 0, 0, 0, 0]
-                splited_feedbacks = verbal_feedback.split(sign)[:4]
+                start_time = time.time()
+                combined_response = []
+                splited_feedbacks = verbal_feedback.split(sign)[:5]
                 shared_prompt = f'''
                     You are a precise wordle solver. 
                     Return a single digit 0,1,2 based on which case the verbal feedback falls on.
@@ -81,10 +83,11 @@ class Solver:
                     Return only the single digit. No explanation. No extra text. 
                 '''
                 for splited_feedback in splited_feedbacks:
+                    individual_prompt = f'The feedback is: {splited_feedback}'
                     response = (
                         complete(
-                            model=models[i],
-                            prompt=[{"role": "user", "content": prompts[i]}],
+                            model=self.model,
+                            prompt=[{"role": "user", "content": shared_prompt + individual_prompt}],
                             options={"max_tokens": 20, "temperature": 0.0},
                             session=self.session,
                         )
@@ -93,10 +96,10 @@ class Solver:
                     )
                     combined_response.append(int(response))
                 
-                self._log(f'response using splited_feedback: {response}')
+                self._log(f'response using splited_feedback: {combined_response}, time took: {time.time() - start_time}')
                 return combined_response
             
-        num_votes = 1
+        num_votes = 2
 
         prompts = []
 
@@ -142,31 +145,37 @@ class Solver:
         Output: 20220
 
         Now process the following input:
-
-        Guess: {guess}  
-        Feedback: {verbal_feedback}
-        ''')        
+        ''')      
         prompts.append(f'''
-        You're playing Wordle. 
-        Convert the following input into strings of 0,1,2 where
-        0 represents that the letter is not in the word,
-        1 represents that the letter is in wrong position,
-        2 represents that the letter in right position.
+        You're playing Wordle.
+        Convert the verbal feedback into a 5-digit code using the following rules:
+        - 0: Letter is not in the word 
+        - 1: Letter is in the word but in the wrong position 
+        - 2: Letter is in the correct position
+        Return only the 5-digit code (e.g., 20100).
+        Do not include any explanation or extra text.  
+                    
+        Examples:
+        Guess: liter
+        Feedback: 'l' is in the word but in the wrong position. 'i' is in the word but in the wrong position. 't' is not in the word. 'e' is in the word but in the wrong position. 'r' is not in the word.
+        Output: 11010
+                    
+        Guess: sered
+        Feedback: 's' is not in the word. 'e' is in the word but in the wrong position. 'r' is in the word but in the wrong position. 'e' is in the word but in the wrong position. 'd' is not in the word.
+        Output: 01110
 
-        Return only the 5-letter string like this: 01012
-
-        Guess: {guess}  
-        Feedback: {verbal_feedback}
+        Guess: rutin          
+        Feedback: 'r' is not in the word. 'u' is in the correct position. 't' is in the correct position. 'i' is not in the word. 'n' is in the correct position.
+        Output: 01101
         ''')     
         prompts.append(prompts[0])
 
         responses = np.zeros((num_votes,5))
-        models = ["claude-3-5-sonnet", "claude-3-5-sonnet", "claude-3-5-sonnet"]
         for i in range(num_votes):
             start_time = time.time()
             response = (
                 complete(
-                    model=models[i],
+                    model=self.model,
                     prompt=[{"role": "user", "content": prompts[i]}],
                     options={"max_tokens": 20, "temperature": 0.0},
                     session=self.session,
@@ -176,8 +185,12 @@ class Solver:
             )
             for j, num in enumerate(list(map(int, response))):
                 responses[i][j] = num
+
             self.snowflake_calls += 1
             self._log(f'response: {response}, time took for LLM: {time.time() - start_time}')
+
+            if i == 1 and response[0] == response[1]:
+                return list(map(int, response[0]))
             
         responses = np.round(responses).astype(int)
         final_response = mode(responses, axis=0, keepdims=False).mode
@@ -193,25 +206,29 @@ class Solver:
         translated_history = self.problems[problem_id]["translated_feedback"]
         guess_history = self.problems[problem_id]["guess_history"]
 
-        def query_res(word, ans):
-            dict = {}
-            for c in ans:
-                if c in dict:
-                    dict[c] += 1
-                else:
-                    dict[c] = 1
+        def query_res(word, ans):            
+            feedback = np.zeros(5)
+            # First pass: assign 2 (correct position)
+            for i in range(5):
+                if word[i] == ans[i]:
+                    feedback[i] = 2
+                    word[i] = None
+                    ans[i] = None
 
-            res = []
-            for cw, ca in zip(word, ans):
-                if cw == ca:
-                    res.append(2)
-                    dict[cw] -= 1
-                elif (cw not in dict) or dict[cw] == 0:
-                    res.append(0)
-                else:
-                    res.append(1)
-                    dict[cw]-=1
-            return res
+            # Count remaining letters in secret
+            remaining = {}
+            for ch in ans:
+                if ch:
+                    remaining[ch] = remaining.get(ch, 0) + 1
+
+            # Second pass: assign 1 (misplaced)
+            for i in range(5):
+                if word[i] and remaining.get(word[i], 0) > 0:
+                    feedback[i] = 1
+                    remaining[word[i]] -= 1
+
+            return feedback
+
             # below is legacy code
             def get_t(word: str, ans: str, i: int) -> int:
                 cnt: int = 0

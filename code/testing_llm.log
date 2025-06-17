@@ -76,3 +76,72 @@ response: [0, 1, 1, 0, 0], raw_feedback: [0, 1, 1, 0, 0], time computed: 2.00699
 response: [0, 0, 0, 1, 1], raw_feedback: [0, 0, 0, 1, 1], time computed: 2.4846994876861572
 response: [0, 1, 0, 0, 0], raw_feedback: [0, 1, 0, 0, 0], time computed: 3.1889491081237793
 response: [0, 1, 0, 0, 0], raw_feedback: [0, 1, 0, 0, 0], time computed: 2.6638641357421875
+testing 0th prompt
+response: [0, 1, 0, 0, 0], raw_feedback: [0, 1, 0, 0, 0], time computed: 2.732142210006714
+response: [0, 0, 1, 0, 0], raw_feedback: [0, 0, 1, 0, 0], time computed: 2.707575559616089
+response: [0, 0, 0, 0, 2], raw_feedback: [0, 0, 0, 0, 2], time computed: 2.2077455520629883
+response: [0, 0, 1, 1, 0], raw_feedback: [0, 0, 1, 1, 0], time computed: 3.5510270595550537
+response: [0, 0, 1, 0, 0], raw_feedback: [0, 0, 1, 0, 0], time computed: 2.4879133701324463
+response: [0, 0, 0, 2, 2], raw_feedback: [0, 0, 0, 2, 2], time computed: 1.544863224029541
+response: [0, 1, 0, 1, 0], raw_feedback: [0, 1, 0, 1, 0], time computed: 2.3655507564544678
+response: [0, 1, 0, 0, 0], raw_feedback: [0, 1, 0, 0, 0], time computed: 2.749542474746704
+response: [2, 0, 0, 0, 0], raw_feedback: [2, 0, 0, 0, 0], time computed: 2.184962034225464
+response: [0, 0, 0, 0, 1], raw_feedback: [0, 0, 0, 0, 1], time computed: 2.2070837020874023
+testing 1th prompt
+response: [0, 1, 0, 0, 0], raw_feedback: [0, 1, 0, 0, 0], time computed: 2.570525884628296
+response: [0, 0, 1, 0, 0], raw_feedback: [0, 0, 1, 0, 0], time computed: 2.6637282371520996
+response: [0, 0, 0, 0, 2], raw_feedback: [0, 0, 0, 0, 2], time computed: 2.043694019317627
+response: [0, 0, 1, 1, 0], raw_feedback: [0, 0, 1, 1, 0], time computed: 2.8591387271881104
+response: [0, 0, 1, 0, 0], raw_feedback: [0, 0, 1, 0, 0], time computed: 2.469172477722168
+response: [0, 0, 0, 2, 2], raw_feedback: [0, 0, 0, 2, 2], time computed: 2.4564828872680664
+response: [0, 1, 0, 1, 0], raw_feedback: [0, 1, 0, 1, 0], time computed: 2.8679215908050537
+response: [0, 1, 0, 0, 0], raw_feedback: [0, 1, 0, 0, 0], time computed: 2.039580821990967
+response: [2, 0, 0, 0, 0], raw_feedback: [2, 0, 0, 0, 0], time computed: 2.0475716590881348
+response: [0, 0, 0, 0, 1], raw_feedback: [0, 0, 0, 0, 1], time computed: 3.4515771865844727
+testing 0th prompt
+response: [0, 1, 0, 1, 2], raw_feedback: [0, 1, 0, 1, 2], time computed: 2.872661590576172
+response: [1, 0, 1, 1, 0], raw_feedback: [1, 0, 1, 1, 0], time computed: 1.9382121562957764
+response: [2, 1, 1, 0, 0], raw_feedback: [2, 1, 1, 0, 0], time computed: 2.8635807037353516
+response: [0, 1, 1, 0, 1], raw_feedback: [0, 1, 1, 0, 1], time computed: 2.448868751525879
+response: [1, 1, 0, 0, 2], raw_feedback: [1, 1, 0, 0, 2], time computed: 2.6709587574005127
+response: [1, 1, 1, 0, 0], raw_feedback: [1, 1, 1, 0, 0], time computed: 2.871568202972412
+response: [1, 1, 0, 0, 2], raw_feedback: [1, 1, 0, 0, 2], time computed: 2.14571475982666
+response: [0, 1, 1, 1, 0], raw_feedback: [0, 1, 1, 1, 0], time computed: 2.9820961952209473
+response: [1, 1, 0, 1, 0], raw_feedback: [1, 1, 0, 1, 0], time computed: 3.1547915935516357
+response: [0, 0, 2, 2, 1], raw_feedback: [0, 0, 2, 2, 1], time computed: 4.037002801895142
+testing 1th prompt
+response: [0, 1, 0, 1, 2], raw_feedback: [0, 1, 0, 1, 2], time computed: 1.7804152965545654
+response: [1, 0, 1, 1, 0], raw_feedback: [1, 0, 1, 1, 0], time computed: 3.089022159576416
+response: [2, 1, 1, 0, 0], raw_feedback: [2, 1, 1, 0, 0], time computed: 3.2745728492736816
+response: [0, 1, 1, 0, 1], raw_feedback: [0, 1, 1, 0, 1], time computed: 2.8708131313323975
+response: [1, 1, 0, 0, 2], raw_feedback: [1, 1, 0, 0, 2], time computed: 2.659541130065918
+response: [1, 1, 1, 0, 0], raw_feedback: [1, 1, 1, 0, 0], time computed: 3.279343605041504
+response: [1, 1, 0, 0, 2], raw_feedback: [1, 1, 0, 0, 2], time computed: 2.8678998947143555
+response: [0, 1, 1, 0, 0], raw_feedback: [0, 1, 1, 1, 0], time computed: 2.0433034896850586
+the response is wrong.
+verbal feedback: 's' is not in the word. 'e' is in the word but in the wrong position. 'r' is in the word but in the wrong position. 'e' is in the word but in the wrong position. 'd' is not in the word.
+
+response: [1, 1, 0, 1, 0], raw_feedback: [1, 1, 0, 1, 0], time computed: 3.077575445175171
+response: [0, 0, 2, 2, 1], raw_feedback: [0, 0, 2, 2, 1], time computed: 3.2081520557403564
+testing 0th prompt
+response: [0, 1, 0, 1, 2], raw_feedback: [0, 1, 0, 1, 2], time computed: 2.4482262134552
+response: [1, 0, 1, 1, 0], raw_feedback: [1, 0, 1, 1, 0], time computed: 2.86511492729187
+response: [2, 1, 1, 0, 0], raw_feedback: [2, 1, 1, 0, 0], time computed: 2.457303524017334
+response: [0, 1, 1, 0, 1], raw_feedback: [0, 1, 1, 0, 1], time computed: 2.660851001739502
+response: [1, 1, 0, 0, 2], raw_feedback: [1, 1, 0, 0, 2], time computed: 2.9594902992248535
+response: [1, 1, 1, 0, 0], raw_feedback: [1, 1, 1, 0, 0], time computed: 2.9230403900146484
+response: [1, 1, 0, 0, 2], raw_feedback: [1, 1, 0, 0, 2], time computed: 3.7714455127716064
+response: [0, 1, 1, 1, 0], raw_feedback: [0, 1, 1, 1, 0], time computed: 3.6585536003112793
+response: [1, 1, 0, 1, 0], raw_feedback: [1, 1, 0, 1, 0], time computed: 2.5515692234039307
+response: [0, 0, 2, 2, 1], raw_feedback: [0, 0, 2, 2, 1], time computed: 2.820604085922241
+testing 1th prompt
+response: [0, 1, 0, 1, 2], raw_feedback: [0, 1, 0, 1, 2], time computed: 2.2420437335968018
+response: [1, 0, 1, 1, 0], raw_feedback: [1, 0, 1, 1, 0], time computed: 2.6188361644744873
+response: [2, 1, 1, 0, 0], raw_feedback: [2, 1, 1, 0, 0], time computed: 2.8190181255340576
+response: [0, 1, 1, 0, 1], raw_feedback: [0, 1, 1, 0, 1], time computed: 2.8797667026519775
+response: [1, 1, 0, 0, 2], raw_feedback: [1, 1, 0, 0, 2], time computed: 3.2038700580596924
+response: [1, 1, 1, 0, 0], raw_feedback: [1, 1, 1, 0, 0], time computed: 2.3699491024017334
+response: [1, 1, 0, 0, 2], raw_feedback: [1, 1, 0, 0, 2], time computed: 2.4572582244873047
+response: [0, 1, 1, 1, 0], raw_feedback: [0, 1, 1, 1, 0], time computed: 3.0803520679473877
+response: [1, 1, 0, 1, 0], raw_feedback: [1, 1, 0, 1, 0], time computed: 2.4547688961029053
+response: [0, 0, 2, 2, 1], raw_feedback: [0, 0, 2, 2, 1], time computed: 2.94870924949646

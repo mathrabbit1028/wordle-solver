@@ -602,3 +602,303 @@
 [2025-06-17T02:09:10.118960] Translated: [0, 1, 1, 0, 1]
 [2025-06-17T02:09:10.118960] Turn 3: Guess: forth
 [2025-06-17T02:09:10.118960] time spent for guess: 0.0
+[2025-06-17T15:42:10.239484] 
+=== Starting Problem 1 ===
+[2025-06-17T15:42:10.239484] Candidate words: crane, flame, slate
+[2025-06-17T15:42:12.314207] Turn 1: Received feedback: None
+[2025-06-17T15:42:12.314207] Translated: None
+[2025-06-17T15:42:12.314207] Turn 1: Guess: flame
+[2025-06-17T15:42:12.314207] time spent for guess: 0.0
+[2025-06-17T15:42:14.382689] 
+=== Starting Problem 2 ===
+[2025-06-17T15:42:14.382689] Candidate words: prank, altar, adapt
+[2025-06-17T15:42:16.443562] Turn 1: Received feedback: None
+[2025-06-17T15:42:16.443562] Translated: None
+[2025-06-17T15:42:16.443562] Turn 1: Guess: prank
+[2025-06-17T15:42:16.443562] time spent for guess: 0.0020487308502197266
+[2025-06-17T15:42:20.576012] 
+=== Starting Problem 3 ===
+[2025-06-17T15:42:20.576012] Candidate words: aalii, aband, abbot, abled, aboon
+[2025-06-17T15:42:28.597919] Turn 1: Received feedback: None
+[2025-06-17T15:42:28.597919] Translated: None
+[2025-06-17T15:42:28.597919] Turn 1: Guess: reals
+[2025-06-17T15:42:28.597919] time spent for guess: 5.974391937255859
+[2025-06-17T15:42:32.691617] 
+=== Starting Problem 4 ===
+[2025-06-17T15:42:32.691617] Candidate words: aalii, aband, abbot, abled, aboon
+[2025-06-17T15:42:41.227079] Turn 1: Received feedback: None
+[2025-06-17T15:42:41.227079] Translated: None
+[2025-06-17T15:42:41.227079] Turn 1: Guess: reals
+[2025-06-17T15:42:41.227079] time spent for guess: 6.492138385772705
+[2025-06-17T15:42:45.297574] 
+=== Starting Problem 5 ===
+[2025-06-17T15:42:45.297574] Candidate words: aalii, aband, abbot, abled, aboon
+[2025-06-17T15:42:53.693171] Turn 1: Received feedback: None
+[2025-06-17T15:42:53.693171] Translated: None
+[2025-06-17T15:42:53.693171] Turn 1: Guess: reals
+[2025-06-17T15:42:53.693171] time spent for guess: 6.3334126472473145
+[2025-06-17T15:43:32.209868] 
+=== Starting Problem 1 ===
+[2025-06-17T15:43:32.211879] Candidate words: crane, flame, slate
+[2025-06-17T15:43:34.234108] Turn 1: Received feedback: None
+[2025-06-17T15:43:34.234108] Translated: None
+[2025-06-17T15:43:34.234108] Turn 1: Guess: flame
+[2025-06-17T15:43:34.234108] time spent for guess: 0.0
+[2025-06-17T15:43:36.278463] 
+=== Starting Problem 2 ===
+[2025-06-17T15:43:36.278463] Candidate words: prank, altar, adapt
+[2025-06-17T15:43:38.293140] Turn 1: Received feedback: None
+[2025-06-17T15:43:38.293140] Translated: None
+[2025-06-17T15:43:38.293140] Turn 1: Guess: prank
+[2025-06-17T15:43:38.293140] time spent for guess: 0.0
+[2025-06-17T15:43:42.362933] 
+=== Starting Problem 3 ===
+[2025-06-17T15:43:42.362933] Candidate words: aalii, aband, abbot, abled, aboon
+[2025-06-17T15:47:07.104764] 
+=== Starting Problem 2 ===
+[2025-06-17T15:47:07.104764] Candidate words: prank, altar, adapt
+[2025-06-17T15:47:09.158096] Turn 1: Received feedback: None
+[2025-06-17T15:47:09.158096] Translated: None
+[2025-06-17T15:47:09.158096] Turn 1: Guess: prank
+[2025-06-17T15:47:09.158096] time spent for guess: 0.0020139217376708984
+[2025-06-17T15:47:13.299403] 
+=== Starting Problem 3 ===
+[2025-06-17T15:47:13.299403] Candidate words: aalii, aband, abbot, abled, aboon
+[2025-06-17T15:47:25.355926] Turn 1: Received feedback: None
+[2025-06-17T15:47:25.355926] Translated: None
+[2025-06-17T15:47:25.355926] Turn 1: Guess: reals
+[2025-06-17T15:47:25.355926] time spent for guess: 10.001299142837524
+[2025-06-17T15:47:27.341515] 
+=== Starting Problem 4 ===
+[2025-06-17T15:47:27.341515] Candidate words: aalii, aband, abbot, abled, aboon
+[2025-06-17T15:47:39.130219] Turn 1: Received feedback: None
+[2025-06-17T15:47:39.130219] Translated: None
+[2025-06-17T15:47:39.130219] Turn 1: Guess: reals
+[2025-06-17T15:47:39.130219] time spent for guess: 9.723407745361328
+[2025-06-17T15:47:43.258260] 
+=== Starting Problem 5 ===
+[2025-06-17T15:47:43.260300] Candidate words: aalii, aband, abbot, abled, aboon
+[2025-06-17T15:47:55.051539] Turn 1: Received feedback: None
+[2025-06-17T15:47:55.051539] Translated: None
+[2025-06-17T15:47:55.051539] Turn 1: Guess: reals
+[2025-06-17T15:47:55.051539] time spent for guess: 9.727659463882446
+[2025-06-17T15:47:59.186267] 
+=== Starting Problem 6 ===
+[2025-06-17T15:47:59.186267] Candidate words: aalii, aband, abbot, abled, aboon
+[2025-06-17T15:48:10.988165] Turn 1: Received feedback: None
+[2025-06-17T15:48:10.988165] Translated: None
+[2025-06-17T15:48:10.988165] Turn 1: Guess: reals
+[2025-06-17T15:48:10.988165] time spent for guess: 9.768421411514282
+[2025-06-17T15:50:41.672666] 
+=== Starting Problem 2 ===
+[2025-06-17T15:50:41.672666] Candidate words: prank, altar, adapt
+[2025-06-17T15:50:43.721135] Turn 1: Received feedback: None
+[2025-06-17T15:50:43.721135] Translated: None
+[2025-06-17T15:50:43.721135] Turn 1: Guess: prank
+[2025-06-17T15:50:43.721135] time spent for guess: 0.0
+[2025-06-17T15:50:55.620546] response using splited_feedback: 0, time took: 9.849992752075195
+[2025-06-17T15:50:55.628629] Turn 2: Received feedback: 'p' is not in the word. 'r' is in the word but in the wrong position. 'a' is in the word but in the wrong position. 'n' is not in the word. 'k' is not in the word.
+[2025-06-17T15:50:55.628629] Translated: [0, 0, 0, 0, 0, 0, 1, 1, 0]
+[2025-06-17T15:50:55.628629] Turn 2: We are damned
+[2025-06-17T15:50:55.628629] Turn 2: Guess: altar
+[2025-06-17T15:50:57.690116] 
+=== Starting Problem 3 ===
+[2025-06-17T15:50:57.690116] Candidate words: aalii, aband, abbot, abled, aboon
+[2025-06-17T15:51:06.434990] Turn 1: Received feedback: None
+[2025-06-17T15:51:06.434990] Translated: None
+[2025-06-17T15:51:06.434990] Turn 1: Guess: reals
+[2025-06-17T15:51:06.434990] time spent for guess: 6.692127227783203
+[2025-06-17T15:51:15.385983] response using splited_feedback: 0, time took: 6.922048091888428
+[2025-06-17T15:51:15.390259] Turn 2: Received feedback: 'r' is in the word but in the wrong position. 'e' is not in the word. 'a' is in the correct position. 'l' is not in the word. 's' is in the correct position.
+[2025-06-17T15:51:15.390259] Translated: [0, 0, 0, 0, 0, 1, 0, 2, 0]
+[2025-06-17T15:51:15.390259] Turn 2: We are damned
+[2025-06-17T15:51:15.390259] Turn 2: Guess: jaded
+[2025-06-17T15:51:25.833731] response using splited_feedback: 0, time took: 8.387595891952515
+[2025-06-17T15:51:25.833731] Turn 3: Received feedback: 'j' is not in the word. 'a' is in the word but in the wrong position. 'd' is not in the word. 'e' is not in the word. 'd' is not in the word.
+[2025-06-17T15:51:25.833731] Translated: [0, 0, 0, 0, 0, 0, 1, 0, 0]
+[2025-06-17T15:51:25.833731] Turn 3: We are damned
+[2025-06-17T15:51:25.833731] Turn 3: Guess: dulse
+[2025-06-17T15:51:38.018312] response using splited_feedback: 1, time took: 10.156687498092651
+[2025-06-17T15:51:38.018312] Turn 4: Received feedback: 'd' is not in the word. 'u' is not in the word. 'l' is not in the word. 's' is in the word but in the wrong position. 'e' is not in the word.
+[2025-06-17T15:51:38.018312] Translated: [0, 0, 0, 0, 0, 0, 0, 0, 1]
+[2025-06-17T15:51:38.018312] Turn 4: We are damned
+[2025-06-17T15:51:38.018312] Turn 4: Guess: bries
+[2025-06-17T15:51:39.830248] 
+=== Starting Problem 4 ===
+[2025-06-17T15:51:39.830248] Candidate words: aalii, aband, abbot, abled, aboon
+[2025-06-17T15:51:48.438585] Turn 1: Received feedback: None
+[2025-06-17T15:51:48.438585] Translated: None
+[2025-06-17T15:51:48.438585] Turn 1: Guess: reals
+[2025-06-17T15:51:48.438585] time spent for guess: 6.557088613510132
+[2025-06-17T15:52:00.856243] response using splited_feedback: 0, time took: 10.358367204666138
+[2025-06-17T15:52:00.856776] Turn 2: Received feedback: 'r' is not in the word. 'e' is in the correct position. 'a' is not in the word. 'l' is not in the word. 's' is in the correct position.
+[2025-06-17T15:52:00.856776] Translated: [0, 0, 0, 0, 0, 0, 2, 0, 0]
+[2025-06-17T15:52:00.856776] Turn 2: We are damned
+[2025-06-17T15:52:00.856776] Turn 2: Guess: malis
+[2025-06-17T15:52:14.940850] 
+=== Starting Problem 1 ===
+[2025-06-17T15:52:14.940850] Candidate words: crane, flame, slate
+[2025-06-17T15:52:16.981124] Turn 1: Received feedback: None
+[2025-06-17T15:52:16.981124] Translated: None
+[2025-06-17T15:52:16.981124] Turn 1: Guess: flame
+[2025-06-17T15:52:16.981124] time spent for guess: 0.0
+[2025-06-17T15:52:19.024463] 
+=== Starting Problem 2 ===
+[2025-06-17T15:52:19.024463] Candidate words: prank, altar, adapt
+[2025-06-17T15:52:21.098785] Turn 1: Received feedback: None
+[2025-06-17T15:52:21.098785] Translated: None
+[2025-06-17T15:52:21.098785] Turn 1: Guess: prank
+[2025-06-17T15:52:21.098785] time spent for guess: 0.0
+[2025-06-17T15:52:32.710922] response using splited_feedback: 0, time took: 9.525446653366089
+[2025-06-17T15:52:32.710922] Turn 2: Received feedback: 'p' is not in the word. 'r' is in the word but in the wrong position. 'a' is in the word but in the wrong position. 'n' is not in the word. 'k' is not in the word.
+[2025-06-17T15:52:32.710922] Translated: [0, 0, 0, 0, 0, 0, 1, 1, 0]
+[2025-06-17T15:52:32.710922] Turn 2: We are damned
+[2025-06-17T15:52:32.710922] Turn 2: Guess: prank
+[2025-06-17T15:52:43.699663] response using splited_feedback: 0, time took: 8.94170331954956
+[2025-06-17T15:52:43.699663] Turn 3: Received feedback: 'p' is not in the word. 'r' is in the word but in the wrong position. 'a' is in the word but in the wrong position. 'n' is not in the word. 'k' is not in the word.
+[2025-06-17T15:52:43.699663] Translated: [0, 0, 0, 0, 0, 0, 1, 1, 0]
+[2025-06-17T15:52:43.699663] Turn 3: We are damned
+[2025-06-17T15:52:43.699663] Turn 3: Guess: altar
+[2025-06-17T15:52:45.752087] 
+=== Starting Problem 3 ===
+[2025-06-17T15:52:45.752087] Candidate words: aalii, aband, abbot, abled, aboon
+[2025-06-17T15:52:57.246408] Turn 1: Received feedback: None
+[2025-06-17T15:52:57.246408] Translated: None
+[2025-06-17T15:52:57.246408] Turn 1: Guess: reals
+[2025-06-17T15:52:57.246408] time spent for guess: 9.41093635559082
+[2025-06-17T15:53:08.137891] response using splited_feedback: 2, time took: 8.855777978897095
+[2025-06-17T15:53:08.137891] Turn 2: Received feedback: 'r' is not in the word. 'e' is not in the word. 'a' is in the word but in the wrong position. 'l' is in the correct position. 's' is in the correct position.
+[2025-06-17T15:53:08.137891] Translated: [0, 0, 0, 0, 0, 0, 0, 1, 2]
+[2025-06-17T15:53:08.137891] Turn 2: We are damned
+[2025-06-17T15:53:08.137891] Turn 2: Guess: ingle
+[2025-06-17T15:53:19.915875] response using splited_feedback: 2, time took: 9.706969261169434
+[2025-06-17T15:53:19.915875] Turn 3: Received feedback: 'i' is not in the word. 'n' is not in the word. 'g' is not in the word. 'l' is in the correct position. 'e' is not in the word.
+[2025-06-17T15:53:19.915875] Translated: [0, 0, 0, 0, 0, 0, 0, 0, 2]
+[2025-06-17T15:53:19.915875] Turn 3: We are damned
+[2025-06-17T15:53:19.915875] Turn 3: Guess: ungum
+[2025-06-17T15:53:30.160482] response using splited_feedback: 0, time took: 8.191874980926514
+[2025-06-17T15:53:30.160482] Turn 4: Received feedback: 'u' is not in the word. 'n' is not in the word. 'g' is not in the word. 'u' is not in the word. 'm' is in the word but in the wrong position.
+[2025-06-17T15:53:30.160482] Translated: [0, 0, 0, 0, 0, 0, 0, 0, 0]
+[2025-06-17T15:53:30.160482] Turn 4: We are damned
+[2025-06-17T15:53:30.160482] Turn 4: Guess: arils
+[2025-06-17T15:53:41.524797] response using splited_feedback: 2, time took: 9.307517051696777
+[2025-06-17T15:53:41.524797] Turn 5: Received feedback: 'a' is in the correct position. 'r' is not in the word. 'i' is not in the word. 'l' is in the correct position. 's' is in the correct position.
+[2025-06-17T15:53:41.524797] Translated: [0, 0, 0, 0, 0, 2, 0, 0, 2]
+[2025-06-17T15:53:41.524797] Turn 5: We are damned
+[2025-06-17T15:53:41.524797] Turn 5: Guess: fools
+[2025-06-17T15:53:51.945537] response using splited_feedback: 2, time took: 8.361629962921143
+[2025-06-17T15:53:51.945537] Turn 6: Received feedback: 'f' is not in the word. 'o' is not in the word. 'o' is not in the word. 'l' is in the correct position. 's' is in the correct position.
+[2025-06-17T15:53:51.945537] Translated: [0, 0, 0, 0, 0, 0, 0, 0, 2]
+[2025-06-17T15:53:51.945537] Turn 6: We are damned
+[2025-06-17T15:53:51.945537] Turn 6: Guess: queyn
+[2025-06-17T15:54:04.673264] response using splited_feedback: 1, time took: 10.657761096954346
+[2025-06-17T15:54:04.673264] Turn 7: Received feedback: 'q' is not in the word. 'u' is not in the word. 'e' is not in the word. 'y' is in the word but in the wrong position. 'n' is not in the word.
+[2025-06-17T15:54:04.673264] Translated: [0, 0, 0, 0, 0, 0, 0, 0, 1]
+[2025-06-17T15:54:04.673264] Turn 7: We are damned
+[2025-06-17T15:54:04.673264] Turn 7: Guess: calid
+[2025-06-17T15:54:05.968266] 
+=== Starting Problem 4 ===
+[2025-06-17T15:54:05.968266] Candidate words: aalii, aband, abbot, abled, aboon
+[2025-06-17T15:54:22.574423] 
+=== Starting Problem 1 ===
+[2025-06-17T15:54:22.576431] Candidate words: crane, flame, slate
+[2025-06-17T15:54:24.627545] Turn 1: Received feedback: None
+[2025-06-17T15:54:24.628532] Translated: None
+[2025-06-17T15:54:24.628532] Turn 1: Guess: flame
+[2025-06-17T15:54:24.628532] time spent for guess: 0.0014660358428955078
+[2025-06-17T15:54:26.669992] 
+=== Starting Problem 2 ===
+[2025-06-17T15:54:26.669992] Candidate words: prank, altar, adapt
+[2025-06-17T15:54:28.735925] Turn 1: Received feedback: None
+[2025-06-17T15:54:28.735925] Translated: None
+[2025-06-17T15:54:28.735925] Turn 1: Guess: prank
+[2025-06-17T15:54:28.735925] time spent for guess: 0.0
+[2025-06-17T15:54:39.167438] response using splited_feedback: [0, 1, 1, 0], time took: 8.396669387817383
+[2025-06-17T15:54:39.167438] Turn 2: Received feedback: 'p' is not in the word. 'r' is in the word but in the wrong position. 'a' is in the word but in the wrong position. 'n' is not in the word. 'k' is not in the word.
+[2025-06-17T15:54:39.167438] Translated: [0, 1, 1, 0]
+[2025-06-17T15:54:39.167438] Turn 2: We are damned
+[2025-06-17T15:54:39.167438] Turn 2: Guess: prank
+[2025-06-17T15:54:49.834667] response using splited_feedback: [0, 1, 1, 0], time took: 8.624520301818848
+[2025-06-17T15:54:49.834667] Turn 3: Received feedback: 'p' is not in the word. 'r' is in the word but in the wrong position. 'a' is in the word but in the wrong position. 'n' is not in the word. 'k' is not in the word.
+[2025-06-17T15:54:49.834667] Translated: [0, 1, 1, 0]
+[2025-06-17T15:54:49.834667] Turn 3: We are damned
+[2025-06-17T15:54:49.834667] Turn 3: Guess: prank
+[2025-06-17T15:55:01.532359] response using splited_feedback: [0, 1, 1, 0], time took: 9.638837575912476
+[2025-06-17T15:55:01.532359] Turn 4: Received feedback: 'p' is not in the word. 'r' is in the word but in the wrong position. 'a' is in the word but in the wrong position. 'n' is not in the word. 'k' is not in the word.
+[2025-06-17T15:55:01.532359] Translated: [0, 1, 1, 0]
+[2025-06-17T15:55:01.532359] Turn 4: We are damned
+[2025-06-17T15:55:01.532359] Turn 4: Guess: altar
+[2025-06-17T15:55:03.613481] 
+=== Starting Problem 3 ===
+[2025-06-17T15:55:03.613481] Candidate words: aalii, aband, abbot, abled, aboon
+[2025-06-17T15:55:14.901283] Turn 1: Received feedback: None
+[2025-06-17T15:55:14.901283] Translated: None
+[2025-06-17T15:55:14.901283] Turn 1: Guess: reals
+[2025-06-17T15:55:14.901283] time spent for guess: 9.240211725234985
+[2025-06-17T15:55:46.852713] 
+=== Starting Problem 1 ===
+[2025-06-17T15:55:46.852713] Candidate words: crane, flame, slate
+[2025-06-17T15:55:48.907016] Turn 1: Received feedback: None
+[2025-06-17T15:55:48.907016] Translated: None
+[2025-06-17T15:55:48.907016] Turn 1: Guess: flame
+[2025-06-17T15:55:48.907016] time spent for guess: 0.0005071163177490234
+[2025-06-17T15:55:50.956673] 
+=== Starting Problem 2 ===
+[2025-06-17T15:55:50.957675] Candidate words: prank, altar, adapt
+[2025-06-17T15:55:53.042861] Turn 1: Received feedback: None
+[2025-06-17T15:55:53.042861] Translated: None
+[2025-06-17T15:55:53.042861] Turn 1: Guess: prank
+[2025-06-17T15:55:53.042861] time spent for guess: 0.0
+[2025-06-17T15:56:07.977285] response using splited_feedback: [0, 1, 1, 0, 0], time took: 12.863075256347656
+[2025-06-17T15:56:07.977285] Turn 2: Received feedback: 'p' is not in the word. 'r' is in the word but in the wrong position. 'a' is in the word but in the wrong position. 'n' is not in the word. 'k' is not in the word.
+[2025-06-17T15:56:07.977285] Translated: [0, 1, 1, 0, 0]
+[2025-06-17T15:56:07.977285] Turn 2: Guess: altar
+[2025-06-17T15:56:07.977285] time spent for guess: 0.0
+[2025-06-17T15:56:07.990566] 
+=== Starting Problem 3 ===
+[2025-06-17T15:56:07.990566] Candidate words: aalii, aband, abbot, abled, aboon
+[2025-06-17T15:56:17.619131] Turn 1: Received feedback: None
+[2025-06-17T15:56:17.619131] Translated: None
+[2025-06-17T15:56:17.619131] Turn 1: Guess: reals
+[2025-06-17T15:56:17.619131] time spent for guess: 7.582243204116821
+[2025-06-17T15:56:31.516052] response using splited_feedback: [0, 0, 1, 0, 0], time took: 11.860227108001709
+[2025-06-17T15:56:31.547627] Turn 2: Received feedback: 'r' is not in the word. 'e' is not in the word. 'a' is in the word but in the wrong position. 'l' is not in the word. 's' is not in the word.
+[2025-06-17T15:56:31.547627] Translated: [0, 0, 1, 0, 0]
+[2025-06-17T15:56:31.547627] Turn 2: Guess: mania
+[2025-06-17T15:56:31.547627] time spent for guess: 0.03157496452331543
+[2025-06-17T15:56:31.589135] 
+=== Starting Problem 4 ===
+[2025-06-17T15:56:31.589135] Candidate words: aalii, aband, abbot, abled, aboon
+[2025-06-17T15:56:40.312338] Turn 1: Received feedback: None
+[2025-06-17T15:56:40.312338] Translated: None
+[2025-06-17T15:56:40.312338] Turn 1: Guess: reals
+[2025-06-17T15:56:40.312338] time spent for guess: 6.686091184616089
+[2025-06-17T15:56:54.675384] response using splited_feedback: [0, 0, 0, 0, 2], time took: 12.315219402313232
+[2025-06-17T15:56:54.693873] Turn 2: Received feedback: 'r' is not in the word. 'e' is not in the word. 'a' is not in the word. 'l' is not in the word. 's' is in the correct position.
+[2025-06-17T15:56:54.693873] Translated: [0, 0, 0, 0, 2]
+[2025-06-17T15:56:54.693873] Turn 2: Guess: oints
+[2025-06-17T15:56:54.693873] time spent for guess: 0.018489599227905273
+[2025-06-17T15:56:54.740149] 
+=== Starting Problem 5 ===
+[2025-06-17T15:56:54.740149] Candidate words: aalii, aband, abbot, abled, aboon
+[2025-06-17T15:57:03.651687] Turn 1: Received feedback: None
+[2025-06-17T15:57:03.651687] Translated: None
+[2025-06-17T15:57:03.651687] Turn 1: Guess: reals
+[2025-06-17T15:57:03.651687] time spent for guess: 6.871574640274048
+[2025-06-17T15:57:18.320755] response using splited_feedback: [0, 1, 1, 0, 0], time took: 12.632504940032959
+[2025-06-17T15:57:18.337799] Turn 2: Received feedback: 'r' is not in the word. 'e' is in the word but in the wrong position. 'a' is in the word but in the wrong position. 'l' is not in the word. 's' is not in the word.
+[2025-06-17T15:57:18.337799] Translated: [0, 1, 1, 0, 0]
+[2025-06-17T15:57:18.337799] Turn 2: Guess: cawed
+[2025-06-17T15:57:18.337799] time spent for guess: 0.017043113708496094
+[2025-06-17T15:57:18.366937] 
+=== Starting Problem 6 ===
+[2025-06-17T15:57:18.367565] Candidate words: aalii, aband, abbot, abled, aboon
+[2025-06-17T15:57:26.594817] Turn 1: Received feedback: None
+[2025-06-17T15:57:26.594817] Translated: None
+[2025-06-17T15:57:26.594817] Turn 1: Guess: reals
+[2025-06-17T15:57:26.594817] time spent for guess: 6.18888783454895
+[2025-06-17T15:57:40.759398] response using splited_feedback: [1, 0, 0, 0, 0], time took: 12.137372970581055
+[2025-06-17T15:57:40.780248] Turn 2: Received feedback: 'r' is in the word but in the wrong position. 'e' is not in the word. 'a' is not in the word. 'l' is not in the word. 's' is not in the word.
+[2025-06-17T15:57:40.780248] Translated: [1, 0, 0, 0, 0]
+[2025-06-17T15:57:40.780248] Turn 2: Guess: crout
+[2025-06-17T15:57:40.780248] time spent for guess: 0.020850419998168945
