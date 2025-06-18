@@ -383,7 +383,12 @@ class Solver:
                 for k in range(n):
                     solve(bit, k)
 
-            guess = small_candidates[np.argmin(dp.sum(axis=2)[(1<<n)-1])]
+            temp = dp.sum(axis=2)[(1<<n)-1]
+            guess = 0
+            for i in range(1, m):
+                if temp[guess] >= temp[i]:
+                    guess = i
+            guess = small_candidates[guess]
 
         else: 
             res = np.zeros((len(plausibles), len(candidates)), dtype=int)
