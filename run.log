@@ -1,0 +1,38 @@
+[2025-06-18T03:50:43.309687] 
+=== Starting Problem A ===
+[2025-06-18T03:50:43.309687] Candidate words: crane, flame, slate
+[2025-06-18T03:50:45.376925] Turn 1: Received feedback: None
+[2025-06-18T03:50:45.376925] Translated: None
+[2025-06-18T03:50:45.376925] Turn 1: Guess: crane
+[2025-06-18T03:50:45.376925] time spent for guess: 0.00402379035949707
+[2025-06-18T03:50:45.376925] plausibles: 3
+[2025-06-18T03:50:49.664615] response: 00202, time took for LLM: 2.2240116596221924
+[2025-06-18T03:50:49.667557] Turn 2: Received feedback: 'c' is not in the word. 'r' is not in the word. 'a' is in the correct position. 'n' is not in the word. 'e' is in the correct position.
+[2025-06-18T03:50:49.667557] Translated: [0, 0, 2, 0, 2]
+[2025-06-18T03:50:49.667557] Turn 2: Guess: flame
+[2025-06-18T03:50:49.667557] time spent for guess: 0.0
+[2025-06-18T03:50:49.667557] plausibles: 2
+[2025-06-18T03:50:51.709828] 
+=== Starting Problem B ===
+[2025-06-18T03:50:51.709828] Candidate words: prank, altar, adapt
+[2025-06-18T03:50:53.772843] Turn 1: Received feedback: None
+[2025-06-18T03:50:53.772843] Translated: None
+[2025-06-18T03:50:53.772843] Turn 1: Guess: prank
+[2025-06-18T03:50:53.772843] time spent for guess: 0.003141641616821289
+[2025-06-18T03:50:53.772843] plausibles: 3
+[2025-06-18T03:50:58.365747] response: 01100, time took for LLM: 2.5614733695983887
+[2025-06-18T03:50:58.367758] Turn 2: Received feedback: 'p' is not in the word. 'r' is in the word but in the wrong position. 'a' is in the word but in the wrong position. 'n' is not in the word. 'k' is not in the word.
+[2025-06-18T03:50:58.367758] Translated: [0, 1, 1, 0, 0]
+[2025-06-18T03:50:58.367758] Turn 2: We find the answer!
+[2025-06-18T03:50:58.367758] Turn 2: Guess: altar
+[2025-06-18T03:51:00.384651] 
+=== Starting Problem 1 ===
+[2025-06-18T03:51:00.384651] Candidate words: cozen, baaed, liefs, miggs, devot
+[2025-06-18T03:51:19.001559] Turn 1: Received feedback: None
+[2025-06-18T03:51:19.001559] Translated: None
+[2025-06-18T03:51:19.001559] Turn 1: Guess: reals
+[2025-06-18T03:51:19.001559] time spent for guess: 16.56485915184021
+[2025-06-18T03:51:19.001559] plausibles: 9520
+[2025-06-18T03:51:19.001559] 
+=== Starting Problem 2 ===
+[2025-06-18T03:51:19.001559] Candidate words: donee, fujis, young, dukas, sowps
