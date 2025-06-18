@@ -273,18 +273,12 @@ class Solver:
 
         guess = None
 
-        # when find
-        if len(plausibles)==1:
-            guess = plausibles[0]
-
-        # when fallback
-        elif len(plausibles)==0:
-            print('FALLBACK ACTIVATED')
-            if 'probs' not in self.problems[problem_id].keys():
-                self.problems[problem_id]["probs"] = 1/len(candidates) * np.ones(len(candidates))
-            probs = self.problems[problem_id]["probs"]
-            #step 1. update probability distribution via last guess
-            belief = 100
+        # for fallback
+        if 'probs' not in self.problems[problem_id].keys():
+            self.problems[problem_id]["probs"] = 1/len(candidates) * np.ones(len(candidates))
+        probs = self.problems[problem_id]["probs"]
+        belief = 100
+        if history:
             last_guess, last_guess_res = guess_history[-1], translated_history[-1]
             for i, word in enumerate(candidates):
                 res = query_res(last_guess, word)
@@ -294,13 +288,20 @@ class Solver:
                     probs[i] *= 0    
             probs /= probs.sum()
             self.problems[problem_id]["prob"] = probs
-            #step 2: sample words from the probability distribution & choose guess for the best entropy
-            k = min(1_000_000 // len(candidates), len(candidates))//10
-            sampled_candidates = candidates[np.random.choice(len(candidates), size=k, replace=False, p=probs)]
-            res = np.zeros((len(sampled_candidates), len(candidates)), dtype=int)
+
+        # when find
+        if len(plausibles)==1:
+            guess = plausibles[0]
+        # when fallback
+        elif len(plausibles)==0:
+            print('FALLBACK ACTIVATED')
+            k = 1_000_000 // len(candidates)
+            sampled_plausibles = candidates[np.random.choice(len(candidates), size=k, p=probs)]
+            sampled_candidates = np.unique(sampled_plausibles.copy())
+            res = np.zeros((len(sampled_candidates), len(sampled_plausibles)), dtype=int)
             
             for i, ans in enumerate(sampled_candidates):
-                res[i] = query_res_all(ans, candidates)
+                res[i] = query_res_all(ans, sampled_plausibles)
             
             counts = np.zeros((len(sampled_candidates), 273), dtype=int)
             for i in range(len(sampled_candidates)):
@@ -400,7 +401,8 @@ class Solver:
             probs_ = probs.copy()
             probs_[probs == 0] = 1
             entropies = -np.sum(probs * np.log2(probs_), axis=1)
-        
+            mask = np.array([(i in plausibles) for i in entropies])
+            entropies[mask] += (1/len(plausibles))
             guess = candidates[np.argmax(entropies)]
         
         self.problems[problem_id]["guess_history"].append(guess)
