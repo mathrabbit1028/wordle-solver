@@ -78,7 +78,7 @@ def make_problems(num_test_sets = 20):
         secret_word = random.choice(word_list)
 
         min_candidates = 10 # 최소 후보 단어 개수
-        max_candidates = 3000
+        max_candidates = len(word_list)
 
         num_candidates = random.randint(min_candidates, max_candidates)
 
@@ -217,7 +217,7 @@ def run_for_team(team_name, base_url):
                 break
 
             raw_feedback = compute_feedback(secret, guess)
-            feedback = verbalize_feedback(secret, guess, raw_feedback, useLLM = False)
+            feedback = verbalize_feedback(secret, guess, raw_feedback, useLLM = True)
 
     draw_plot(scores)
     print(f"[{team_name}] Finished.")

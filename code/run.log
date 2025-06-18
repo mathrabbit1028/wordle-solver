@@ -1,0 +1,697 @@
+[2025-06-18T12:23:43.868939] 
+=== Starting Problem A ===
+[2025-06-18T12:23:43.868939] Candidate words: crane, flame, slate
+[2025-06-18T12:23:45.911077] Turn 1: Received feedback: None
+[2025-06-18T12:23:45.911077] Translated: None
+[2025-06-18T12:23:45.911077] Turn 1: Guess: crane
+[2025-06-18T12:23:45.911077] time spent for guess: 0.005246400833129883
+[2025-06-18T12:23:45.911077] plausibles: 3
+[2025-06-18T12:23:54.607477] response: 00202, time took for LLM: 2.715972900390625
+[2025-06-18T12:23:56.937308] response: 00202, time took for LLM: 2.329831600189209
+[2025-06-18T12:23:56.937308] Turn 2: Received feedback: for the guess word "crane", here's what we know:
+the first character 'c' is not in the target word.
+the second character 'r' is not in the target word.
+the third character 'a' is in the correct position.
+the fourth character 'n' is not in the target word.
+the fifth character 'e' is in the correct position.
+[2025-06-18T12:23:56.945042] Translated: [0, 0, 2, 0, 2]
+[2025-06-18T12:23:56.945042] Turn 2: Guess: flame
+[2025-06-18T12:23:56.945042] time spent for guess: 0.00773310661315918
+[2025-06-18T12:23:56.945042] plausibles: 2
+[2025-06-18T12:23:58.966965] 
+=== Starting Problem B ===
+[2025-06-18T12:23:58.966965] Candidate words: prank, altar, adapt
+[2025-06-18T12:24:00.999078] Turn 1: Received feedback: None
+[2025-06-18T12:24:00.999078] Translated: None
+[2025-06-18T12:24:00.999078] Turn 1: Guess: prank
+[2025-06-18T12:24:00.999078] time spent for guess: 0.0020134449005126953
+[2025-06-18T12:24:00.999078] plausibles: 3
+[2025-06-18T12:24:09.641725] response: 01100, time took for LLM: 2.975027322769165
+[2025-06-18T12:24:12.506786] response: 01100, time took for LLM: 2.8650612831115723
+[2025-06-18T12:24:12.506786] Turn 2: Received feedback: here's the description of the wordle feedback for the word "prank":
+- the letter 'p' is not present in the target word
+- the letter 'r' appears in the target word but in a different position
+- the letter 'a' appears in the target word but in a different position
+- the letter 'n' is not present in the target word
+- the letter 'k' is not present in the target word
+[2025-06-18T12:24:12.506786] Translated: [0, 1, 1, 0, 0]
+[2025-06-18T12:24:12.506786] Turn 2: Guess: altar
+[2025-06-18T12:24:12.506786] time spent for guess: 0.0
+[2025-06-18T12:24:12.506786] plausibles: 1
+[2025-06-18T12:24:14.553171] 
+=== Starting Problem 1 ===
+[2025-06-18T12:24:14.553171] Candidate words: cadis, paste, burin, elvan, ayins
+[2025-06-18T12:24:18.522378] Turn 1: Received feedback: None
+[2025-06-18T12:24:18.522378] Translated: None
+[2025-06-18T12:24:18.522378] Turn 1: Guess: saine
+[2025-06-18T12:24:18.522378] time spent for guess: 1.9301223754882812
+[2025-06-18T12:24:18.522378] plausibles: 1387
+[2025-06-18T12:24:26.024815] response: 00001, time took for LLM: 2.950946092605591
+[2025-06-18T12:24:28.566318] response: 00001, time took for LLM: 2.541503429412842
+[2025-06-18T12:24:28.780494] Turn 2: Received feedback: for the guess word "saine", none of the first four letters appear in the target word at all. the last letter 'e' is present in the target word but needs to be moved to a different position.
+[2025-06-18T12:24:28.780494] Translated: [0, 0, 0, 0, 1]
+[2025-06-18T12:24:28.780494] Turn 2: Guess: betel
+[2025-06-18T12:24:28.780494] time spent for guess: 0.21417593955993652
+[2025-06-18T12:24:28.780494] plausibles: 87
+[2025-06-18T12:24:39.774532] response: 00220, time took for LLM: 4.689236879348755
+[2025-06-18T12:24:42.238044] response: 00220, time took for LLM: 2.4635119438171387
+[2025-06-18T12:24:42.243820] Turn 3: Received feedback: for the guess word "betel":
+the first 'b', second 'e', and last 'l' are not present in the target word at all. however, the third letter 't' and fourth letter 'e' are both in the correct positions.
+[2025-06-18T12:24:42.243820] Translated: [0, 0, 2, 2, 0]
+[2025-06-18T12:24:42.243820] Turn 3: Guess: doter
+[2025-06-18T12:24:42.244431] time spent for guess: 0.006387472152709961
+[2025-06-18T12:24:42.244431] plausibles: 2
+[2025-06-18T12:24:44.275942] 
+=== Starting Problem 2 ===
+[2025-06-18T12:24:44.275942] Candidate words: lycea, coxib, jarps, scody, cruck
+[2025-06-18T12:24:48.070035] Turn 1: Received feedback: None
+[2025-06-18T12:24:48.070035] Translated: None
+[2025-06-18T12:24:48.070035] Turn 1: Guess: pares
+[2025-06-18T12:24:48.070035] time spent for guess: 1.775761365890503
+[2025-06-18T12:24:48.070035] plausibles: 2509
+[2025-06-18T12:24:56.746812] response: 00002, time took for LLM: 2.938581705093384
+[2025-06-18T12:25:00.631675] response: 00002, time took for LLM: 3.8848626613616943
+[2025-06-18T12:25:01.387099] Turn 2: Received feedback: for the guess word "pares", the letters 'p', 'a', 'r', and 'e' do not appear in the target word at all. the letter 's' is in the correct position at the end of the word.
+[2025-06-18T12:25:01.387099] Translated: [0, 0, 0, 0, 2]
+[2025-06-18T12:25:01.387099] Turn 2: Guess: doilt
+[2025-06-18T12:25:01.387099] time spent for guess: 0.7534186840057373
+[2025-06-18T12:25:01.387099] plausibles: 173
+[2025-06-18T12:25:10.675043] response: 02000, time took for LLM: 3.039395570755005
+[2025-06-18T12:25:12.952468] response: 02000, time took for LLM: 2.2774250507354736
+[2025-06-18T12:25:13.168780] Turn 3: Received feedback: here's the description of the wordle feedback for the guess word "doilt":
+the second letter 'o' is correctly placed in the target word. all other letters ('d', 'i', 'l', and 't') do not appear in the target word at all.
+[2025-06-18T12:25:13.168780] Translated: [0, 2, 0, 0, 0]
+[2025-06-18T12:25:13.168780] Turn 3: Guess: choon
+[2025-06-18T12:25:13.168780] time spent for guess: 0.21631169319152832
+[2025-06-18T12:25:13.168780] plausibles: 27
+[2025-06-18T12:25:23.383741] response: 00121, time took for LLM: 3.1521668434143066
+[2025-06-18T12:25:26.492239] response: 00121, time took for LLM: 3.1084978580474854
+[2025-06-18T12:25:26.492239] Turn 4: Received feedback: here's the description of the wordle feedback for the guess word "choon":
+the letters 'c' and 'h' are not present in the target word at all. the first 'o' appears somewhere else in the word. the second 'o' is in exactly the right position. the letter 'n' exists in the word but needs to be moved to a different position.
+[2025-06-18T12:25:26.492239] Translated: [0, 0, 1, 2, 1]
+[2025-06-18T12:25:26.492239] Turn 4: Guess: nomos
+[2025-06-18T12:25:26.492239] time spent for guess: 0.0
+[2025-06-18T12:25:26.492239] plausibles: 1
+[2025-06-18T12:25:28.537859] 
+=== Starting Problem 3 ===
+[2025-06-18T12:25:28.537859] Candidate words: topos, satin, rager, torah, trees
+[2025-06-18T12:25:39.499118] Turn 1: Received feedback: None
+[2025-06-18T12:25:39.499118] Translated: None
+[2025-06-18T12:25:39.499118] Turn 1: Guess: lares
+[2025-06-18T12:25:39.499118] time spent for guess: 8.922011375427246
+[2025-06-18T12:25:39.499118] plausibles: 2667
+[2025-06-18T12:25:48.599596] response: 00210, time took for LLM: 2.7526066303253174
+[2025-06-18T12:25:50.816809] response: 00210, time took for LLM: 2.2172131538391113
+[2025-06-18T12:25:51.218602] Turn 2: Received feedback: for the guess word "lares", the characters 'l' and 'a' do not appear in the target word at all. the letter 'r' is in exactly the right position. the letter 'e' appears in the target word but needs to be moved to a different position. finally, the letter 's' is not present in the target word.
+[2025-06-18T12:25:51.218602] Translated: [0, 0, 2, 1, 0]
+[2025-06-18T12:25:51.218602] Turn 2: Guess: dogie
+[2025-06-18T12:25:51.218602] time spent for guess: 0.4017932415008545
+[2025-06-18T12:25:51.218602] plausibles: 32
+[2025-06-18T12:39:31.534665] 
+=== Starting Problem A ===
+[2025-06-18T12:39:31.534665] Candidate words: crane, flame, slate
+[2025-06-18T12:39:33.577432] Turn 1: Received feedback: None
+[2025-06-18T12:39:33.579440] Translated: None
+[2025-06-18T12:39:33.579440] Turn 1: Guess: crane
+[2025-06-18T12:39:33.579440] time spent for guess: 0.0037746429443359375
+[2025-06-18T12:39:33.579440] plausibles: 3
+[2025-06-18T12:39:42.529004] response: 00202, time took for LLM: 3.185060977935791
+[2025-06-18T12:39:45.340368] response: 00202, time took for LLM: 2.811363935470581
+[2025-06-18T12:39:45.340368] Turn 2: Received feedback: for the guess "crane", the first letter 'c' and second letter 'r' are not in the target word at all. the third letter 'a' is in exactly the right position. the fourth letter 'n' is not present in the target word. the last letter 'e' appears in the target word and is correctly placed.
+[2025-06-18T12:39:45.340368] Translated: [0, 0, 2, 0, 2]
+[2025-06-18T12:39:45.340368] Turn 2: Guess: flame
+[2025-06-18T12:39:45.340368] time spent for guess: 0.0
+[2025-06-18T12:39:45.340368] plausibles: 2
+[2025-06-18T12:39:47.422418] 
+=== Starting Problem B ===
+[2025-06-18T12:39:47.422418] Candidate words: prank, altar, adapt
+[2025-06-18T12:39:49.447924] Turn 1: Received feedback: None
+[2025-06-18T12:39:49.447924] Translated: None
+[2025-06-18T12:39:49.447924] Turn 1: Guess: prank
+[2025-06-18T12:39:49.447924] time spent for guess: 0.0020132064819335938
+[2025-06-18T12:39:49.447924] plausibles: 3
+[2025-06-18T12:39:59.693903] response: 01100, time took for LLM: 3.3612422943115234
+[2025-06-18T12:40:05.156268] response: 01100, time took for LLM: 5.460954427719116
+[2025-06-18T12:40:05.156268] Turn 2: Received feedback: here's the description of the wordle feedback for the guess word "prank":
+the letter 'p' is not present in the target word.
+the letter 'r' appears in the target word but is in a different position.
+the letter 'a' appears in the target word but is in a different position.
+the letter 'n' is not present in the target word.
+the letter 'k' is not present in the target word.
+[2025-06-18T12:40:05.156268] Translated: [0, 1, 1, 0, 0]
+[2025-06-18T12:40:05.156268] Turn 2: Guess: altar
+[2025-06-18T12:40:05.156268] time spent for guess: 0.0
+[2025-06-18T12:40:05.156268] plausibles: 1
+[2025-06-18T12:40:07.214781] 
+=== Starting Problem 1 ===
+[2025-06-18T12:40:07.214781] Candidate words: paise, swigs, minus, prowl, duras
+[2025-06-18T12:40:11.387435] Turn 1: Received feedback: None
+[2025-06-18T12:40:11.387435] Translated: None
+[2025-06-18T12:40:11.387435] Turn 1: Guess: lanes
+[2025-06-18T12:40:11.387435] time spent for guess: 2.101956367492676
+[2025-06-18T12:40:11.387435] plausibles: 1158
+[2025-06-18T12:40:20.127514] response: 00002, time took for LLM: 3.368035316467285
+[2025-06-18T12:40:22.964901] response: 00002, time took for LLM: 2.8373870849609375
+[2025-06-18T12:40:23.187877] Turn 2: Received feedback: for the guess word "lanes", the first four letters 'l', 'a', 'n', and 'e' are not present in the target word at all. however, the last letter 's' is both present in the target word and in its correct position.
+[2025-06-18T12:40:23.187877] Translated: [0, 0, 0, 0, 2]
+[2025-06-18T12:40:23.187877] Turn 2: Guess: grout
+[2025-06-18T12:40:23.187877] time spent for guess: 0.2229759693145752
+[2025-06-18T12:40:23.187877] plausibles: 86
+[2025-06-18T12:40:30.953770] response: 00000, time took for LLM: 3.2471396923065186
+[2025-06-18T12:40:33.937504] response: 00000, time took for LLM: 2.983733654022217
+[2025-06-18T12:40:34.096756] Turn 3: Received feedback: for the guess word "grout", none of the letters appear in the target word at all.
+[2025-06-18T12:40:34.096756] Translated: [0, 0, 0, 0, 0]
+[2025-06-18T12:40:34.096756] Turn 3: Guess: viffs
+[2025-06-18T12:40:34.096756] time spent for guess: 0.15925264358520508
+[2025-06-18T12:40:34.096756] plausibles: 4
+[2025-06-18T12:40:42.634205] response: 02002, time took for LLM: 3.101055383682251
+[2025-06-18T12:40:45.731286] response: 02002, time took for LLM: 3.0970816612243652
+[2025-06-18T12:40:45.731286] Turn 4: Received feedback: for the word "viffs", the first letter 'v' is not present in the target word. the second letter 'i' appears in the target word and is in the correct position. the third letter 'f' is not in the target word. the fourth letter 'f' is not in the target word. the last letter 's' appears in the target word and is in the correct position.
+[2025-06-18T12:40:45.731286] Translated: [0, 2, 0, 0, 2]
+[2025-06-18T12:40:45.731286] Turn 4: Guess: wicks
+[2025-06-18T12:40:45.731286] time spent for guess: 0.0
+[2025-06-18T12:40:45.731286] plausibles: 1
+[2025-06-18T12:40:47.768665] 
+=== Starting Problem 2 ===
+[2025-06-18T12:40:47.770674] Candidate words: afros, roons, capot, tough, rumen
+[2025-06-18T12:40:51.822872] Turn 1: Received feedback: None
+[2025-06-18T12:40:51.822872] Translated: None
+[2025-06-18T12:40:51.822872] Turn 1: Guess: nares
+[2025-06-18T12:40:51.822872] time spent for guess: 1.9915931224822998
+[2025-06-18T12:40:51.822872] plausibles: 2924
+[2025-06-18T12:41:00.448084] response: 10000, time took for LLM: 3.6471052169799805
+[2025-06-18T12:41:13.938330] response: 10000, time took for LLM: 13.490245580673218
+[2025-06-18T12:41:14.559856] Turn 2: Received feedback: for the guess word "nares", the letter 'n' appears somewhere else in the target word but not in the first position. none of the other letters ('a', 'r', 'e', 's') are present in the target word at all.
+[2025-06-18T12:41:14.559856] Translated: [1, 0, 0, 0, 0]
+[2025-06-18T12:41:14.560563] Turn 2: Guess: gouty
+[2025-06-18T12:41:14.560563] time spent for guess: 0.6214919090270996
+[2025-06-18T12:41:14.560563] plausibles: 86
+[2025-06-18T12:41:24.175489] response: 10002, time took for LLM: 3.4082448482513428
+[2025-06-18T12:41:27.720338] response: 10002, time took for LLM: 3.544849157333374
+[2025-06-18T12:41:27.720338] Turn 3: Received feedback: for the guess word "gouty", the 'g' appears somewhere else in the target word, while 'o', 'u', and 't' are not in the target word at all, and 'y' is in exactly the right position.
+[2025-06-18T12:41:27.720338] Translated: [1, 0, 0, 0, 2]
+[2025-06-18T12:41:27.720338] Turn 3: Guess: mingy
+[2025-06-18T12:41:27.720338] time spent for guess: 0.0
+[2025-06-18T12:41:27.720338] plausibles: 2
+[2025-06-18T12:41:29.791472] 
+=== Starting Problem 3 ===
+[2025-06-18T12:41:29.791472] Candidate words: pagri, onset, aglus, belon, pedis
+[2025-06-18T12:41:32.820514] Turn 1: Received feedback: None
+[2025-06-18T12:41:32.820514] Translated: None
+[2025-06-18T12:41:32.820514] Turn 1: Guess: tries
+[2025-06-18T12:41:32.820514] time spent for guess: 0.9800565242767334
+[2025-06-18T12:41:32.820514] plausibles: 714
+[2025-06-18T12:41:44.079930] response: 12100, time took for LLM: 4.685769081115723
+[2025-06-18T12:41:47.562810] response: 12101, time took for LLM: 3.482879638671875
+[2025-06-18T12:41:50.457281] response: 12010, time took for LLM: 2.8936891555786133
+[2025-06-18T12:41:50.583746] Turn 2: Received feedback: for the word "tries":
+- the 't' appears in the word but is in the wrong spot
+- the 'r' is in the correct position
+- the 'i' is not in the word at all
+- the 'e' appears in the word but is in the wrong spot
+- the 's' is not in the word at all
+[2025-06-18T12:41:50.583746] Translated: [1, 2, 1, 0, 0]
+[2025-06-18T12:41:50.583746] Turn 2: Guess: resat
+[2025-06-18T12:41:50.583746] time spent for guess: 0.12646484375
+[2025-06-18T12:41:50.583746] plausibles: 0
+[2025-06-18T12:41:58.415318] response: 11011, time took for LLM: 2.1173579692840576
+[2025-06-18T12:42:00.751099] response: 11011, time took for LLM: 2.3357813358306885
+[2025-06-18T12:42:00.861782] Turn 3: Received feedback: here's the description of the wordle feedback for the guess word "resat":
+the 'r' is present in the word but in a different position, the 'e' appears in the word but needs to be moved, the 's' is not in the word at all, the 'a' exists in the word but in another spot, and the 't' is also in the word but should be placed elsewhere.
+[2025-06-18T12:42:00.861782] Translated: [1, 1, 0, 1, 1]
+[2025-06-18T12:42:00.861782] Turn 3: Guess: dames
+[2025-06-18T12:42:00.861782] time spent for guess: 0.11068272590637207
+[2025-06-18T12:42:00.861782] plausibles: 0
+[2025-06-18T12:42:11.844105] response: 01010, time took for LLM: 3.875504970550537
+[2025-06-18T12:42:14.175787] response: 01010, time took for LLM: 2.331681966781616
+[2025-06-18T12:42:14.257888] Turn 4: Received feedback: here's the description of the wordle feedback for the guess word "dames":
+the letter 'd' is not present in the target word at all. the letter 'a' appears in the target word but needs to be in a different position. the letter 'm' is not in the target word. the letter 'e' is in the target word but should be moved to a different spot. finally, the letter 's' is not present in the target word.
+[2025-06-18T12:42:14.257888] Translated: [0, 1, 0, 1, 0]
+[2025-06-18T12:42:14.257888] Turn 4: Guess: sider
+[2025-06-18T12:42:14.257888] time spent for guess: 0.08210134506225586
+[2025-06-18T12:42:14.257888] plausibles: 0
+[2025-06-18T12:42:22.094702] response: 00011, time took for LLM: 2.7504565715789795
+[2025-06-18T12:42:26.567188] response: 00011, time took for LLM: 4.472485780715942
+[2025-06-18T12:42:26.807488] Turn 5: Received feedback: for the guess word "sider", none of the first three letters ('s', 'i', 'd') appear in the target word at all. both 'e' and 'r' exist in the target word but are currently in incorrect positions.
+[2025-06-18T12:42:26.807488] Translated: [0, 0, 0, 1, 1]
+[2025-06-18T12:42:26.807488] Turn 5: Guess: soled
+[2025-06-18T12:42:26.807488] time spent for guess: 0.24030017852783203
+[2025-06-18T12:42:26.807488] plausibles: 0
+[2025-06-18T12:42:36.714323] response: 00100, time took for LLM: 3.5392165184020996
+[2025-06-18T12:42:39.366741] response: 00010, time took for LLM: 2.6524171829223633
+[2025-06-18T12:42:41.926497] response: 00010, time took for LLM: 2.55975604057312
+[2025-06-18T12:42:42.041930] Turn 6: Received feedback: here's the description of the wordle result for the guess word "soled":
+the letters 's', 'o', 'l', and 'd' are not present in the target word at all. the letter 'e' appears somewhere in the target word, but not in its current fourth position.
+[2025-06-18T12:42:42.041930] Translated: [0, 0, 0, 1, 0]
+[2025-06-18T12:42:42.041930] Turn 6: Guess: amens
+[2025-06-18T12:42:42.041930] time spent for guess: 0.1154329776763916
+[2025-06-18T12:42:42.041930] plausibles: 0
+[2025-06-18T12:42:49.618061] response: 10100, time took for LLM: 2.4376494884490967
+[2025-06-18T12:42:51.921354] response: 10100, time took for LLM: 2.303292989730835
+[2025-06-18T12:42:52.036504] Turn 7: Received feedback: here's the description of the wordle feedback for the guess word "amens":
+the letter 'a' appears somewhere else in the word, 'm' is not in the word at all, 'e' appears in a different position, and both 'n' and 's' are not present in the target word.
+[2025-06-18T12:42:52.036504] Translated: [1, 0, 1, 0, 0]
+[2025-06-18T12:42:52.036504] Turn 7: Guess: paler
+[2025-06-18T12:42:52.036504] time spent for guess: 0.11514997482299805
+[2025-06-18T12:42:52.036504] plausibles: 0
+[2025-06-18T12:43:42.583088] 
+=== Starting Problem A ===
+[2025-06-18T12:43:42.583088] Candidate words: crane, flame, slate
+[2025-06-18T12:43:44.624747] Turn 1: Received feedback: None
+[2025-06-18T12:43:44.624747] Translated: None
+[2025-06-18T12:43:44.624747] Turn 1: Guess: crane
+[2025-06-18T12:43:44.624747] time spent for guess: 0.0010192394256591797
+[2025-06-18T12:43:44.624747] plausibles: 3
+[2025-06-18T12:43:52.900651] response: 00202, time took for LLM: 2.5223653316497803
+[2025-06-18T12:43:55.850642] response: 00220, time took for LLM: 2.949990749359131
+[2025-06-18T12:43:58.113351] response: 00220, time took for LLM: 2.262709379196167
+[2025-06-18T12:44:00.280581] 
+=== Starting Problem B ===
+[2025-06-18T12:44:00.280581] Candidate words: prank, altar, adapt
+[2025-06-18T12:44:02.314627] Turn 1: Received feedback: None
+[2025-06-18T12:44:02.314627] Translated: None
+[2025-06-18T12:44:02.314627] Turn 1: Guess: prank
+[2025-06-18T12:44:02.314627] time spent for guess: 0.0
+[2025-06-18T12:44:02.314627] plausibles: 3
+[2025-06-18T12:44:12.166903] response: 01100, time took for LLM: 3.393109083175659
+[2025-06-18T12:44:14.505735] response: 01100, time took for LLM: 2.338831663131714
+[2025-06-18T12:44:14.505735] Turn 2: Received feedback: for the guess word "prank":
+- the letter 'p' is not present in the target word
+- the letter 'r' exists in the target word but is in a different position
+- the letter 'a' exists in the target word but is in a different position
+- the letter 'n' is not present in the target word
+- the letter 'k' is not present in the target word
+[2025-06-18T12:44:14.505735] Translated: [0, 1, 1, 0, 0]
+[2025-06-18T12:44:14.505735] Turn 2: Guess: altar
+[2025-06-18T12:44:14.505735] time spent for guess: 0.0
+[2025-06-18T12:44:14.505735] plausibles: 1
+[2025-06-18T12:44:16.561826] 
+=== Starting Problem 1 ===
+[2025-06-18T12:44:16.561826] Candidate words: targa, rotes, faith, shims, yirrs
+[2025-06-18T12:44:20.601500] Turn 1: Received feedback: None
+[2025-06-18T12:44:20.601500] Translated: None
+[2025-06-18T12:44:20.601500] Turn 1: Guess: lares
+[2025-06-18T12:44:20.601500] time spent for guess: 1.9913039207458496
+[2025-06-18T12:44:20.601500] plausibles: 981
+[2025-06-18T12:44:29.165072] response: 02021, time took for LLM: 2.7910640239715576
+[2025-06-18T12:44:32.024243] response: 02021, time took for LLM: 2.859170436859131
+[2025-06-18T12:44:32.039343] Turn 2: Received feedback: here's the description of the wordle feedback for the guess word "lares":
+the letter 'l' is not present in the word at all. the letter 'a' is in exactly the right position. the letter 'r' is not in the word. the letter 'e' is perfectly placed. finally, the letter 's' appears somewhere in the word, but not in this position.
+[2025-06-18T12:44:32.039343] Translated: [0, 2, 0, 2, 1]
+[2025-06-18T12:44:32.039343] Turn 2: Guess: sayed
+[2025-06-18T12:44:32.039343] time spent for guess: 0.015100240707397461
+[2025-06-18T12:44:32.039343] plausibles: 2
+[2025-06-18T12:44:41.927253] response: 12120, time took for LLM: 3.3374342918395996
+[2025-06-18T12:44:44.719755] response: 12120, time took for LLM: 2.790984630584717
+[2025-06-18T12:44:44.719755] Turn 3: Received feedback: here's the description of the wordle feedback for the guess word "sayed":
+- the first letter 's' appears somewhere else in the word
+- the second letter 'a' is in the correct position
+- the third letter 'y' appears somewhere else in the word
+- the fourth letter 'e' is in the correct position
+- the last letter 'd' is not in the word at all
+[2025-06-18T12:44:44.719755] Translated: [1, 2, 1, 2, 0]
+[2025-06-18T12:44:44.719755] Turn 3: Guess: jasey
+[2025-06-18T12:44:44.719755] time spent for guess: 0.0
+[2025-06-18T12:44:44.719755] plausibles: 1
+[2025-06-18T12:44:46.782857] 
+=== Starting Problem 2 ===
+[2025-06-18T12:44:46.782857] Candidate words: dench, huzzy, slops, mural, dorms
+[2025-06-18T12:44:48.870879] Turn 1: Received feedback: None
+[2025-06-18T12:44:48.870879] Translated: None
+[2025-06-18T12:44:48.870879] Turn 1: Guess: taels
+[2025-06-18T12:44:48.870879] time spent for guess: 0.0367431640625
+[2025-06-18T12:44:48.870879] plausibles: 114
+[2025-06-18T12:44:56.651196] response: 00100, time took for LLM: 2.6782116889953613
+[2025-06-18T12:44:59.454957] response: 00100, time took for LLM: 2.803760528564453
+[2025-06-18T12:45:12.740475] Turn 2: Received feedback: for the guess word "taels", the letter 'e' appears somewhere in the target word but not in its current position. all other letters - 't', 'a', 'l', and 's' - are not present in the target word at all.
+[2025-06-18T12:45:12.740475] Translated: [0, 0, 1, 0, 0]
+[2025-06-18T12:45:12.740475] Turn 2: Guess: dench
+[2025-06-18T12:45:12.740475] time spent for guess: 13.285517930984497
+[2025-06-18T12:45:12.740475] plausibles: 9
+[2025-06-18T12:45:20.967725] response: 01010, time took for LLM: 2.748650074005127
+[2025-06-18T12:45:23.423296] response: 01010, time took for LLM: 2.455571174621582
+[2025-06-18T12:45:23.423296] Turn 3: Received feedback: for the guess word "dench", here's the feedback in words:
+the letter 'd' is not present in the target word. the letter 'e' appears in the target word but is in a different position. the letter 'n' is not in the target word. the letter 'c' is present in the target word but needs to be moved to a different position. the letter 'h' does not appear in the target word.
+[2025-06-18T12:45:23.423296] Translated: [0, 1, 0, 1, 0]
+[2025-06-18T12:45:23.423296] Turn 3: Guess: curer
+[2025-06-18T12:45:23.423296] time spent for guess: 0.0
+[2025-06-18T12:45:23.423296] plausibles: 1
+[2025-06-18T12:45:25.480608] 
+=== Starting Problem 3 ===
+[2025-06-18T12:45:25.480608] Candidate words: kraft, pared, rooky, sewen, tamed
+[2025-06-18T12:45:28.188337] Turn 1: Received feedback: None
+[2025-06-18T12:45:28.188337] Translated: None
+[2025-06-18T12:45:28.188337] Turn 1: Guess: earls
+[2025-06-18T12:45:28.188337] time spent for guess: 0.6602675914764404
+[2025-06-18T12:45:28.188337] plausibles: 585
+[2025-06-18T12:45:36.011116] response: 01011, time took for LLM: 1.9405860900878906
+[2025-06-18T12:45:37.928085] response: 01011, time took for LLM: 1.9169690608978271
+[2025-06-18T12:45:37.934432] Turn 2: Received feedback: for the guess word "earls", the letter 'e' is not present in the target word at all. the letter 'a' appears in the target word but needs to be moved to a different position. the letter 'r' is not in the target word. both letters 'l' and 's' are in the target word but are currently in wrong positions.
+[2025-06-18T12:45:37.934432] Translated: [0, 1, 0, 1, 1]
+[2025-06-18T12:45:37.934432] Turn 2: Guess: swail
+[2025-06-18T12:45:37.934432] time spent for guess: 0.006346702575683594
+[2025-06-18T12:45:37.934432] plausibles: 2
+[2025-06-18T12:45:44.970165] response: 20101, time took for LLM: 2.2807910442352295
+[2025-06-18T12:45:47.521750] response: 20101, time took for LLM: 2.5515847206115723
+[2025-06-18T12:45:47.521750] Turn 3: Received feedback: here's the description of the wordle feedback for the guess word "swail":
+- the 's' is in the correct position
+- the 'w' is not in the word at all
+- the 'a' is in the word but in a different position
+- the 'i' is not in the word at all
+- the 'l' is in the word but in a different position
+[2025-06-18T12:45:47.521750] Translated: [2, 0, 1, 0, 1]
+[2025-06-18T12:45:47.521750] Turn 3: Guess: splay
+[2025-06-18T12:45:47.521750] time spent for guess: 0.0
+[2025-06-18T12:45:47.521750] plausibles: 1
+[2025-06-18T12:45:49.578467] 
+=== Starting Problem 4 ===
+[2025-06-18T12:45:49.578467] Candidate words: gusla, tocky, vault, paean, ymolt
+[2025-06-18T12:45:53.555554] Turn 1: Received feedback: None
+[2025-06-18T12:45:53.555554] Translated: None
+[2025-06-18T12:45:53.555554] Turn 1: Guess: pares
+[2025-06-18T12:45:53.555554] time spent for guess: 1.933427095413208
+[2025-06-18T12:45:53.555554] plausibles: 1740
+[2025-06-18T12:46:03.165736] response: 21210, time took for LLM: 3.290963888168335
+[2025-06-18T12:46:05.809250] response: 21210, time took for LLM: 2.6435141563415527
+[2025-06-18T12:46:05.840807] Turn 2: Received feedback: here's the description of the wordle feedback for the guess word "pares":
+- the 'p' is in the correct position
+- the 'a' is in the word but in the wrong position
+- the 'r' is in the correct position
+- the 'e' is in the word but in the wrong position
+- the 's' is not in the word at all
+[2025-06-18T12:46:05.840807] Translated: [2, 1, 2, 1, 0]
+[2025-06-18T12:46:05.840807] Turn 2: Guess: porae
+[2025-06-18T12:46:05.840807] time spent for guess: 0.03155660629272461
+[2025-06-18T12:46:05.840807] plausibles: 2
+[2025-06-18T12:49:51.230361] 
+=== Starting Problem A ===
+[2025-06-18T12:49:51.230361] Candidate words: crane, flame, slate
+[2025-06-18T12:49:53.274727] Turn 1: Received feedback: None
+[2025-06-18T12:49:53.274727] Translated: None
+[2025-06-18T12:49:53.274727] Turn 1: Guess: crane
+[2025-06-18T12:49:53.274727] time spent for guess: 0.002013683319091797
+[2025-06-18T12:49:53.274727] plausibles: 3
+[2025-06-18T12:50:04.543297] response: 00202, time took for LLM: 3.4013562202453613
+[2025-06-18T12:50:06.773017] response: 00202, time took for LLM: 2.229720115661621
+[2025-06-18T12:50:06.773017] Turn 2: Received feedback: for the guess "crane":
+- the letter 'c' is not present in the target word
+- the letter 'r' is not present in the target word
+- the letter 'a' appears in this exact position
+- the letter 'n' is not present in the target word
+- the letter 'e' appears in this exact position
+[2025-06-18T12:50:06.773017] Translated: [0, 0, 2, 0, 2]
+[2025-06-18T12:50:06.773017] Turn 2: Guess: flame
+[2025-06-18T12:50:06.773017] time spent for guess: 0.0
+[2025-06-18T12:50:06.773017] plausibles: 2
+[2025-06-18T12:50:08.832195] 
+=== Starting Problem B ===
+[2025-06-18T12:50:08.834212] Candidate words: prank, altar, adapt
+[2025-06-18T12:50:10.869679] Turn 1: Received feedback: None
+[2025-06-18T12:50:10.869679] Translated: None
+[2025-06-18T12:50:10.869679] Turn 1: Guess: prank
+[2025-06-18T12:50:10.869679] time spent for guess: 0.0020127296447753906
+[2025-06-18T12:50:10.869679] plausibles: 3
+[2025-06-18T12:50:20.492457] response: 01100, time took for LLM: 3.3946971893310547
+[2025-06-18T12:50:32.299044] response: 01100, time took for LLM: 11.806586980819702
+[2025-06-18T12:50:32.300781] Turn 2: Received feedback: for the word "prank", the letter 'p' is not present in the target word at all. the letters 'r' and 'a' both appear in the target word but need to be moved to different positions. neither the letter 'n' nor 'k' appears anywhere in the target word.
+[2025-06-18T12:50:32.300781] Translated: [0, 1, 1, 0, 0]
+[2025-06-18T12:50:32.300781] Turn 2: Guess: altar
+[2025-06-18T12:50:32.300781] time spent for guess: 0.0017364025115966797
+[2025-06-18T12:50:32.300781] plausibles: 1
+[2025-06-18T12:50:34.348707] 
+=== Starting Problem 1 ===
+[2025-06-18T12:50:34.348707] Candidate words: rigid, rises, axels, umras, tying
+[2025-06-18T12:50:38.395060] Turn 1: Received feedback: None
+[2025-06-18T12:50:38.395060] Translated: None
+[2025-06-18T12:50:38.395060] Turn 1: Guess: dares
+[2025-06-18T12:50:38.395060] time spent for guess: 2.0019516944885254
+[2025-06-18T12:50:38.395060] plausibles: 2106
+[2025-06-18T12:50:46.712347] response: 02021, time took for LLM: 2.44161057472229
+[2025-06-18T12:50:49.163084] response: 02021, time took for LLM: 2.4507365226745605
+[2025-06-18T12:50:49.191742] Turn 2: Received feedback: here's the description of the wordle feedback for the guess word "dares":
+the letter 'd' is not present in the target word. the letter 'a' is in the correct position. the letter 'r' is not in the target word. the letter 'e' is in the correct position. the letter 's' appears in the target word but is in the wrong position.
+[2025-06-18T12:50:49.191742] Translated: [0, 2, 0, 2, 1]
+[2025-06-18T12:50:49.191742] Turn 2: Guess: jasey
+[2025-06-18T12:50:49.191742] time spent for guess: 0.02865767478942871
+[2025-06-18T12:50:49.191742] plausibles: 2
+[2025-06-18T12:51:00.423036] response: 02220, time took for LLM: 4.181720972061157
+[2025-06-18T12:51:04.031961] response: 02220, time took for LLM: 3.6089255809783936
+[2025-06-18T12:51:04.031961] Turn 3: Received feedback: for the guess word "jasey", the first letter 'j' is not found in the target word at all. the letters 'a', 's', and 'e' are all correctly positioned in their respective spots. the last letter 'y' is not present in the target word.
+[2025-06-18T12:51:04.031961] Translated: [0, 2, 2, 2, 0]
+[2025-06-18T12:51:04.031961] Turn 3: Guess: basen
+[2025-06-18T12:51:04.031961] time spent for guess: 0.0
+[2025-06-18T12:51:04.031961] plausibles: 1
+[2025-06-18T12:51:06.134903] 
+=== Starting Problem 2 ===
+[2025-06-18T12:51:06.134903] Candidate words: width, jumar, javas, avize, stoic
+[2025-06-18T12:51:10.251212] Turn 1: Received feedback: None
+[2025-06-18T12:51:10.251212] Translated: None
+[2025-06-18T12:51:10.251212] Turn 1: Guess: soare
+[2025-06-18T12:51:10.251212] time spent for guess: 2.0625224113464355
+[2025-06-18T12:51:10.251212] plausibles: 1331
+[2025-06-18T12:51:18.547445] response: 01011, time took for LLM: 2.2686610221862793
+[2025-06-18T12:51:21.630802] response: 01011, time took for LLM: 3.0833566188812256
+[2025-06-18T12:51:21.896455] Turn 2: Received feedback: for the guess 'soare', the first character 's' and third character 'a' are not present in the target word at all. the second character 'o', fourth character 'r', and last character 'e' are all present in the target word but need to be moved to different positions.
+[2025-06-18T12:51:21.896455] Translated: [0, 1, 0, 1, 1]
+[2025-06-18T12:51:21.896455] Turn 2: Guess: repot
+[2025-06-18T12:51:21.896455] time spent for guess: 0.2656533718109131
+[2025-06-18T12:51:21.896455] plausibles: 5
+[2025-06-18T12:51:29.303321] response: 22020, time took for LLM: 1.8320074081420898
+[2025-06-18T12:51:32.151396] response: 22020, time took for LLM: 2.8480746746063232
+[2025-06-18T12:51:32.151396] Turn 3: Received feedback: for the guess word "repot", here's a verbal description of the feedback:
+the 'r' and 'e' at the beginning are both in their correct positions. the 'p' is not in the word at all. the 'o' is exactly where it should be. the final letter 't' does not appear in the word.
+[2025-06-18T12:51:32.151396] Translated: [2, 2, 0, 2, 0]
+[2025-06-18T12:51:32.151396] Turn 3: Guess: rejon
+[2025-06-18T12:51:32.151396] time spent for guess: 0.0
+[2025-06-18T12:51:32.151396] plausibles: 1
+[2025-06-18T12:51:34.214205] 
+=== Starting Problem 3 ===
+[2025-06-18T12:51:34.214205] Candidate words: bhoot, braws, sheik, duper, giant
+[2025-06-18T12:51:36.656355] Turn 1: Received feedback: None
+[2025-06-18T12:51:36.658361] Translated: None
+[2025-06-18T12:51:36.658361] Turn 1: Guess: rates
+[2025-06-18T12:51:36.658361] time spent for guess: 0.416431188583374
+[2025-06-18T12:51:36.658361] plausibles: 458
+[2025-06-18T12:51:44.666618] response: 00000, time took for LLM: 2.937007188796997
+[2025-06-18T12:51:48.049599] response: 00000, time took for LLM: 3.382981061935425
+[2025-06-18T12:51:48.089002] Turn 2: Received feedback: for the guess word "rates", none of the letters appear in the target word at all.
+[2025-06-18T12:51:48.089002] Translated: [0, 0, 0, 0, 0]
+[2025-06-18T12:51:48.089002] Turn 2: Guess: blowy
+[2025-06-18T12:51:48.089002] time spent for guess: 0.03940272331237793
+[2025-06-18T12:51:48.089002] plausibles: 28
+[2025-06-18T12:51:57.167157] response: 10000, time took for LLM: 2.4956002235412598
+[2025-06-18T12:52:00.045620] response: 10000, time took for LLM: 2.87846302986145
+[2025-06-18T12:52:00.047629] Turn 3: Received feedback: for the guess word "blowy", the letter 'b' appears somewhere else in the target word, while the letters 'l', 'o', 'w', and 'y' are not present in the target word at all.
+[2025-06-18T12:52:00.047629] Translated: [1, 0, 0, 0, 0]
+[2025-06-18T12:52:00.047629] Turn 3: Guess: pubic
+[2025-06-18T12:52:00.047629] time spent for guess: 0.0020093917846679688
+[2025-06-18T12:52:00.047629] plausibles: 1
+[2025-06-18T12:52:02.094339] 
+=== Starting Problem 4 ===
+[2025-06-18T12:52:02.094339] Candidate words: aisle, flews, grits, nurdy, whoop
+[2025-06-18T12:52:04.887350] Turn 1: Received feedback: None
+[2025-06-18T12:52:04.889357] Translated: None
+[2025-06-18T12:52:04.889357] Turn 1: Guess: siler
+[2025-06-18T12:52:04.889357] time spent for guess: 0.7458112239837646
+[2025-06-18T12:52:04.889357] plausibles: 609
+[2025-06-18T12:52:13.149417] response: 00100, time took for LLM: 3.1059958934783936
+[2025-06-18T12:52:15.079742] response: 00010, time took for LLM: 1.9303257465362549
+[2025-06-18T12:52:17.979955] response: 00010, time took for LLM: 2.9002130031585693
+[2025-06-18T12:52:18.009529] Turn 2: Received feedback: let me describe the result of your wordle guess "siler":
+none of the letters 's', 'i', 'l', and 'r' appear in the target word at all. the letter 'e' is present in the target word, but it needs to be in a different position.
+[2025-06-18T12:52:18.009529] Translated: [0, 0, 0, 1, 0]
+[2025-06-18T12:52:18.009529] Turn 2: Guess: sente
+[2025-06-18T12:52:18.009529] time spent for guess: 0.029573440551757812
+[2025-06-18T12:52:18.009529] plausibles: 19
+[2025-06-18T12:52:27.976266] response: 02010, time took for LLM: 3.169382333755493
+[2025-06-18T12:52:30.239584] response: 02010, time took for LLM: 2.2633187770843506
+[2025-06-18T12:52:30.239584] Turn 3: Received feedback: here's the description of the wordle feedback for the guess word "sente":
+the first letter 's' is not in the word at all.
+the second letter 'e' is in the correct position.
+the third letter 'n' is not in the word at all.
+the fourth letter 't' appears in the word but is in the wrong position.
+the last letter 'e' is not in the word at all.
+[2025-06-18T12:52:30.239584] Translated: [0, 2, 0, 1, 0]
+[2025-06-18T12:52:30.239584] Turn 3: Guess: teddy
+[2025-06-18T12:52:30.239584] time spent for guess: 0.0
+[2025-06-18T12:52:30.239584] plausibles: 1
+[2025-06-18T12:52:32.294037] 
+=== Starting Problem 5 ===
+[2025-06-18T12:52:32.294037] Candidate words: fillo, minim, noxes, acini, neves
+[2025-06-18T12:52:34.939704] Turn 1: Received feedback: None
+[2025-06-18T12:52:34.940711] Translated: None
+[2025-06-18T12:52:34.940711] Turn 1: Guess: tares
+[2025-06-18T12:52:34.940711] time spent for guess: 0.5923564434051514
+[2025-06-18T12:52:34.940711] plausibles: 554
+[2025-06-18T12:56:43.587557] 
+=== Starting Problem A ===
+[2025-06-18T12:56:43.587557] Candidate words: crane, flame, slate
+[2025-06-18T12:56:45.647451] Turn 1: Received feedback: None
+[2025-06-18T12:56:45.647451] Translated: None
+[2025-06-18T12:56:45.647451] Turn 1: Guess: crane
+[2025-06-18T12:56:45.647451] time spent for guess: 0.001325368881225586
+[2025-06-18T12:56:45.647451] plausibles: 3
+[2025-06-18T12:56:54.848474] response: 00222, time took for LLM: 3.070033550262451
+[2025-06-18T12:56:58.733650] response: 00222, time took for LLM: 3.8851757049560547
+[2025-06-18T12:57:00.814024] 
+=== Starting Problem B ===
+[2025-06-18T12:57:00.814024] Candidate words: prank, altar, adapt
+[2025-06-18T12:57:02.848853] Turn 1: Received feedback: None
+[2025-06-18T12:57:02.848853] Translated: None
+[2025-06-18T12:57:02.848853] Turn 1: Guess: prank
+[2025-06-18T12:57:02.848853] time spent for guess: 0.0
+[2025-06-18T12:57:02.848853] plausibles: 3
+[2025-06-18T12:57:13.473438] response: 01100, time took for LLM: 2.8746190071105957
+[2025-06-18T12:57:16.354821] response: 01100, time took for LLM: 2.881383180618286
+[2025-06-18T12:57:16.354821] Turn 2: Received feedback: for the word "prank", the first letter 'p' is not present in the target word at all. the second letter 'r' and third letter 'a' both appear in the target word but are in different positions than where they should be. the fourth letter 'n' and the last letter 'k' are not found in the target word.
+[2025-06-18T12:57:16.354821] Translated: [0, 1, 1, 0, 0]
+[2025-06-18T12:57:16.354821] Turn 2: Guess: altar
+[2025-06-18T12:57:16.354821] time spent for guess: 0.0
+[2025-06-18T12:57:16.354821] plausibles: 1
+[2025-06-18T12:57:18.399975] 
+=== Starting Problem 1 ===
+[2025-06-18T12:57:18.399975] Candidate words: mirky, kitul, asker, build, sharp
+[2025-06-18T12:57:23.267100] Turn 1: Received feedback: None
+[2025-06-18T12:57:23.267100] Translated: None
+[2025-06-18T12:57:23.267100] Turn 1: Guess: tares
+[2025-06-18T12:57:23.267100] time spent for guess: 2.8235933780670166
+[2025-06-18T12:57:23.267100] plausibles: 12210
+[2025-06-18T13:43:45.765603] 
+=== Starting Problem A ===
+[2025-06-18T13:43:45.765603] Candidate words: crane, flame, slate
+[2025-06-18T13:43:47.806997] Turn 1: Received feedback: None
+[2025-06-18T13:43:47.809008] Translated: None
+[2025-06-18T13:43:47.809008] Turn 1: Guess: crane
+[2025-06-18T13:43:47.809008] time spent for guess: 0.004027366638183594
+[2025-06-18T13:43:47.809008] plausibles: 3
+[2025-06-18T13:43:57.763008] response: 02002, time took for LLM: 3.699802875518799
+[2025-06-18T13:44:01.861041] response: 00202, time took for LLM: 4.098032712936401
+[2025-06-18T13:44:05.261445] response: 00202, time took for LLM: 3.4004037380218506
+[2025-06-18T13:44:05.263460] Turn 2: Received feedback: for the guess word "crane", the 'a' and 'e' are in their correct positions, while 'c', 'r', and 'n' are not present in the target word at all.
+[2025-06-18T13:44:05.263460] Translated: [0, 0, 2, 0, 2]
+[2025-06-18T13:44:05.263460] Turn 2: Guess: flame
+[2025-06-18T13:44:05.263460] time spent for guess: 0.0
+[2025-06-18T13:44:05.263460] plausibles: 2
+[2025-06-18T13:44:07.331116] 
+=== Starting Problem B ===
+[2025-06-18T13:44:07.331116] Candidate words: prank, altar, adapt
+[2025-06-18T13:44:09.374224] Turn 1: Received feedback: None
+[2025-06-18T13:44:09.376236] Translated: None
+[2025-06-18T13:44:09.376236] Turn 1: Guess: prank
+[2025-06-18T13:44:09.376236] time spent for guess: 0.002012014389038086
+[2025-06-18T13:44:09.376236] plausibles: 3
+[2025-06-18T13:44:21.257062] response: 01100, time took for LLM: 5.27462363243103
+[2025-06-18T13:44:24.627058] response: 01100, time took for LLM: 3.3699963092803955
+[2025-06-18T13:44:24.627058] Turn 2: Received feedback: for the guess word "prank":
+the letter 'p' is not present in the target word.
+the letter 'r' exists in the target word but is in a different position.
+the letter 'a' exists in the target word but is in a different position.
+the letter 'n' is not present in the target word.
+the letter 'k' is not present in the target word.
+[2025-06-18T13:44:24.627058] Translated: [0, 1, 1, 0, 0]
+[2025-06-18T13:44:24.627058] Turn 2: Guess: altar
+[2025-06-18T13:44:24.627058] time spent for guess: 0.0
+[2025-06-18T13:44:24.627058] plausibles: 1
+[2025-06-18T13:44:26.666216] 
+=== Starting Problem 1 ===
+[2025-06-18T13:44:26.666216] Candidate words: firks, conus, mount, aport, deals
+[2025-06-18T13:44:31.030346] Turn 1: Received feedback: None
+[2025-06-18T13:44:31.030346] Translated: None
+[2025-06-18T13:44:31.030346] Turn 1: Guess: rales
+[2025-06-18T13:44:31.030346] time spent for guess: 2.308861494064331
+[2025-06-18T13:44:31.030346] plausibles: 8783
+[2025-06-18T13:44:38.924942] response: 00202, time took for LLM: 2.3612253665924072
+[2025-06-18T13:44:43.046708] response: 00220, time took for LLM: 4.121766805648804
+[2025-06-18T13:44:45.129326] response: 00202, time took for LLM: 2.0826172828674316
+[2025-06-18T13:44:47.194722] Turn 2: Received feedback: for the guess word "rales", the third letter 'l' and the last letter 's' are in their correct positions. the first letter 'r', second letter 'a', and fourth letter 'e' are not present in the target word at all.
+[2025-06-18T13:44:47.194722] Translated: [0, 0, 2, 0, 2]
+[2025-06-18T13:44:47.194722] Turn 2: Guess: doilt
+[2025-06-18T13:44:47.194722] time spent for guess: 2.063228130340576
+[2025-06-18T13:44:47.194722] plausibles: 87
+[2025-06-18T13:44:56.333686] response: 10110, time took for LLM: 3.7516865730285645
+[2025-06-18T13:45:01.345827] response: 10110, time took for LLM: 5.012141227722168
+[2025-06-18T13:45:01.384083] Turn 3: Received feedback: here's a verbal description of the wordle feedback for the guess word "doilt":
+- the letter 'd' appears in the word but in a different position
+- the letter 'o' is not in the word at all
+- the letter 'i' appears in the word but in a different position
+- the letter 'l' appears in the word but in a different position
+- the letter 't' is not in the word at all
+[2025-06-18T13:45:01.384083] Translated: [1, 0, 1, 1, 0]
+[2025-06-18T13:45:01.384083] Turn 3: Guess: milds
+[2025-06-18T13:45:01.384083] time spent for guess: 0.03825569152832031
+[2025-06-18T13:45:01.384083] plausibles: 3
+[2025-06-18T13:45:03.438627] 
+=== Starting Problem 2 ===
+[2025-06-18T13:45:03.438627] Candidate words: patte, cling, slobs, puffa, anele
+[2025-06-18T13:45:07.522401] Turn 1: Received feedback: None
+[2025-06-18T13:45:07.522401] Translated: None
+[2025-06-18T13:45:07.522401] Turn 1: Guess: lears
+[2025-06-18T13:45:07.522401] time spent for guess: 2.0434176921844482
+[2025-06-18T13:45:07.522401] plausibles: 3933
+[2025-06-18T13:45:16.609576] response: 22200, time took for LLM: 2.7415311336517334
+[2025-06-18T13:45:20.150701] response: 22200, time took for LLM: 3.5411252975463867
+[2025-06-18T13:45:20.449275] Turn 2: Received feedback: based on the feedback, in the word "lears", the first three letters "lea" are all in their correct positions in the target word. however, the letters "r" and "s" at the end are not present in the target word at all.
+[2025-06-18T13:45:20.449275] Translated: [2, 2, 2, 0, 0]
+[2025-06-18T13:45:20.449275] Turn 2: Guess: leafy
+[2025-06-18T13:45:20.449275] time spent for guess: 0.29857373237609863
+[2025-06-18T13:45:20.449275] plausibles: 5
+[2025-06-18T13:45:27.977233] response: 22202, time took for LLM: 2.2703912258148193
+[2025-06-18T13:45:30.728078] response: 22202, time took for LLM: 2.750845193862915
+[2025-06-18T13:45:30.734098] Turn 3: Received feedback: for the word "leafy", the first, second, and third letters are all perfectly placed. the fourth letter is not in the target word at all. the last letter is exactly where it should be.
+[2025-06-18T13:45:30.734098] Translated: [2, 2, 2, 0, 2]
+[2025-06-18T13:45:30.734098] Turn 3: Guess: leavy
+[2025-06-18T13:45:30.734098] time spent for guess: 0.006020545959472656
+[2025-06-18T13:45:30.734098] plausibles: 2
+[2025-06-18T13:45:38.184607] response: 22202, time took for LLM: 2.239259958267212
+[2025-06-18T13:45:40.163006] response: 22202, time took for LLM: 1.9783987998962402
+[2025-06-18T13:45:40.163006] Turn 4: Received feedback: the word 'leavy' has the first three letters ('l', 'e', 'a') in their correct positions, the fourth letter ('v') is not in the target word at all, and the last letter ('y') is in its correct position.
+[2025-06-18T13:45:40.163006] Translated: [2, 2, 2, 0, 2]
+[2025-06-18T13:45:40.163006] Turn 4: Guess: leady
+[2025-06-18T13:45:40.163006] time spent for guess: 0.0
+[2025-06-18T13:45:40.163006] plausibles: 1
+[2025-06-18T13:45:42.201034] 
+=== Starting Problem 3 ===
+[2025-06-18T13:45:42.201034] Candidate words: gynos, aedes, raupo, murre, might
+[2025-06-18T13:45:46.432181] Turn 1: Received feedback: None
+[2025-06-18T13:45:46.432181] Translated: None
+[2025-06-18T13:45:46.432181] Turn 1: Guess: reans
+[2025-06-18T13:45:46.432181] time spent for guess: 2.1920993328094482
+[2025-06-18T13:45:46.432181] plausibles: 5155
+[2025-06-18T13:45:56.026207] response: 02000, time took for LLM: 4.412618637084961
+[2025-06-18T13:45:58.798733] response: 00200, time took for LLM: 2.7725253105163574
+[2025-06-18T13:46:01.452964] response: 02000, time took for LLM: 2.654231071472168
+[2025-06-18T13:46:02.881244] Turn 2: Received feedback: for the guess word "reans", the letter 'e' appears in the correct position, while 'r', 'a', 'n', and 's' are not present in the target word at all.
+[2025-06-18T13:46:02.881244] Translated: [0, 2, 0, 0, 0]
+[2025-06-18T13:46:02.881244] Turn 2: Guess: debel
+[2025-06-18T13:46:02.881244] time spent for guess: 1.4282805919647217
+[2025-06-18T13:46:02.881244] plausibles: 115
+[2025-06-18T13:46:12.304251] response: 22200, time took for LLM: 3.0814313888549805
+[2025-06-18T13:46:16.607560] response: 22200, time took for LLM: 4.301295280456543
+[2025-06-18T13:46:16.650083] Turn 3: Received feedback: the first three letters 'deb' are all in their correct positions in the target word. however, both 'e' and 'l' at the fourth and fifth positions are not present in the target word at all.
+[2025-06-18T13:46:16.650083] Translated: [2, 2, 2, 0, 0]
+[2025-06-18T13:46:16.650083] Turn 3: Guess: debby
+[2025-06-18T13:46:16.650083] time spent for guess: 0.04252290725708008
+[2025-06-18T13:46:16.650083] plausibles: 3
+[2025-06-18T13:46:25.930587] response: 22200, time took for LLM: 3.243861675262451
+[2025-06-18T13:46:29.306003] response: 22200, time took for LLM: 3.373203992843628
+[2025-06-18T13:46:29.312022] Turn 4: Received feedback: for the guess word "debby", the first three letters "deb" are all in the correct positions. however, both the fourth and fifth letters "b" and "y" do not appear in the target word at all.
+[2025-06-18T13:46:29.312022] Translated: [2, 2, 2, 0, 0]
+[2025-06-18T13:46:29.312022] Turn 4: Guess: debud
+[2025-06-18T13:46:29.312022] time spent for guess: 0.0060193538665771484
+[2025-06-18T13:46:29.312022] plausibles: 2
+[2025-06-18T13:46:31.335544] 
+=== Starting Problem 4 ===
+[2025-06-18T13:46:31.335544] Candidate words: nifty, femes, event, crape, mucus
+[2025-06-18T13:46:35.406266] Turn 1: Received feedback: None
+[2025-06-18T13:46:35.406266] Translated: None
+[2025-06-18T13:46:35.406266] Turn 1: Guess: nares
+[2025-06-18T13:46:35.406266] time spent for guess: 2.051290988922119
+[2025-06-18T13:46:35.406266] plausibles: 1197
+[2025-06-18T13:46:43.991270] response: 01110, time took for LLM: 2.446910858154297
+[2025-06-18T13:46:46.726752] response: 00111, time took for LLM: 2.735482692718506
+[2025-06-18T13:46:50.711351] response: 01110, time took for LLM: 3.9845993518829346
+[2025-06-18T13:46:50.764998] Turn 2: Received feedback: for the guess word "nares": the first letter 'n' and the last letter 's' are not present in the target word at all. the middle three letters 'a', 'r', and 'e' are all present in the target word but they are in wrong positions.
+[2025-06-18T13:46:50.764998] Translated: [0, 1, 1, 1, 0]
+[2025-06-18T13:46:50.764998] Turn 2: Guess: spate
+[2025-06-18T13:46:50.764998] time spent for guess: 0.05364656448364258
+[2025-06-18T13:46:50.764998] plausibles: 12

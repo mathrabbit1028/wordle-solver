@@ -226,25 +226,6 @@ class Solver:
             plausibles = plausibles[mask]
             self.problems[problem_id]["plausible_words"] = plausibles
 
-        # when find
-        if len(plausibles)==1:
-            guess = plausibles[0]
-            self.problems[problem_id]["guess_history"].append(guess)
-            self._log(f"Turn {turn}: Received feedback: {history[-1] if history else 'None'}")
-            self._log(f"Translated: {translated_history[-1] if history else 'None'}")
-            self._log(f"Turn {turn}: We find the answer!")
-            self._log(f"Turn {turn}: Guess: {guess}")
-            return guess
-
-        # when damned
-        if len(plausibles)==0:
-            guess = candidates[np.random.randint(0,len(candidates)-1)]
-            self.problems[problem_id]["guess_history"].append(guess)
-            self._log(f"Turn {turn}: Received feedback: {history[-1] if history else 'None'}")
-            self._log(f"Translated: {translated_history[-1] if history else 'None'}")
-            self._log(f"Turn {turn}: We are damned")
-            self._log(f"Turn {turn}: Guess: {guess}")
-            return guess
 
         def query_res_all(ans: str, words: list[str]) -> np.ndarray:
             ans = np.array(list(ans), dtype='<U1')
@@ -288,36 +269,138 @@ class Solver:
 
             res = (res * np.array([1, 3, 9, 27, 81])).sum(axis=1) # (N,)
 
-            counts = np.zeros(273)
-            counts[res] += 1
-            return counts
+            return res
 
-        def calc_entropy(ans):
-            counts = query_res_all(ans, plausibles)
+        guess = None
+
+        # when find
+        if len(plausibles)==1:
+            guess = plausibles[0]
+
+        # when fallback
+        elif len(plausibles)==0:
+            print('FALLBACK ACTIVATED')
+            if 'probs' not in self.problems[problem_id].keys():
+                self.problems[problem_id]["probs"] = 1/len(candidates) * np.ones(len(candidates))
+            probs = self.problems[problem_id]["probs"]
+            #step 1. update probability distribution via last guess
+            belief = 100
+            last_guess, last_guess_res = guess_history[-1], translated_history[-1]
+            for i, word in enumerate(candidates):
+                res = query_res(last_guess, word)
+                if np.array_equal(res, last_guess_res):
+                    probs[i] *= belief
+                if word == last_guess:
+                    probs[i] *= 0    
+            probs /= probs.sum()
+            self.problems[problem_id]["prob"] = probs
+            #step 2: sample words from the probability distribution & choose guess for the best entropy
+            k = min(1_000_000 // len(candidates), len(candidates))//10
+            sampled_candidates = candidates[np.random.choice(len(candidates), size=k, replace=False, p=probs)]
+            res = np.zeros((len(sampled_candidates), len(candidates)), dtype=int)
+            
+            for i, ans in enumerate(sampled_candidates):
+                res[i] = query_res_all(ans, candidates)
+            
+            counts = np.zeros((len(sampled_candidates), 273), dtype=int)
+            for i in range(len(sampled_candidates)):
+                counts[i] = np.bincount(res[i], minlength=273)
+            
+            probs2 = counts / counts.sum(axis=1, keepdims=True)
+            probs_ = probs2.copy()
+            probs_[probs2 == 0] = 1
+            entropies = -np.sum(probs2 * np.log2(probs_), axis=1)
+            guess = sampled_candidates[np.argmax(entropies)]
+
+        elif len(plausibles) * len(candidates) > 1_000_000:
+            print('SAMPLED ENTROPY ACTIVATED')
+            sample_size = min(1_000_000 // len(plausibles), len(plausibles))
+            sampled_candidates = np.random.choice(plausibles, sample_size, replace=False)
+            res = np.zeros((len(plausibles), sample_size), dtype=int)
+            
+            for i, ans in enumerate(plausibles):
+                res[i] = query_res_all(ans, sampled_candidates)
+            
+            counts = np.zeros((len(plausibles), 273), dtype=int)
+            for i in range(len(plausibles)):
+                counts[i] = np.bincount(res[i], minlength=273)
+            
+            probs = counts / counts.sum(axis=1, keepdims=True)
+            probs_ = probs.copy()
+            probs_[probs == 0] = 1
+            entropies = -np.sum(probs * np.log2(probs_), axis=1)
+            
+            guess = plausibles[np.argmax(entropies)]
+        
+        elif len(plausibles) < 10:
+            # todo: brute-force code
+            candidates_str = np.array(candidates)
+            plausibles_str = np.array(plausibles)
+
+            remaining_candidates = np.setdiff1d(candidates_str, plausibles_str)
+
+            num_needed = min(len(remaining_candidates), 100 - len(plausibles_str))
+            extra_selected = np.random.choice(remaining_candidates, num_needed, replace=False)
+
+            small_candidates = list(plausibles_str) + list(extra_selected)
+
+            n = len(plausibles)
+            m = len(small_candidates)
+
+            dp = np.ones((1 << n, m, n), dtype=int) * 1000
+            _min = np.ones((1 << n, n)) * 1000
+
+            def solve(bit, k):
+                if (bit & (1<<k)) == 0:
+                    return
+                if _min[bit][k] < 1000:
+                    return
+                if bit == (1 << k):
+                    dp[bit, :, k] = 1
+                    _min[bit][k] = 1
+                    return
+                # print(bit, k)
+                for i in range(m):
+                    _bit = bit
+                    for j in range(n):
+                        if bit & (1<<j):
+                            if np.array_equal(
+                                query_res(small_candidates[i], plausibles[k]), 
+                                query_res(small_candidates[j], plausibles[k])
+                            ):
+                                continue
+                            _bit -= (1<<j)
+                    
+                    assert(bit != _bit)
+
+                    solve(_bit, k)
+                    dp[bit][i][k] = _min[_bit][k]
+                
+                    _min[bit][k] = min(_min[bit][k], dp[bit][i][k])
+            
+            for bit in range(1<<n):
+                for k in range(n):
+                    solve(bit, k)
+
+            guess = small_candidates[np.argmin(dp.sum(axis=2)[(1<<n)-1])]
+
+        else: 
+            res = np.zeros((len(plausibles), len(candidates)), dtype=int)
+            for i, ans in enumerate(plausibles):
+                res[i] = query_res_all(ans, candidates)
+
+            res = res.T
+
+            counts = np.zeros((len(candidates), 273), dtype=int)
+            
+            for i in range(len(candidates)):
+                counts[i] = np.bincount(res[i], minlength=273)
+            
             probs = counts/counts.sum()
             probs_ = probs.copy()
             probs_[probs == 0] = 1
-            return -np.sum(probs * np.log2(probs_))
-
-        guess = None
-        max_sz = 10_000_000
-        if len(plausibles) * len(candidates) > 10_000_000:
-            small_candidates = candidates[::(max_sz / len(plausibles) + 1)]
-            entropies = []
-            for ans in small_candidates:
-                entropies.append(calc_entropy(ans))
-            
-            entropies = np.array(entropies)
-            guess = small_candidates[np.argmax(entropies)]
-
-            return guess
-            
-        else: 
-            entropies = []
-            for ans in candidates:
-                entropies.append(calc_entropy(ans))
-            
-            entropies = np.array(entropies)
+            entropies = -np.sum(probs * np.log2(probs_), axis=1)
+        
             guess = candidates[np.argmax(entropies)]
         
         self.problems[problem_id]["guess_history"].append(guess)
@@ -326,9 +409,9 @@ class Solver:
         self._log(f"Translated: {translated_history[-1] if history else 'None'}")
         self._log(f"Turn {turn}: Guess: {guess}")
         self._log(f"time spent for guess: {time.time()-start_time}")
+        self._log(f"plausibles: {len(plausibles)}")
         return guess
-
-
+    
     def _log(self, msg):
         ts = datetime.datetime.now().isoformat()
         self.log_file.write(f"[{ts}] {msg}\n")
